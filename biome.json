@@ -1,0 +1,100 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.8/schema.json",
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "useIgnoreFile": true
+    },
+    "files": {
+        "ignoreUnknown": false,
+        "includes": ["**", "!package.json", "!package-lock.json", "!dist"]
+    },
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 150,
+        "lineEnding": "lf"
+    },
+    "assist": {
+        "actions": {
+            "source": {
+                "organizeImports": "on"
+            }
+        }
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true,
+            "style": {
+                "noNonNullAssertion": "off",
+                "noParameterAssign": "off",
+                "useThrowNewError": "error",
+                "useThrowOnlyError": "error",
+                "useNamingConvention": {
+                    "level": "error",
+                    "options": {
+                        "strictCase": false,
+                        "conventions": [
+                            {
+                                "selector": {
+                                    "kind": "objectLiteralProperty"
+                                },
+                                "formats": ["snake_case", "camelCase", "CONSTANT_CASE", "PascalCase"]
+                            },
+                            {
+                                "selector": {
+                                    "kind": "const"
+                                },
+                                "formats": ["snake_case", "camelCase", "CONSTANT_CASE", "PascalCase"]
+                            },
+                            {
+                                "selector": {
+                                    "kind": "typeProperty"
+                                },
+                                "formats": ["snake_case", "camelCase", "CONSTANT_CASE", "PascalCase"]
+                            },
+                            {
+                                "selector": {
+                                    "kind": "enumMember"
+                                },
+                                "formats": ["CONSTANT_CASE", "PascalCase"]
+                            }
+                        ]
+                    }
+                },
+                "useAsConstAssertion": "error",
+                "useDefaultParameterLast": "error",
+                "useEnumInitializers": "error",
+                "useSelfClosingElements": "error",
+                "useSingleVarDeclarator": "error",
+                "noUnusedTemplateLiteral": "error",
+                "useNumberNamespace": "error",
+                "noInferrableTypes": "error",
+                "noUselessElse": "error"
+            },
+            "correctness": {
+                "noUnusedImports": "error",
+                "noUnusedVariables": {
+                    "level": "warn",
+                    "fix": "none",
+                    "options": {}
+                }
+            },
+            "performance": {
+                "noBarrelFile": "error",
+                "noReExportAll": "error"
+            },
+            "suspicious": {
+                "noConstEnum": "off",
+                "useAwait": "error"
+            }
+        }
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "double"
+        }
+    }
+}
