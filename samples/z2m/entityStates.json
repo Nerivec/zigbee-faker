@@ -1,0 +1,295 @@
+[
+    {
+        "friendly_name": "quark 2033 alpha",
+        "state": {
+            "identify": "identify",
+            "last_seen": "2025-11-29T14:08:14.763Z",
+            "linkquality": 233,
+            "power_on_behavior": "previous",
+            "state": "OFF",
+            "update": {
+                "installed_version": 32546558,
+                "latest_version": 32546558,
+                "state": "idle"
+            }
+        }
+    },
+    {
+        "friendly_name": "nova 3193 gamma",
+        "state": {
+            "brightness": 36,
+            "color_temp": 205,
+            "color_temp_startup": 248,
+            "effect": "finish_effect",
+            "last_seen": "2025-11-28T09:33:22.260Z",
+            "linkquality": 213,
+            "power_on_behavior": "on",
+            "state": "OFF",
+            "update": {
+                "installed_version": 185270169,
+                "latest_version": 190281425,
+                "state": "scheduled"
+            }
+        }
+    },
+    {
+        "friendly_name": "delta 8874 ion",
+        "state": {
+            "action": "cw_dec_ww_inc",
+            "last_seen": "2025-11-29T14:16:43.773Z",
+            "linkquality": 98
+        }
+    },
+    {
+        "friendly_name": "ion 8363 beta",
+        "state": {
+            "brightness": 32,
+            "effect": "blink",
+            "last_seen": "2025-11-29T12:10:26.176Z",
+            "linkquality": 252,
+            "power_on_behavior": "on",
+            "state": "ON"
+        }
+    },
+    {
+        "friendly_name": "quark_7460_flux",
+        "state": {
+            "brightness_l1": 91,
+            "brightness_l2": 194,
+            "current_level_startup_l1": 7,
+            "current_level_startup_l2": 111,
+            "last_seen": "2025-11-29T12:47:04.466Z",
+            "linkquality": 213,
+            "on_level_l1": 29,
+            "on_level_l2": 93,
+            "power_on_behavior_l1": "on",
+            "power_on_behavior_l2": "off",
+            "state_l1": "OFF",
+            "state_l2": "OFF"
+        }
+    },
+    {
+        "friendly_name": "aqua_4227_alpha",
+        "state": {
+            "brightness": 145,
+            "color_temp": 150,
+            "color_temp_startup": 195,
+            "effect": "stop_effect",
+            "hue": 878,
+            "last_seen": "2025-11-29T12:53:05.202Z",
+            "linkquality": 225,
+            "saturation": 241,
+            "state": "OFF",
+            "x": 22,
+            "y": 126
+        }
+    },
+    {
+        "friendly_name": "neo_2245_delta",
+        "state": {
+            "action": "release_3_and_4",
+            "last_seen": "2025-11-29T12:09:00.467Z",
+            "linkquality": 133
+        }
+    },
+    {
+        "friendly_name": "nova 1197 sol",
+        "state": {
+            "battery": 160,
+            "factory_reset": "SET",
+            "illuminance": 251,
+            "last_seen": "2025-11-29T12:28:39.828Z",
+            "linkquality": 121,
+            "motor_direction": "left",
+            "opening_mode": "lift",
+            "position": 76,
+            "set_upper_limit": "start",
+            "state": "OPEN",
+            "work_state": "Omega aqua neo alpha quark nova neo."
+        }
+    },
+    {
+        "friendly_name": "ion_7965_gamma",
+        "state": {
+            "action": "release_4",
+            "last_seen": "2025-11-29T14:50:31.397Z",
+            "linkquality": 180
+        }
+    },
+    {
+        "friendly_name": "ion_6511_omega",
+        "state": {
+            "brightness": 181,
+            "effect": "finish_effect",
+            "last_seen": "2025-11-29T13:02:09.758Z",
+            "linkquality": 119,
+            "power_on_behavior": "toggle",
+            "state": "OFF"
+        }
+    },
+    {
+        "friendly_name": "zen_6780_beta",
+        "state": {
+            "ac_frequency": 51,
+            "current_phase_a": 62,
+            "current_phase_b": 89,
+            "current_phase_c": 151,
+            "energy": 144,
+            "energy_phase_a": 164,
+            "energy_phase_b": 253,
+            "energy_phase_c": 55,
+            "last_seen": "2025-11-29T12:39:21.219Z",
+            "linkquality": 183,
+            "power": 59,
+            "power_apparent": 969,
+            "power_factor": 228,
+            "power_phase_a": 115,
+            "power_phase_b": 88,
+            "power_phase_c": 107,
+            "voltage_phase_a": 241,
+            "voltage_phase_ab": 996,
+            "voltage_phase_b": 162,
+            "voltage_phase_bc": 21,
+            "voltage_phase_c": 137,
+            "voltage_phase_ca": 177
+        }
+    },
+    {
+        "friendly_name": "delta 6370 aqua",
+        "state": {
+            "battery": 96,
+            "humidity": 774,
+            "last_seen": "2025-11-29T10:26:52.688Z",
+            "linkquality": 195,
+            "temperature": 892,
+            "update": {
+                "installed_version": 204718914,
+                "latest_version": 204718914,
+                "state": "idle"
+            },
+            "voltage": 236
+        }
+    },
+    {
+        "friendly_name": "sol_1163_aqua",
+        "state": {
+            "action": "press_once",
+            "last_seen": "2025-11-29T00:26:59.805Z",
+            "linkquality": 217
+        }
+    },
+    {
+        "friendly_name": "nova_9961_terra",
+        "state": {
+            "action": "identify",
+            "battery": 4,
+            "last_seen": "2025-11-29T11:54:52.563Z",
+            "linkquality": 68,
+            "update": {
+                "installed_version": 99068690,
+                "latest_version": 99068690,
+                "state": "idle"
+            }
+        }
+    },
+    {
+        "friendly_name": "aqua 2615 gamma",
+        "state": {
+            "brightness": 120,
+            "color_temp": 251,
+            "color_temp_startup": 150,
+            "effect": "okay",
+            "hue": 39,
+            "last_seen": "2025-11-29T15:03:09.655Z",
+            "linkquality": 35,
+            "saturation": 152,
+            "state": "ON",
+            "x": 232,
+            "y": 447
+        }
+    },
+    {
+        "friendly_name": "aqua_6101_luna",
+        "state": {
+            "brightness": 137,
+            "effect": "breathe",
+            "last_seen": "2025-11-29T14:56:59.730Z",
+            "linkquality": 226,
+            "power_on_behavior": "on",
+            "state": "ON",
+            "update": {
+                "installed_version": 201987527,
+                "latest_version": 201987527,
+                "state": "idle"
+            }
+        }
+    },
+    {
+        "friendly_name": "sol 3231 sol",
+        "state": {
+            "action": "single",
+            "device_temperature": 192,
+            "flip_indicator_light": "OFF",
+            "last_seen": "2025-11-29T15:09:43.061Z",
+            "led_disabled_night": false,
+            "linkquality": 35,
+            "operation_mode_left": "decoupled",
+            "operation_mode_right": "control_relay",
+            "power_outage_count": 135,
+            "power_outage_memory": false,
+            "state_left": "OFF",
+            "state_right": "ON",
+            "update": {
+                "installed_version": 76975243,
+                "latest_version": 76975243,
+                "state": "idle"
+            }
+        }
+    },
+    {
+        "friendly_name": "gamma 9529 ion",
+        "state": {
+            "brightness": 20,
+            "color_temp": 199,
+            "color_temp_startup": 243,
+            "effect": "finish_effect",
+            "last_seen": "2025-11-29T11:00:46.947Z",
+            "linkquality": 172,
+            "state": "ON"
+        }
+    },
+    {
+        "friendly_name": "gamma_5808_ion",
+        "state": {
+            "brightness": 110,
+            "color_temp": 171,
+            "color_temp_startup": 223,
+            "effect": "blink",
+            "hue": 36,
+            "last_seen": "2025-11-29T14:48:41.116Z",
+            "linkquality": 158,
+            "power_on_behavior": "previous",
+            "saturation": 147,
+            "state": "OFF",
+            "update": {
+                "installed_version": 106628601,
+                "latest_version": 106628601,
+                "state": "idle"
+            },
+            "x": 166,
+            "y": 76
+        }
+    },
+    {
+        "friendly_name": "quark 1291 sol",
+        "state": {
+            "battery": 212,
+            "battery_low": true,
+            "last_seen": "2025-11-29T12:25:10.034Z",
+            "linkquality": 196,
+            "tamper": true,
+            "temperature": 62,
+            "water_leak": false
+        }
+    }
+]

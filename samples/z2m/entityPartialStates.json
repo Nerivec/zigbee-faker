@@ -1,0 +1,205 @@
+[
+    {
+        "friendly_name": "quark 2033 alpha",
+        "state": {
+            "last_seen": "2025-11-29T15:34:24.907Z",
+            "linkquality": 208,
+            "update": {
+                "installed_version": 99821168,
+                "latest_version": 99821168,
+                "state": "idle"
+            }
+        }
+    },
+    {
+        "friendly_name": "nova 3193 gamma",
+        "state": {
+            "brightness": 166,
+            "color_temp": 237,
+            "color_temp_startup": 224,
+            "last_seen": "2025-11-29T11:57:01.101Z",
+            "state": "OFF",
+            "update": {
+                "installed_version": 200832267,
+                "latest_version": 200832267,
+                "state": "idle"
+            }
+        }
+    },
+    {
+        "friendly_name": "delta 8874 ion",
+        "state": {
+            "last_seen": "2025-11-29T12:35:40.255Z",
+            "linkquality": 156
+        }
+    },
+    {
+        "friendly_name": "ion 8363 beta",
+        "state": {
+            "last_seen": "2025-11-29T15:17:23.015Z",
+            "linkquality": 193,
+            "power_on_behavior": "on"
+        }
+    },
+    {
+        "friendly_name": "quark_7460_flux",
+        "state": {
+            "brightness_l1": 162,
+            "brightness_l2": 244,
+            "current_level_startup_l1": 179,
+            "current_level_startup_l2": 145,
+            "last_seen": "2025-11-29T12:19:32.625Z",
+            "linkquality": 163,
+            "on_level_l1": 14,
+            "on_level_l2": 208,
+            "state_l1": "ON",
+            "state_l2": "ON"
+        }
+    },
+    {
+        "friendly_name": "aqua_4227_alpha",
+        "state": {
+            "last_seen": "2025-11-29T15:13:47.821Z"
+        }
+    },
+    {
+        "friendly_name": "neo_2245_delta",
+        "state": {
+            "action": "press_1_and_2",
+            "last_seen": "2025-11-29T15:01:21.116Z"
+        }
+    },
+    {
+        "friendly_name": "nova 1197 sol",
+        "state": {
+            "factory_reset": "SET",
+            "last_seen": "2025-11-29T14:17:11.290Z",
+            "motor_direction": "left",
+            "position": 175,
+            "set_upper_limit": "start",
+            "state": "STOP"
+        }
+    },
+    {
+        "friendly_name": "ion_7965_gamma",
+        "state": {
+            "last_seen": "2025-11-21T23:31:38.909Z",
+            "linkquality": 136
+        }
+    },
+    {
+        "friendly_name": "ion_6511_omega",
+        "state": {
+            "last_seen": "2025-11-29T13:03:24.227Z"
+        }
+    },
+    {
+        "friendly_name": "zen_6780_beta",
+        "state": {
+            "ac_frequency": 160,
+            "current_phase_c": 142,
+            "energy": 200,
+            "energy_phase_a": 107,
+            "last_seen": "2025-11-29T13:54:29.676Z",
+            "linkquality": 67,
+            "power_apparent": 140,
+            "power_phase_a": 714,
+            "power_phase_b": 849,
+            "voltage_phase_a": 959,
+            "voltage_phase_ca": 877
+        }
+    },
+    {
+        "friendly_name": "delta 6370 aqua",
+        "state": {
+            "last_seen": "2025-11-29T11:21:39.393Z",
+            "linkquality": 124,
+            "update": {
+                "installed_version": 184150123,
+                "latest_version": 244007071,
+                "state": "scheduled"
+            }
+        }
+    },
+    {
+        "friendly_name": "sol_1163_aqua",
+        "state": {
+            "last_seen": "2025-11-29T13:58:55.161Z"
+        }
+    },
+    {
+        "friendly_name": "nova_9961_terra",
+        "state": {
+            "last_seen": "2025-11-29T10:58:49.866Z",
+            "update": {
+                "installed_version": 94655024,
+                "latest_version": 223535063,
+                "progress": 55,
+                "remaining": 1646,
+                "state": "updating"
+            }
+        }
+    },
+    {
+        "friendly_name": "aqua 2615 gamma",
+        "state": {
+            "effect": "channel_change",
+            "last_seen": "2025-11-29T14:01:21.346Z"
+        }
+    },
+    {
+        "friendly_name": "aqua_6101_luna",
+        "state": {
+            "brightness": 133,
+            "effect": "breathe",
+            "last_seen": "2025-11-29T14:20:07.079Z",
+            "state": "OFF",
+            "update": {
+                "installed_version": 239972059,
+                "latest_version": 248581594,
+                "progress": 30,
+                "remaining": 1523,
+                "state": "updating"
+            }
+        }
+    },
+    {
+        "friendly_name": "sol 3231 sol",
+        "state": {
+            "last_seen": "2025-11-29T14:34:07.872Z",
+            "led_disabled_night": true,
+            "power_outage_count": 6,
+            "state_right": "ON",
+            "update": {
+                "installed_version": 123315301,
+                "latest_version": 141317573,
+                "progress": 48,
+                "remaining": 129,
+                "state": "updating"
+            }
+        }
+    },
+    {
+        "friendly_name": "gamma 9529 ion",
+        "state": {
+            "last_seen": "2025-11-29T10:41:05.339Z"
+        }
+    },
+    {
+        "friendly_name": "gamma_5808_ion",
+        "state": {
+            "effect": "okay",
+            "last_seen": "2025-11-29T14:57:40.939Z"
+        }
+    },
+    {
+        "friendly_name": "quark 1291 sol",
+        "state": {
+            "last_seen": "2025-11-29T13:42:31.138Z",
+            "linkquality": 125,
+            "tamper": false,
+            "temperature": 699,
+            "water_leak": true
+        }
+    }
+]

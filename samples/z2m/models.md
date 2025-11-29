@@ -1,0 +1,4899 @@
+# Models & whitelabels currently supported
+
+Models count: 3974
+
+Whitelabels (indented under Models) count: 917
+
+---
+
+- ACMELEC AE-669K
+- ACMELEC AE-940K
+- Acova ALCANTARA2
+- Acova TAFFETAS2/PERCALE2
+- Acuity Brands Lighting (ABL) RB56AC
+- Acuity Brands Lighting (ABL) RB56SC
+- Acuity Brands Lighting (ABL) WF4C_WF6C
+- ADEO 83633204
+- ADEO 83633205
+- ADEO 83633206
+- ADEO 84845506
+- ADEO 84845509
+- ADEO 84870054
+- ADEO 84870058
+- ADEO 9CZA-A806ST-Q1A
+- ADEO 9CZA-A806ST-Q1Z
+- ADEO 9CZA-G1521-Q1A
+- ADEO 9CZA-M350ST-Q1A
+- ADEO 9CZA-P470T-A1A
+- ADEO BD05C-FL-21-G-ENK
+- ADEO HR-C99C-Z-C045
+- ADEO IA-CDZFB2AA007NA-MZN-01
+- ADEO IA-CDZFB2AA007NA-MZN-02
+- ADEO IA-CDZOTAAA007MA-MAN
+- ADEO IC-CDZFB2AC004HA-MZN
+- ADEO IC-CDZFB2AC005HA-MZN
+- ADEO IG-CDZB2AG009RA-MZN-01
+- ADEO IG-CDZFB2AG010RA-MNZ
+- ADEO IG-CDZFB2G009RA-MZN-02
+- ADEO IG-CDZOTAAG014RA-MAN
+- ADEO IM-CDZDGAAA0005KA_MAN
+- ADEO IM-CDZDGAAG005KA-MZN
+- ADEO IP-CDZOTAAP005JA-MAN
+- ADEO IST-CDZFB2AS007NA-MZN-01
+- ADEO IST-CDZFB2AS007NA-MZN-02
+- ADEO LDSENK01F
+- ADEO LDSENK01S
+- ADEO LDSENK02F
+- ADEO LDSENK02S
+- ADEO LDSENK06
+- ADEO LDSENK07
+- ADEO LDSENK08
+- ADEO LDSENK09
+- ADEO LDSENK10
+- ADEO PEZ1-042-1020-C1D1
+- Adeo SIN-4-1-20_EQU
+- ADEO SIN-4-1-20_LEX
+- ADEO SIN-4-1-21_EQU
+- ADEO SIN-4-1-22_LEX
+- ADEO SIN-4-FP-21_EQU
+- ADEO SIN-4-RS-20_LEX
+- ADEO WSD005
+- ADEO ZB-DoorSensor-D0007
+- Adeo ZBEK-30
+- ADEO ZBEK-32
+- ADEO ZBEK-33
+- AduroSmart 15090054
+- AduroSmart 81809/81813
+- AduroSmart 81809FBA
+- AduroSmart 81810
+- AduroSmart 81812/81814
+- AduroSmart 81813-V2
+- AduroSmart 81825
+- AduroSmart 81848
+- AduroSmart 81849
+- AduroSmart 81855
+- AduroSmart 81863
+- AduroSmart 81868
+- AduroSmart 81895
+- AduroSmart 81898
+- AduroSmart 81949
+- AduroSmart 81998
+- AduroSmart AD-CTW123001
+- AduroSmart AD-RGBWH3001
+- AduroSmart BPU3
+- AduroSmart E1XCTW3001
+- Aeotec WG001
+- Aeotec ZGA002
+- Aeotec ZGA003
+- Aeotec ZGA004
+- Airam 4713406
+- Airam 4713407
+- Airam AIRAM-CTR.U
+- Airam CTR.UBX
+- Airzone AZAI6ZBEMHI
+- Ajax Online AJ_RGBCCT_CTRL
+- Ajax Online AJ_ZB_GU10
+- Ajax Online Aj_Zigbee_Led_Strip
+- Ajax Online AJ_ZIGPROA60
+- Ajax Online ZB_A60_RGBCW
+- Ajax Online ZB-CCT_Filament
+- Akuvox M423-9E
+- Alab alab.switch
+- Alchemy AL8RGB13W-AP
+- Alchemy AL8TC13W-AP
+- Aldi 141L100RC
+- Alecto SMART-HEAT10
+- Alecto SMART-SMOKE10
+- Amina Distribution AS amina S
+- Anchor 67200BL
+- Aqara CL-L02D
+- Aqara CTP-R01
+  - Aqara MFCZQ12LM
+- Aqara DJT11LM
+- Aqara DJT12LM
+- Aqara DLKZMK11LM
+- Aqara DLKZMK12LM
+- Aqara FP1E
+- Aqara GZCGQ11LM
+- Aqara H1-EU
+- Aqara HCXDD12LM
+- Aqara HLQDQ01LM
+- Aqara JT-BZ-01AQ/A
+  - Aqara JT-BZ-03AQ/A
+- Aqara JWDL001A
+- Aqara JWSP001A
+- Aqara JY-GZ-01AQ
+  - Aqara JY-GZ-03AQ
+- Aqara KD-R01D
+- Aqara KQJCMB11LM
+- Aqara LGYCDD01LM
+  - Aqara RLS-K01D
+- Aqara LLKZMK11LM
+- Aqara LLKZMK12LM
+  - Aqara DCM-K01
+- Aqara MCCGQ11LM
+- Aqara MCCGQ12LM
+  - Aqara DW-S03D
+  - Yandex YNDX-00520
+- Aqara MCCGQ13LM
+- Aqara MCCGQ14LM
+- Aqara MFKZQ01LM
+  - Xiaomi MFKZQ01LM
+- Aqara PS-S04D
+- Aqara QBCZ11LM
+- Aqara QBCZ14LM
+- Aqara QBCZ15LM
+- Aqara QBKG03LM
+- Aqara QBKG04LM
+- Aqara QBKG11LM
+- Aqara QBKG12LM
+- Aqara QBKG17LM
+- Aqara QBKG18LM
+- Aqara QBKG19LM
+- Aqara QBKG20LM
+- Aqara QBKG21LM
+- Aqara QBKG22LM
+- Aqara QBKG23LM
+- Aqara QBKG24LM
+- Aqara QBKG25LM
+- Aqara QBKG26LM
+- Aqara QBKG27LM
+- Aqara QBKG28LM
+- Aqara QBKG29LM
+- Aqara QBKG30LM
+- Aqara QBKG31LM
+- Aqara QBKG32LM
+- Aqara QBKG33LM
+- Aqara QBKG34LM
+- Aqara QBKG38LM
+- Aqara QBKG39LM
+- Aqara QBKG40LM
+- Aqara QBKG41LM
+- Aqara RTCGQ11LM
+- Aqara RTCGQ12LM
+  - Yandex YNDX-00522
+- Aqara RTCGQ13LM
+- Aqara RTCGQ14LM
+  - Aqara MS-S02
+- Aqara RTCGQ15LM
+- Aqara RTCZCGQ11LM
+- Aqara SJCGQ11LM
+- Aqara SJCGQ12LM
+  - Aqara WL-S02D
+  - Yandex YNDX-00521
+- Aqara SJCGQ13LM
+- Aqara SP-EUC01
+- Aqara SRTS-A01
+- Aqara SSM-U01
+- Aqara SSM-U02
+- Aqara SSWQD02LM
+- Aqara SSWQD03LM
+- Aqara T2_E27
+  - Aqara T2_E26
+  - Aqara T2_GU10
+- Aqara T2_E27_CCT
+- Aqara TDL01LM
+  - Aqara MZSD11LM
+  - Aqara MZSD12LM
+  - Aqara MZTD11LM
+- Aqara TH-S04D
+- Aqara UT-A01E
+- Aqara VC-X01D
+- Aqara VOCKQJK11LM
+  - Aqara AAQS-S01
+- Aqara WP-P01D
+- Aqara WS-EUK01
+- Aqara WS-EUK02
+- Aqara WS-EUK03
+- Aqara WS-EUK04
+- Aqara WS-K01D
+- Aqara WS-K02E
+- Aqara WS-K03E
+- Aqara WS-K04E
+- Aqara WS-K07E
+- Aqara WS-K08E
+- Aqara WS-USC01
+- Aqara WS-USC02
+- Aqara WS-USC03
+- Aqara WS-USC04
+- Aqara WSDCGQ11LM
+- Aqara WSDCGQ12LM
+  - Aqara TH-S02D
+  - Yandex YNDX-00523
+- Aqara WT-A03E
+- Aqara WXCJKG11LM
+- Aqara WXCJKG12LM
+- Aqara WXCJKG13LM
+- Aqara WXKG02LM_rev1
+- Aqara WXKG02LM_rev2
+- Aqara WXKG03LM_rev1
+- Aqara WXKG03LM_rev2
+- Aqara WXKG04LM
+- Aqara WXKG05LM
+- Aqara WXKG06LM
+- Aqara WXKG07LM
+- Aqara WXKG11LM
+- Aqara WXKG12LM
+- Aqara WXKG13LM
+  - Aqara WB-R02D
+  - Yandex YNDX-00524
+- Aqara WXKG14LM
+- Aqara WXKG15LM
+  - Aqara WRS-R02
+- Aqara WXKG16LM
+- Aqara WXKG17LM
+- Aqara WXKG20LM
+- Aqara WXKG21LM
+- Aqara WXKG22LM
+- Aqara XDD11LM
+- Aqara XDD12LM
+- Aqara XDD13LM
+- Aqara ZNCJMB14LM
+- Aqara ZNCLBL01LM
+  - Aqara CM-M01
+  - Aqara CM-M01R
+- Aqara ZNCLDJ01LM
+- Aqara ZNCLDJ11LM
+- Aqara ZNCLDJ12LM
+- Aqara ZNCLDJ14LM
+- Aqara ZNCWWSQ01LM
+  - Aqara PETC1-M01
+- Aqara ZNCZ11LM
+- Aqara ZNCZ12LM
+- Aqara ZNCZ15LM
+- Aqara ZNDDMK11LM
+- Aqara ZNDDQDQ11LM
+- Aqara ZNDDQDQ12LM
+- Aqara ZNGZDJ11LM
+  - Aqara SRSC-M01
+- Aqara ZNGZDJ16LM
+- Aqara ZNJLBL01LM
+  - Aqara RSD-M01
+- Aqara ZNLDP12LM
+- Aqara ZNLDP13LM
+  - Aqara LEDLBT1-L01
+- Aqara ZNMS11LM
+- Aqara ZNMS12LM
+- Aqara ZNMS13LM
+- Aqara ZNQBKG24LM
+- Aqara ZNQBKG25LM
+- Aqara ZNQBKG26LM
+- Aqara ZNQBKG31LM
+- Aqara ZNQBKG38LM
+- Aqara ZNQBKG39LM
+- Aqara ZNQBKG40LM
+- Aqara ZNQBKG41LM
+- Aqara ZNQBKG42LM
+- Aqara ZNQBKG43LM
+- Aqara ZNQBKG44LM
+- Aqara ZNQBKG45LM
+- Aqara ZNTGMK11LM
+- Aqara ZNTGMK12LM
+- Aqara ZNXDD01LM
+- Aqara ZNXNKG01LM
+- Aqara ZNXNKG02LM
+- Arteco ZS-300Z
+  - Arteco ZS-302Z
+  - Arteco ZS-304Z
+- Arteco ZS-301Z
+- Atlantic Group GW003-AS-IN-TE-FC
+- Atsmart Z6
+- Aubess ZXZIR-02
+- Aurora Lighting AU-A1CE14ZCX6
+- Aurora Lighting AU-A1GSZ9B/27
+- Aurora Lighting AU-A1GSZ9CX
+- Aurora Lighting AU-A1GSZ9RGBW_HV-GSCXZB269K
+- Aurora Lighting AU-A1GUZB5/30
+- Aurora Lighting AU-A1GUZBCX5
+- Aurora Lighting AU-A1GUZBRGBW
+- Aurora Lighting AU-A1VG125Z5E/19
+- Aurora Lighting AU-A1VGSZ5E/19
+- Aurora Lighting AU-A1ZB110
+- Aurora Lighting AU-A1ZB2WDM
+- Aurora Lighting AU-A1ZBDSS
+- Aurora Lighting AU-A1ZBDWS
+- Aurora Lighting AU-A1ZBMPRO1ZX
+- Aurora Lighting AU-A1ZBPIA
+- Aurora Lighting AU-A1ZBPIAB
+- Aurora Lighting AU-A1ZBPIRS
+- Aurora Lighting AU-A1ZBR1GW
+- Aurora Lighting AU-A1ZBR2GW
+- Aurora Lighting AU-A1ZBRC
+- Aurora Lighting AU-A1ZBSCRGBCX
+- AutomatOn AUT000069
+- AVATTO LZWSM16-1
+- AVATTO ME168_AVATTO
+  - Girier ME168_Girier
+- AVATTO TS0601_thermostat_14
+- AVATTO ZDMS16-1
+- AVATTO ZDMS16-2
+- AVATTO ZDMS16-US-W2
+- AVATTO ZWPM16
+- AVATTO ZWPM16-2
+- AVATTO ZWSH16
+- AwoX 12226
+- AwoX 33943/33944/33946
+- AwoX 33951/33948
+  - EGLO 12229
+- AwoX 33952
+- AwoX 33955
+  - EGLO 900053
+  - EGLO 900316
+  - EGLO 900317
+- AwoX 33957
+  - EGLO 12239
+- AwoX EBF_RGB_Zm
+  - EGLO 900566
+- AwoX EPIR_Zm
+  - EGLO 99106
+- AwoX ERCU_WS_Zm
+  - EGLO 900116
+- AXIS GR-ZB01-W
+- Bacchus Bacchus Water level meter
+- Bacchus Duck Pool Thermometer
+- Bacchus Flower_Sensor_v2
+- Bacchus Mercury_3ph_Counter
+- Bacchus Mercury_Counter
+- Bacchus Presence_Sensor_v2
+- Bacchus Presence_Sensor_v2.6
+- Bacchus Water_Station
+- Bankamp 2189/1-xx
+- Bega 13557
+- Bega 70049
+- Bega 85000
+- Belkin F7C033
+- BITUO TECHNIK SDM01B-U01
+- BITUO TECHNIK SDM01W-U01
+- BITUO TECHNIK SDM02-U00
+- BITUO TECHNIK SDM02-U01
+- BITUO TECHNIK SDM02-U02
+- BITUO TECHNIK SPM01-U00
+- BITUO TECHNIK SPM01-U01
+- BITUO TECHNIK SPM01-U02
+- BITUO TECHNIK SPM02-U00
+- BITUO TECHNIK SPM02-U01
+- BITUO TECHNIK SPM02-U02
+- Blaupunkt SCM-S1
+- BlitzWolf BW-IS3
+- BlitzWolf BW-IS9
+- BlitzWolf BW-SS7_1gang
+- BlitzWolf BW-SS7_2gang
+- Bosch 8750001213
+- Bosch BHI-US
+- Bosch BMCT-DZ
+- Bosch BMCT-RZ
+- Bosch BMCT-SLZ
+- Bosch BSD-2
+- Bosch BSEN-C2
+- Bosch BSEN-C2D
+- Bosch BSEN-CV
+- Bosch BSEN-M
+- Bosch BSEN-W
+- Bosch BSIR-EZ
+- Bosch BSP-FD
+- Bosch BSP-FZ2
+  - Bosch BSP-EZ2
+  - Bosch BSP-GZ2
+- Bosch BTH-RA
+- Bosch BTH-RM
+- Bosch BTH-RM230Z
+- Bosch ISW-ZPR1-WP13
+- Bosch RADION TriTech ZB
+- Bouffalolab RMC002
+- BOX ERC2201-Z
+- BOX ERC2202-Z
+- BOX ERC2206-Z
+- BOX EWS1154-Z
+- Brimate FZB8708HD-S1
+- Brun Holding Fire Fence
+- BSEED BSEED_TS0601_cover
+- BTicino 4411C/L4411C/N4411C/NT4411C
+- BTicino F20T60A
+- BTicino K4003C/L4003C/N4003C/NT4003C
+- BTicino L4531C
+- Busch-Jaeger 6717-84
+- Busch-Jaeger 6735/6736/6737
+- BYUN M415-5C
+- BYUN M415-6C
+- Calex 421782
+- Calex 421786
+- Calex 421792
+- Candeo C-RFZB-SM1
+- Candeo C-ZB-DM201-2G
+- Candeo C-ZB-DM204
+- Candeo C-ZB-LC20-CCT
+- Candeo C-ZB-LC20-Dim
+- Candeo C-ZB-LC20-RGB
+- Candeo C-ZB-LC20-RGBCCT
+- Candeo C-ZB-LC20-RGBW
+- Candeo C-ZB-RD1
+- Candeo C-ZB-RD1P-DIM
+- Candeo C-ZB-RD1P-DPM
+- Candeo C-ZB-RD1P-REM
+- Candeo C-ZB-SEDC
+- Candeo C-ZB-SEMO
+- Candeo C-ZB-SETE
+- Candeo C-ZB-SEWA
+- Candeo C-ZB-SM205-2G
+- Candeo C-ZB-SR5BR
+- Candeo C201
+- Candeo C202
+- Candeo C202.1
+- Candeo C203
+- Candeo C204
+- Candeo C205
+- Candeo C210
+- CASAIA CCB432
+- CASAIA CSAC451-WTC-E
+- CASAIA CSLC601-D-E
+- CASAIA CTHS-317-ET
+- CEL CGW-Z-0010
+- Centralite 3156105
+- Centralite 3157100
+- Centralite 3200-de
+- Centralite 3200-fr
+- Centralite 3310-G
+- Centralite 3315-Geu
+- Centralite 3323-G
+- Centralite 3328-G
+- Centralite 3400-D
+- Centralite 3420-G
+- Centralite 4200-C
+- Centralite 4256050-RZHAC
+- Centralite 4256050-ZHAC
+- Centralite 4256251-RZHAC
+- Centralite 4257050-RZHAC
+- Centralite 4257050-ZHAC
+- Chacon ZB-ERSM-01
+- Chacon ZB-PM-01
+- CLEODE ZPLUG_Boost
+- Cleverio SA100
+- Cleverio SS300
+- ClickSmart+ CMA30651
+- ClickSmart+ CSP041
+- ClickSmart+ CSP042
+- ClickSmart+ CSP043
+- ClickSmart+ CSP051
+  - Lonsonho QS-Zigbee-D02-TRIAC-L
+- ClickSmart+ CSP052
+- Climax CO-8ZBS
+- Climax KP-23EL-ZBS-ACE
+- Climax PRL-1ZBS-12/24V
+- Climax PSM-29ZBS
+- Climax PSM-29ZBSR
+  - Blaupunkt PSM-S1
+- Climax PSS-23ZBS
+- Climax RS-23ZBS
+- Climax SCM-5ZBS
+- Climax SD-8SCZBS
+- Climax SRAC-23B-ZBSR
+- Climax WLS-15ZBS
+- Climax WS-15ZBS
+- Commercial Electric 53170161
+- COOLO CS-201Z
+- Coswall SM-PW801EZ
+  - HOBEIAN ZG-305Z
+- CREE B00TN589ZG
+- CTM Lyng 4503145
+- CTM Lyng AX_Valve_Controller
+- CTM Lyng AX_Water_Sensor
+- CTM Lyng CTM_MBD_Dim
+- CTM Lyng MBD-S
+- CTM Lyng mKomfy_Sensor
+- CTM Lyng mKomfy_Tak
+- CTM Lyng mStikk_Outlet
+- CTM Lyng mSwitch_Mic
+- CTM Lyng mTouch_Air_Sensor
+- CTM Lyng mTouch_Astro
+- CTM Lyng mTouch_Bryter
+- CTM Lyng mTouch_Dim
+  - CTM Lyng CTM_DimmerPille
+- CTM Lyng mTouch_One
+- Current Products Corp CP180335E-01
+- Custom devices (DiY) ACW02-ZB
+- Custom devices (DiY) b-parasite
+- Custom devices (DiY) CC2530.ROUTER
+- Custom devices (DiY) CC2538.ROUTER.V1
+- Custom devices (DiY) CC2538.ROUTER.V2
+- Custom devices (DiY) DNCKATSD001
+- Custom devices (DiY) DNCKATSW001
+- Custom devices (DiY) DNCKATSW002
+- Custom devices (DiY) DNCKATSW003
+- Custom devices (DiY) DNCKATSW004
+- Custom devices (DiY) EFR32MG21.Router.1
+- Custom devices (DiY) EFR32MG21.Router.2
+- Custom devices (DiY) LYWSD03MMC
+- Custom devices (DiY) m5NanoC6
+- Custom devices (DiY) MHO-C401N
+- Custom devices (DiY) ptvo_counter_2ch
+- Custom devices (DiY) ptvo.switch
+- Custom devices (DiY) ti.router
+- Custom devices (DiY) ZeeFlora
+- Custom devices (DiY) ZigUP
+- Custom devices (DiY) ZWallRemote0
+- CWD HLL6948V1
+- CY-LIGHTING DM A60F
+- D-Link DCH-B112
+- Danalock V3-BTZB/V3-BTZBE
+- Danfoss 014G2461
+  - Danfoss 014G2463
+  - Hive UK7004240
+  - Popp 701721
+- Danfoss Icon
+- Danfoss Icon2
+- databyte.ch DTB190502A1
+- databyte.ch ED2004-012
+- databyte.ch Touch4
+- Datek 0402946
+- Datek HBR2917E
+- Datek HLU2909K
+- Datek HSE2905E
+- Datek HSE2919E
+- Datek HSE2920E
+- Datek HSE2927E
+- Datek HSE2936T
+- Dawon DNS KB-B540R-ZB
+- Dawon DNS KB-HD100-ZB
+- Dawon DNS PM-B430-ZB
+- Dawon DNS PM-B530-ZB
+- Dawon DNS PM-B540-ZB
+- Dawon DNS PM-C140-ZB
+- Dawon DNS PM-C150-ZB
+- Dawon DNS PM-S140-ZB
+- Dawon DNS PM-S140R-ZB
+- Dawon DNS PM-S150-ZB
+- Dawon DNS PM-S240-ZB
+- Dawon DNS PM-S240R-ZB
+- Dawon DNS PM-S250-ZB
+- Dawon DNS PM-S340-ZB
+- Dawon DNS PM-S340R-ZB
+- Dawon DNS PM-S350-ZB
+- Dawon DNS SG-V100-ZB
+- Dawon DNS TH-110-ZB
+- Develco AQSZB-110
+- Develco EMIZB-132
+- Develco FLSZB-110
+- Develco HESZB-120
+  - Frient 94431
+- Develco HMSZB-110
+  - Frient HMSZB-120
+- Develco IOMZB-110
+- Develco KEYZB-110
+  - Frient KEPZB-110
+- Develco MOSZB-130
+- Develco MOSZB-140
+- Develco MOSZB-141
+- Develco MOSZB-153
+  - Frient MOSZB-153
+- Develco REXZB-111
+  - Frient REXZB-111
+- Develco SBTZB-110
+- Develco SIRZB-110
+- Develco SIRZB-111
+- Develco SMRZB-143
+- Develco SMRZB-332
+- Develco SMSZB-120
+  - Cavius 2103
+  - Frient 94430
+- Develco SPLZB-131
+- Develco SPLZB-132
+- Develco SPLZB-134
+- Develco SPLZB-137
+- Develco SPLZB-141
+- Develco WISZB-120
+- Develco WISZB-121
+- Develco WISZB-137
+- Develco WISZB-138
+- Develco ZHEMI101
+- Digi XBee
+- DIRECTSIGNS DS-Z-001DE
+- DIYRuZ DIYRuZ_AirSense
+- DIYRuZ DIYRuZ_Flower
+- DIYRuZ DIYRuZ_FreePad
+- DIYRuZ DIYRuZ_Geiger
+- DIYRuZ DIYRuZ_KEYPAD20
+- DIYRuZ DIYRuZ_magnet
+- DIYRuZ DIYRuZ_R4_5
+- DIYRuZ DIYRuZ_R8_8
+- DIYRuZ DIYRuZ_rspm
+- DIYRuZ DIYRuZ_RT
+- DIYRuZ DIYRuZ_Zintercom
+- DIYRuZ FreePad_LeTV_8
+- DNAKE CS-Z-CZ-2402
+- DOMRAEM DOM-Z-105P_DIMMER
+- DOMRAEM DOM-Z-105P_RGB
+- DOMRAEM DOM-Z-105P_RGBW
+- DOMRAEM DOM-Z-105P_WW/CW
+- Dongguan Pinjia Technology Co.,LTD. PJ3201A
+- Dowsing & Reynolds DR3000
+- DQHOME dqhome.re4
+- Dresden Elektronik BN-600078
+- Dresden Elektronik BN-600110
+- Dresden Elektronik FLS-M
+- Dresden Elektronik Mega23M12
+- Dresden Elektronik XVV-Mega23M12
+- EasyAccess EasyCode903G2.1
+  - Datek Wireless EasyCode903G2.1
+- easyiot ZB-IR01
+- easyiot ZB-PM01
+- easyiot ZB-PSW04
+- easyiot ZB-RS485
+- easyiot ZB-SP1000
+- easyiot ZB-SW08
+- easyiot ZB-TTS01
+- easyiot ZB-WB01
+- easyiot ZB-WB02
+- easyiot ZB-WB03
+- easyiot ZB-WB08
+- easyiot ZB-WC01
+- Eaton/Halo LED RL460WHZHA69
+- EchoStar SAGE206611
+- EchoStar SAGE206612
+- EcoDim Eco-Dim.05
+- EcoDim Eco-Dim.07/Eco-Dim.10
+- EcoDim ED-10010
+- EcoDim ED-10011
+- EcoDim ED-10012
+- EcoDim ED-10013
+- EcoDim ED-10014
+- EcoDim ED-10015
+- EcoDim ED-10041
+- EcoDim ED-10042
+- Ecolink 4655BC0-R
+- EcoSmart A9A19A60WESDZ02
+- EcoSmart A9BR3065WESDZ02
+- EcoSmart D1523
+- EcoSmart D1531
+- EcoSmart D1532
+- EcoSmart D1533
+- EcoSmart D1542
+- EcoSmart D1821
+- eCozy 1TST-EU
+- EDP PLUG EDP RE:DY
+- EDP SWITCH EDP RE:DY
+- EFEKTA EFEKTA_Air_Monitor
+- EFEKTA EFEKTA_Air_Quality_Station
+- EFEKTA EFEKTA_AQ_Smart_Monitor
+- EFEKTA EFEKTA_AQ_Smart_Monitor_Gen2
+- EFEKTA EFEKTA_CO2_Smart_Monitor
+- EFEKTA EFEKTA_CO2_Smart_Monitor_Gen2
+- EFEKTA EFEKTA_eFlora
+- EFEKTA EFEKTA_eFlora_Max_Pro
+- EFEKTA EFEKTA_eFlora_Pro
+- EFEKTA EFEKTA_eFlower_Pro
+- EFEKTA EFEKTA_eON213wz
+- EFEKTA EFEKTA_eON213z
+- EFEKTA EFEKTA_eON29wz
+- EFEKTA EFEKTA_ePST_POW_E_LR
+- EFEKTA EFEKTA_ePWS
+- EFEKTA EFEKTA_eTH_POW_E_LR
+- EFEKTA EFEKTA_eTH102
+- EFEKTA EFEKTA_eTH102z
+- EFEKTA EFEKTA_eTH102zex
+- EFEKTA EFEKTA_iAQ
+- EFEKTA EFEKTA_iAQ_S_II
+- EFEKTA EFEKTA_iAQ_S_III
+- EFEKTA EFEKTA_iAQ3
+- EFEKTA EFEKTA_miniPWS
+- EFEKTA EFEKTA_Pixel_Open_Air
+- EFEKTA EFEKTA_Pixel_Open_Air_II
+- EFEKTA EFEKTA_PST_DUO_V1
+- EFEKTA EFEKTA_PST_DUO_V1_LR
+- EFEKTA EFEKTA_PST_POW_DUO_V1_LR
+- EFEKTA EFEKTA_PST_POW_DUO_V2_LR
+- EFEKTA EFEKTA_PST_POW_V1_LR
+- EFEKTA EFEKTA_PST_POW_V2_LR
+- EFEKTA EFEKTA_PST_V1
+- EFEKTA EFEKTA_PST_V1_LR
+- EFEKTA EFEKTA_PWS
+- EFEKTA EFEKTA_PWS_Max
+- EFEKTA EFEKTA_PWS_MaxPro
+- EFEKTA EFEKTA_Smart_AQ_Box_R3
+- EFEKTA EFEKTA_T1_MAX_R
+- EFEKTA EFEKTA_T1_v2
+- EFEKTA EFEKTA_T1_v2_LR
+- EFEKTA EFEKTA_T1_Y
+- EFEKTA EFEKTA_T1_Y_LR
+- EFEKTA EFEKTA_T8_POW
+- EFEKTA EFEKTA_TH_DUO
+- EFEKTA EFEKTA_TH_DUO_LR
+- EFEKTA EFEKTA_TH_POW_R
+- EFEKTA EFEKTA_TH_v1
+- EFEKTA EFEKTA_TH_v1_LR
+- EFEKTA EFEKTA_TH_v2
+- EFEKTA EFEKTA_TH_v2_LR
+- EFEKTA EFEKTA_THP
+- EFEKTA EFEKTA_THP_LR
+- EFEKTA Egony_Flower
+- EFEKTA Open_PM_Monitor
+- EFEKTA SNZB-02_EFEKTA
+- EFEKTA zFlora_Pro
+- EFEKTA zFlora_ProMax
+- EFEKTA zFlora_S
+- EFEKTA zFlora_S_Max
+- EGLO 12242
+- EGLO 300686
+- EGLO 900024/12253
+- EGLO 900091
+- EGLO 98847
+- EGLO 99099
+- EGLO 99106
+- Ekaza EKAC-T3095Z
+- Ekaza Mercurio-3
+- ElectSmart PRO-900Z
+- ELKO 316GLEDRF
+- ELKO 4523430
+- ELKO EKO05806
+- Enbrighten 43076
+  - Enbrighten 43084
+  - Enbrighten 43094
+  - Enbrighten 43100
+  - Enbrighten 43102
+  - Enbrighten 43109
+- Enbrighten 43078
+- Enbrighten 43080
+  - Enbrighten 43090
+  - Enbrighten 43096
+  - Enbrighten 43113
+- Enbrighten 43082
+- ENGO E25-230
+- ENGO E40
+- ENGO ECB62-ZB
+- ENGO EONE
+- ENGO EONE-230W
+- Enkin ZDM150
+- EnOcean PTM 215Z
+  - Feller 4120.2.S.FMI.61
+  - LED-Trading 9125
+  - Namron 4512727
+  - Niko 91004
+  - NodOn CWS-4-1-01_HUE
+  - Sunricher SR-ZG2833PAC
+  - Sunricher SR-ZGP2801K4-FOH-E
+  - Vimar 03906
+- EnOcean PTM 215ZE
+  - Easyfit by EnOcean EWSxZ
+  - Trio2sys 20020002
+- EnOcean PTM 216Z
+- Envilar 1CH-HP-RELAY-7853
+  - Sunricher SR-ZG9101SAC-HP-SWITCH-B
+- Envilar 2CH-ZG-BOX-RELAY
+- Envilar 5463
+- Envilar 5480
+- Envilar 5491
+- Envilar 7848
+- Envilar ZG_LED_DRIVER42CC
+- Envilar ZG102-BOX-UNIDIM
+- Envilar ZG302-BOX-RELAY
+- Envilar ZG50CC-CCT-DRIVER
+- Envilar ZGR904-S
+- Espressif Espressif-ZigbeeRangeExtender
+- Essentials _TZE200_i48qyn9s
+- EssentielB EB-E14-FLA-CCT
+- EssentielB EB-E14-P45-RGBW
+- EssentielB EB-E27-A60-CCT
+- EssentielB EB-E27-A60-CCT-FC
+- EssentielB EB-E27-A60-RGBW
+- EssentielB EB-E27-G95-CCT-FV
+- EssentielB EB-E27-ST64-CCT-FV
+- EssentielB EB-GU10-MR16-CCT
+- EssentielB EB-GU10-MR16-RGBW
+- EssentielB EB-SB-1B
+- ETOP HT-08
+- ETOP HT-10
+- EuControls LCM-1C09-ZB
+- Eurotronic CoZB_dha
+- Eurotronic COZB0001
+- Eurotronic SPZB0001
+- Evanell EZ200
+- EVN ZB24100VS
+- EVN ZBHS4RGBW
+- EVN ZBPD23400
+- EVOLOGY PSE03-V1.1.0
+- Evvr SRB01
+- eWeLink AM25B-1-25-ES-E-Z
+  - eWeLink AM25C-1-25-ES-E-Z
+  - eWeLink ZM25-EAZ
+- eWeLink CK-BL702-AL-01_1
+- eWeLink CK-BL702-MSW-01(7010)
+- eWeLink CK-BL702-ROUTER-01(7018)
+  - HOBEIAN ZG-807Z
+- eWeLink CK-MG22-JLDJ-01(7015)
+  - eWeLink CK-MG22-Z310EE07DOOYA-01(7015)
+  - eWeLink Grandekor Smart Curtain Grandekor
+  - eWeLink MYDY25Z-1
+- eWeLink MYRX25Z-1
+- eWeLink SA-003-Zigbee
+- eWeLink SA-030-1
+- eWeLink SNZB-05
+  - eWeLink CK-TLSR8656-SS5-01(7019)
+- eWeLink SWITCH-ZR02
+- eWeLink SWITCH-ZR03-1
+- eWeLink WS01
+- eWeLink ZB-SW01
+- eWeLink ZB-SW02
+- eWeLink ZB-SW03
+- eWeLink ZB-SW04
+- eWeLink ZB-SW05
+- eZEX ECW-100-A03
+- Fantem ZB003-X
+  - EFK is-thpl-zb
+- Fantem ZB006-X
+- Feibit FB56-DOS06HM1.1
+- Feibit FMRC209W
+- Feibit FZCWD2HW-YH
+- Feibit FZCWF2LW-BW
+- Feibit NZRC106W-M2
+- Feibit NZSN421W-Q
+- Feibit SBM01ZB
+- Feibit SCA01ZB
+- Feibit SDM01ZB
+- Feibit SEB01ZB
+- Feibit SFS01ZB
+- Feibit SGA01ZB
+- Feibit SKY01-TS1-101
+- Feibit SLS301ZB_2
+- Feibit SLS301ZB_3
+- Feibit SSA01ZB
+- Feibit SSKT11IW-F1
+- Feibit SSS401ZB
+- Feibit SSS401ZB-T
+- Feibit STH01ZB
+- Feibit SWA01ZB
+- Feibit SZSN325W-Q
+- Feibit SZT211_AW-P1
+- Feibit TCUR218W-V1
+- Feibit TSKT106W-M1
+- Feibit TSKT113W-H4
+- Feibit TSKT222W-H4
+- Feibit TZSC302W-V1
+- Feibit TZSN408W-V1
+- Feibit TZSW22FW-L4
+- FireAngel W2-Module
+- FireAngel ZBCO-AE-10X-EUR
+- Fischer & Honsel 020B0B
+- FORIA F00MB00-04-1
+- FORIA F00XN00-04-1
+- FORIA F00YK04-18-1
+- FrankEver FK_V02
+- Frient EMIZB-141
+- Frient EMIZB-151
+- Frient SMRZB-153
+- Frient WISZB-131
+- Futurehome 4509243
+- Futurehome TS0601_futurehome_thermostat
+  - Futurehome Co020
+- GammaTroniques TICMeter
+- GE 22670
+- GE 45852GE
+- GE 45853GE
+- GE 45856GE
+- GE 45857GE
+- GE POTLK-WH02
+- GE PQC19-DY01
+- GE PSB19-SW27
+- GE PTAPT-WH02
+- Gewiss GWA1201_TWO_WAY_SWITCH
+- Gewiss GWA1501
+- Gewiss GWA1502
+- Gewiss GWA1521
+- Gewiss GWA1522
+- Gewiss GWA1531
+- GIDEALED ZC05M
+- GIDERWEL GD-ZCRGB012
+- GIEX GX03
+  - Nova Digital ZVL-DUAL
+- GIEX QT06_1
+- GIEX QT06_2
+  - GIEX GX02
+- Girier JR-ZDS01
+- Girier TZE284_4cqhd2ha
+  - Conecto COZIGVS
+- Gledopto GD-CZ-006
+- Gledopto GL-B-001P
+- Gledopto GL-B-001Z
+- Gledopto GL-B-001ZS
+- Gledopto GL-B-002P
+- Gledopto GL-B-003P
+- Gledopto GL-B-004P
+- Gledopto GL-B-007P
+- Gledopto GL-B-007Z
+- Gledopto GL-B-007ZS
+- Gledopto GL-B-008P
+- Gledopto GL-B-008Z
+- Gledopto GL-B-008ZS
+- Gledopto GL-C-003P
+- Gledopto GL-C-004P
+- Gledopto GL-C-006
+- Gledopto GL-C-006P
+  - Gledopto GL-C-003P_1
+  - Gledopto GL-C-006P_mini
+  - Gledopto GL-C-203P
+- Gledopto GL-C-006S
+- Gledopto GL-C-007-1ID
+- Gledopto GL-C-007-2ID
+- Gledopto GL-C-007P
+  - Gledopto GL-C-007P_mini
+- Gledopto GL-C-007S
+- Gledopto GL-C-008-1ID
+- Gledopto GL-C-008-2ID
+- Gledopto GL-C-008P
+  - Gledopto GL-C-001P
+  - Gledopto GL-C-002P
+  - Gledopto GL-C-008P_mini
+  - Gledopto GL-C-011P
+  - Gledopto GL-C-201P
+  - Gledopto GL-C-202P
+  - Gledopto GL-C-204P
+  - Gledopto GL-C-301P
+- Gledopto GL-C-008S
+- Gledopto GL-C-009
+- Gledopto GL-C-009P
+  - Gledopto GL-C-009P_mini
+- Gledopto GL-C-009S
+- Gledopto GL-C-103P
+- Gledopto GL-C-310P
+- Gledopto GL-D-001P
+- Gledopto GL-D-002P
+- Gledopto GL-D-003P
+- Gledopto GL-D-003Z
+- Gledopto GL-D-003ZS
+- Gledopto GL-D-004P
+- Gledopto GL-D-004Z
+- Gledopto GL-D-004ZS
+- Gledopto GL-D-005P
+- Gledopto GL-D-005Z
+- Gledopto GL-D-005ZS
+- Gledopto GL-D-006P
+- Gledopto GL-D-007P
+- Gledopto GL-D-008P
+- Gledopto GL-D-009P
+- Gledopto GL-D-010P
+- Gledopto GL-D-013P
+- Gledopto GL-D-015P
+- Gledopto GL-FL-001P
+- Gledopto GL-FL-004P
+- Gledopto GL-FL-004TZ
+- Gledopto GL-FL-004TZS
+- Gledopto GL-FL-005P
+- Gledopto GL-FL-005TZ
+- Gledopto GL-FL-005TZS
+- Gledopto GL-FL-006P
+- Gledopto GL-FL-006TZ
+- Gledopto GL-FL-006TZS
+- Gledopto GL-FL-007P
+- Gledopto GL-G-001P
+- Gledopto GL-G-001Z
+- Gledopto GL-G-001ZS
+- Gledopto GL-G-002P
+- Gledopto GL-G-003P
+- Gledopto GL-G-004P
+- Gledopto GL-G-005P
+- Gledopto GL-G-007Z
+- Gledopto GL-G-101P
+- Gledopto GL-H-001
+- Gledopto GL-LB-001P
+- Gledopto GL-MC-001
+- Gledopto GL-MC-001P
+- Gledopto GL-MC-002P
+- Gledopto GL-P-101P
+- Gledopto GL-S-003Z
+- Gledopto GL-S-004P
+- Gledopto GL-S-004Z
+- Gledopto GL-S-004ZS
+- Gledopto GL-S-005Z
+- Gledopto GL-S-006P
+- Gledopto GL-S-007P
+- Gledopto GL-S-007Z
+- Gledopto GL-S-007ZS
+- Gledopto GL-S-008Z
+- Gledopto GL-S-014P
+- Gledopto GL-SD-001
+- Gledopto GL-SD-001P
+- Gledopto GL-SD-002
+- Gledopto GL-SD-003P
+- Gledopto GL-SD-301P
+- Gledopto GL-SPI-206P
+- Gledopto GL-W-001Z
+- GMY Smart Bulb B07KG5KF5R
+- GS BDHM8E27W70-I1
+- GS BRHM8E27W70-I1
+- GS SGMHM-I1
+- GS SGPHM-I1
+- GS SKHMP30-I1
+- GS SMHM-I1
+- GS SOHM-I1
+- GS SRHMP-I1
+- GS SSHM-I1
+- GS STHM-I1H
+- GS SWHM-I1
+- Gumax LST103
+- Halemeier HA-ZBM-MW2
+- Halemeier HA-ZGMW2-E
+- Halemeier HA-ZM12/24-1K
+- Halemeier HA-ZM12/24-mw2
+- Halemeier HA-ZM12mw2-4K
+- Halemeier HA-ZSM-MW2
+- Halemeier HA-ZX1
+- Hampton Bay 54668161
+- Hampton Bay 99432
+- Haozee HZ-WT02
+- HeatHUB HHST001
+- Heatit 1444420
+- Heiman D1-EFA
+- Heiman HEIMAN-M1
+- Heiman HM1RC-2-E
+- Heiman HS15A-M
+- Heiman HS1CA-E
+- Heiman HS1CA-M
+- Heiman HS1CG
+- Heiman HS1CG_H
+- Heiman HS1CG_M
+- Heiman HS1CG-E
+  - Piri HSIO18008
+- Heiman HS1CG-E_3.0
+- Heiman HS1CG-M
+- Heiman HS1DS
+- Heiman HS1EB/HS1EB-E
+- Heiman HS1HT
+  - Ferguson TH-T_V14
+- Heiman HS1HT-N
+- Heiman HS1MIS-3.0
+- Heiman HS1MS-EF
+- Heiman HS1MS-M
+- Heiman HS1RC-EM
+- Heiman HS1RC-N
+- Heiman HS1RGB
+- Heiman HS1SA
+- Heiman HS1VS-EF
+- Heiman HS1VS-N
+- Heiman HS1WL/HS3WL
+- Heiman HS2AQ-EM
+- Heiman HS2CM-N-DC
+- Heiman HS2DB
+- Heiman HS2ESK-E
+- Heiman HS2FD-EF1-3.0
+- Heiman HS2IRC
+- Heiman HS2RNL
+- Heiman HS2SA-1
+- Heiman HS2SA-EF-3.0
+- Heiman HS2SK
+  - Schneider Electric CCTFR6500
+- Heiman HS2SK_nxp
+- Heiman HS2SS
+- Heiman HS2SS-E_V03
+- Heiman HS2SW1A/HS2SW1A-N
+- Heiman HS2SW2A/HS2SW2A-N
+- Heiman HS2SW3A/HS2SW3A-N
+- Heiman HS2WD-E
+- Heiman HS2WDS
+- Heiman HS2WDSC-E
+- Heiman HS2WDSR-E
+- Heiman HS3AQ
+- Heiman HS3CG
+- Heiman HS3DS
+- Heiman HS3HT
+- Heiman HS3MS
+- Heiman HS3SA/HS1SA
+- Heiman HS8DS-EFA
+- Heiman PIR_TPV12
+- Heimgard Technologies HC-IWDIM-1
+- Heimgard Technologies HC-IWSWI-1
+- Heimgard Technologies HC-SLM-1
+- Heimgard Technologies HT-DWM-2
+- Heimgard Technologies HT-INS-2
+- Heimgard Technologies HT-MOT-2
+- Heimgard Technologies HT-SLM-2
+- Heimgard Technologies HT-SMO-2
+- Hej GLSK3ZB-1711
+- Hej GLSK3ZB-1712
+- Hej GLSK3ZB-1713
+- Hej GLSK6ZB-1714
+- Hej GLSK6ZB-1715
+- Hej GLSK6ZB-1716
+- Hej KKZ-DO021
+- Hej KKZ-MO021
+- HFH Solutions 303-0136
+- Hilux D160-ZG
+- Hilux DZ8
+- Hive 1613V
+- Hive DWS003
+- Hive FWGU10Bulb02UK
+- Hive FWGU10Bulb03UK
+- Hive HALIGHTDIMWWB22
+- Hive HALIGHTDIMWWE14
+- Hive HALIGHTDIMWWE27
+- Hive HV-CE14CXZB6
+- Hive HV-GSCXZB229B
+- Hive HV-GSCXZB269
+- Hive HV-GSCXZB279_HV-GSCXZB229_HV-GSCXZB229K
+- Hive HV-GUCXZB5
+- Hive KEYPAD001
+- Hive MOT003
+- Hive OTR1
+- Hive SLB2
+- Hive SLR1
+- Hive SLR1b
+- Hive SLR1c
+- Hive SLR1d
+- Hive SLR2
+- Hive SLR2b
+- Hive SLR2c
+  - Hive SLR2d
+- Hive SLT2
+- Hive SLT3
+- Hive SLT3B
+- Hive SLT3C
+- Hive SLT3d
+- Hive SLT6
+- Hive SLT6b
+- Hive WPT1
+- HOBEIAN ZG-102ZM
+- HOBEIAN ZG-204ZE
+- HOBEIAN ZG-204ZH
+- HOBEIAN ZG-204ZK
+- HOBEIAN ZG-204ZV
+- HOBEIAN ZG-223Z
+- HOBEIAN ZG-302ZM
+- HOBEIAN ZG-303Z
+- HOFTRONIC HD300W-ZB
+- Homcloud HY-SZLUMPIR
+- HomeSeer DS150ZB
+- Hommyn MS-20-Z
+- Hommyn WS-20-Z
+- Honyar U2-86K11ND10-ZD
+- Honyar U2-86K21ND10-ZD
+- Honyar U2-86K31ND10-ZD
+- Honyar U86K31ND6
+- Honyar U86Z13A16-ZJH(HA)
+- Honyar U86Z223A10-ZJU01(GD)
+- HORNBACH 10011722
+- HORNBACH 10011723
+- HORNBACH 10011724
+- HORNBACH 10011725
+- HORNBACH 10297665
+- HORNBACH 10297666
+- HORNBACH 10297667
+- HORNBACH 10447293
+- HORNBACH 10454466
+- HORNBACH 10454467
+- HORNBACH 10454468
+- HORNBACH 10454469
+- HORNBACH 10454470
+- HORNBACH 10454471
+- HZC Electric D077-ZG
+- HZC Electric D086-ZG
+- HZC Electric D692-ZG
+- HZC Electric S093TH-ZG
+- HZC Electric S900W-ZG
+- HZC Electric S902M-ZG
+- iAlarm SP02-ZB001
+- iCasa ICZB-B1FC60/B3FC64/B2FC95/B2FC125
+- iCasa ICZB-DC11
+- iCasa ICZB-IW11D
+- iCasa ICZB-IW11SW
+- iCasa ICZB-IW21D
+- iCasa ICZB-KPD12
+  - Sunricher SR-ZG9001K2-DIM
+- iCasa ICZB-KPD14S
+- iCasa ICZB-KPD18S
+- iCasa ICZB-R11D
+- iCasa ICZB-R12D
+- iCasa ICZB-RM11S
+- Idinio 0140302
+- iHORN HO-09ZB
+- iHORN LH-09521
+- iHORN LH-32ZB
+- iHORN LH-990F
+- iHORN LH-990ZB
+- iHORN LH-992ZB
+- iHORN LH03121
+- iHseno _TZ3000_pgq7ormg
+- iHseno TS0601_human_presence
+- iHseno TYSCENECUBE
+- iHseno ZC-W1
+- IKEA 90504044
+- IKEA E1524/E1810
+- IKEA E1525/E1745
+- IKEA E160x/E170x/E190x
+  - IKEA E1603
+  - IKEA E1702/E1703
+  - IKEA E1704
+  - IKEA E1705
+  - IKEA E1706/E1707/E1708/E1709/E1710
+  - IKEA E1902
+- IKEA E1743
+- IKEA E1744
+- IKEA E1746
+- IKEA E1757
+- IKEA E1766
+- IKEA E1812
+- IKEA E1836
+- IKEA E1841
+- IKEA E1842
+- IKEA E1926
+- IKEA E2001/E2002
+- IKEA E2007
+  - IKEA E2006
+- IKEA E2013
+- IKEA E2102
+- IKEA E2103
+- IKEA E2112
+- IKEA E2123
+- IKEA E2134
+- IKEA E2201
+- IKEA E2202
+- IKEA E2206
+  - IKEA E2220
+  - IKEA E2224
+- IKEA E2213
+- IKEA E22x4
+  - IKEA E2204
+  - IKEA E2214
+- IKEA G2015
+- IKEA ICPSHC24-10EU-IL-1/ICPSHC24-10EU-IL-2
+- IKEA ICPSHC24-30-IL44-1
+- IKEA ICPSHC24-30EU-IL-1/ICPSHC24-10EU-IL-2
+- IKEA ICTC-G-1
+- IKEA L1527
+- IKEA L1528
+- IKEA L1529
+- IKEA L1530
+- IKEA L1531
+- IKEA L2112
+- IKEA L2205
+- IKEA L2206
+- IKEA L2207
+- IKEA L2208
+- IKEA LED1536G5
+- IKEA LED1537R6/LED1739R5
+- IKEA LED1545G12
+- IKEA LED1546G12
+- IKEA LED1622G12
+- IKEA LED1623G12
+- IKEA LED1624G9
+- IKEA LED1649C5
+- IKEA LED1650R5
+- IKEA LED1732G11
+- IKEA LED1733G7
+- IKEA LED1736G9
+- IKEA LED1738G7
+- IKEA LED1835C6
+- IKEA LED1836G9
+- IKEA LED1837R5
+- IKEA LED1842G3
+- IKEA LED1923R5
+- IKEA LED1924G9
+- IKEA LED1925G6
+- IKEA LED1934G3
+- IKEA LED1935C3
+- IKEA LED1936G5
+- IKEA LED1937T5
+- IKEA LED1949C5
+- IKEA LED2002G5
+- IKEA LED2003G10
+- IKEA LED2004G8
+- IKEA LED2005R5/LED2106R3
+- IKEA LED2006R9
+- IKEA LED2008G3
+- IKEA LED2009C3
+- IKEA LED2035G10
+- IKEA LED2101G4
+- IKEA LED2102G3
+- IKEA LED2103G5
+- IKEA LED2104R3
+- IKEA LED2107C4
+- IKEA LED2109G6
+- IKEA LED2110R3
+- IKEA LED2111G6
+- IKEA LED2201G8
+- IKEA T1820
+- IKEA T1828
+- IKEA T1829
+- IKEA T2011
+- IKEA T2030
+- IKEA T2035
+- IKEA T2037
+- IKEA T2105
+- IKEA T2106
+- iLightsIn HLC610
+- iLightsIn HSSA18-Z-MID
+- Iluminize 511.000
+  - Sunricher HK-ZD-RGBCCT-A
+- Iluminize 511.010
+- Iluminize 511.012
+- Iluminize 511.020
+- Iluminize 511.040
+- Iluminize 511.050
+- Iluminize 511.10
+- Iluminize 511.201
+- Iluminize 511.202
+- Iluminize 511.324
+- Iluminize 511.524
+- Iluminize 511.541
+- Iluminize 511.544
+- Iluminize 511.557
+- Iluminize 5110.40
+  - Iluminize 5110.80
+  - Iluminize 5112.80
+- Iluminize 5120.1100
+- Iluminize 5120.1110
+- Iluminize 5120.1200
+- Iluminize 5120.1210
+- Iluminize 5120.2110
+- Iluminize 5120.2210
+- Iluminize 5121.10
+- Iluminize 5123.1110
+- Iluminize 5128.10
+- Iluminize 5144.01
+- Iluminize 5144.11
+- Iluminize 5144.21
+- Iluminize 5715
+- Iluminize 5717
+- ilux 900008-WW
+- Imhotep Creation BRI4P
+- Imhotep Creation E-Ctrl
+  - Imhotep Creation RPH E-Ctrl
+  - Imhotep Creation RSS E-Ctrl
+- Immax 07001L/07005B
+- Immax 07004D/07005L
+- Immax 07008L
+- Immax 07042L
+- Immax 07043M
+- Immax 07045L
+- Immax 07046L
+- Immax 07047L
+- Immax 07048L
+- Immax 07073L
+- Immax 07088L
+- Immax 07089L
+- Immax 07115L
+- Immax 07502L
+- Immax 07504L
+- Immax 07505L
+- Immax 07703L
+- Immax 07743L
+- Immax 07752L
+- Immax 07767L
+- Immax TS0502C
+- IMOU ZD1-EN
+- IMOU ZE1-EN
+- IMOU ZGA1-EN
+- IMOU ZP1-EN
+- IMOU ZR1-EN
+- IMOU ZTM1-EN
+- Innr AE 260
+- Innr AE 262
+- Innr AE 264
+- Innr AE 270 T
+- Innr AE 270 T-2
+- Innr AE 280 C
+- Innr AE 282 C
+- Innr AE 287 C
+- Innr BB 262
+- Innr BB 282 C
+- Innr BB 287 C
+- Innr BB 287 C-2
+- Innr BE 220
+- Innr BF 263
+- Innr BF 265
+- Innr BY 165
+- Innr BY 178 T
+- Innr BY 185 C
+- Innr BY 266
+- Innr BY 285 C
+- Innr BY 286 C
+- Innr DL 110 N
+- Innr DL 110 W
+- Innr FL 120 C
+- Innr FL 122 C
+- Innr FL 130 C
+- Innr FL 140 C
+- Innr FL 142 C
+- Innr OFL 120 C
+- Innr OFL 122 C
+- Innr OFL 140 C
+- Innr OFL 142 C
+- Innr OGL 130 C
+- Innr OLS 210
+- Innr OPL 130 C
+- Innr OSL 130 C
+- Innr OSL 132 C
+- Innr OSL 140 C
+- Innr OSP 210
+- Innr OSP 240
+- Innr PL 110
+- Innr PL 115
+- Innr RB 145
+- Innr RB 148 T
+- Innr RB 162
+- Innr RB 165
+- Innr RB 172 W
+- Innr RB 175 W
+- Innr RB 178 T
+- Innr RB 185 C
+- Innr RB 243
+- Innr RB 245
+- Innr RB 247 T
+- Innr RB 248 T
+- Innr RB 249 T
+- Innr RB 250 C
+- Innr RB 251 C
+- Innr RB 252 C
+- Innr RB 255 C
+- Innr RB 262
+- Innr RB 265
+- Innr RB 266
+- Innr RB 267
+- Innr RB 272 T
+- Innr RB 278 T
+- Innr RB 279 T
+- Innr RB 282 C
+- Innr RB 285 C
+- Innr RB 286 C
+- Innr RB 287 C
+- Innr RC 110
+- Innr RC 210
+- Innr RC 250
+- Innr RCL 110
+- Innr RCL 231 T
+- Innr RCL 232 C
+- Innr RCL 240 T
+- Innr RF 261
+- Innr RF 262
+- Innr RF 263
+- Innr RF 264
+- Innr RF 265
+- Innr RF 271 T
+- Innr RF 273 T
+- Innr RF 274 T
+- Innr RS 122
+- Innr RS 125
+- Innr RS 128 T
+- Innr RS 225
+- Innr RS 226
+- Innr RS 227 T
+- Innr RS 228 T
+- Innr RS 229 T
+- Innr RS 230 C
+- Innr RS 232 C
+- Innr RS 240
+- Innr RS 241 T
+- Innr RS 242 C
+- Innr RSL 110
+- Innr RSL 115
+- Innr SL 110 M
+- Innr SL 110 N
+- Innr SL 110 W
+- Innr SP 110
+- Innr SP 120
+- Innr SP 220
+- Innr SP 222
+- Innr SP 224
+- Innr SP 234
+- Innr SP 240
+  - Innr SP 242
+  - Innr SP 244
+- Innr ST 110
+- Innr UC 110
+- Inovelli VZM30-SN
+- Inovelli VZM31-SN
+- Inovelli VZM32-SN
+- Inovelli VZM35-SN
+- Inovelli VZM36
+- Insta 57004000
+- Insta 57005000
+- Insta 57008000
+- Insta InstaRemote
+  - Gira 2430-100
+  - Gira 2435-10
+  - Jung ZLLA5004M
+  - Jung ZLLCD5004M
+  - Jung ZLLHS4
+  - Jung ZLLLS5004M
+- Intuis intuisradiator
+- Iolloi ID-UK21FW09
+  - Iolloi ID-EU20FW09
+- IOTPerfect PF-PM02D-TYZ
+- Iris 27087-03
+- Iris 3210-L
+- Iris 3315-L
+- Iris 3320-L
+- Iris 3326-L
+- Iris 3450-L
+- Iris 3460-L
+- Iris iL03_1
+- Iris IL06_1
+- Iris iL07_1
+- iStar SCCV2401-1
+- iStar SCCV2403-2
+- IT Commander ITCMDR_Click
+- IT Commander ITCMDR_Contact
+- J.XUAN DSZ01
+- J.XUAN PRZ01
+- J.XUAN SPZ01
+- J.XUAN WSZ01
+- Jasco 43132
+- Jasco Products 43095
+- Jasco Products ZB3102
+- JAVIS JS-MC-SENSOR-ZB
+- JAVIS JS-SLK2-ZB
+- JetHome WS7
+- JIAWEN JW-A04-CT
+- JIAWEN K2RGBW01
+- JUMITECH APS J2182548
+- KAMI N20
+- Keen Home GW01
+- Keen Home GW02
+- Keen Home RS-THP-MP-1.0
+- Keen Home SV01
+- Keen Home SV02
+- KlikAanKlikUit ZCC-3500
+- KlikAanKlikUit ZCM-1800
+- KMPCIL KMPCIL_RES005
+- KMPCIL KMPCIL-tag-001
+- Konke 2AJZ4KPBS
+- Konke 2AJZ4KPDR
+- Konke 2AJZ4KPFT
+- Konke 2AJZ4KPKEY
+- Konke KK-BS-J01W
+- Konke KK-DS-J01W
+- Konke KK-ES-J01W
+- Konke KK-LP-Q01D
+- Konke KK-LP-Q02D
+- Konke KK-LP-Q03D
+- Konke KK-QD-Y01w
+- Konke KK-TQ-J01W
+- Konke KK-WA-J01W
+- Konke LH07321
+- Konke TW-S1
+- Ksentry Electronics KS-SM001
+- KURVIA ZB-CL01
+- Kwikset 66492-001
+- Kwikset 99100-006
+- Kwikset 99100-045
+- Kwikset 99120-021
+- Kwikset 99140-002
+- Kwikset 99140-031
+- Kwikset 99140-139
+- L&S Lighting 756200027
+  - L&S Lighting 756200028
+- L&S Lighting 756200030
+  - L&S Lighting 756200031
+- L&S Lighting A319463
+- Lanesto 322054
+- LDS ZBT-RGBWLight-A0000
+- LeapMMW MTD085-ZB
+- LED-Trading 9133
+- LED-Trading 9134
+- LED-Trading 9135
+- LED-Trading HK-LN-DIM-A
+- LEDRON QS-Zigbee-D04
+  - Ledron QS-Zigbee-D06-DC
+- LEDVANCE 4058075168572
+- LEDVANCE 4058075173989
+- LEDVANCE 4058075181472
+- LEDVANCE 4058075208339
+- LEDVANCE 4058075208353
+- LEDVANCE 4058075208360
+- LEDVANCE 4058075208384
+- LEDVANCE 4058075208391
+- LEDVANCE 4058075208414
+- LEDVANCE 4058075208421
+- LEDVANCE 4058075364547
+- LEDVANCE 4058075364561
+- LEDVANCE 4058075485174
+- LEDVANCE 4058075724587
+- LEDVANCE 4058075728981
+- LEDVANCE 4058075729001
+- LEDVANCE 4058075729025
+- LEDVANCE 4058075729049
+- LEDVANCE 4058075729063
+- LEDVANCE 4058075729087
+- LEDVANCE 4058075729100
+- LEDVANCE 4058075729124
+- LEDVANCE 4058075729148
+- LEDVANCE 4058075729162
+- LEDVANCE 4058075729186
+- LEDVANCE 4058075729209
+- LEDVANCE 4058075729223
+- LEDVANCE 4058075729247
+- LEDVANCE 4058075729261
+- LEDVANCE 4058075729285
+- LEDVANCE 4058075729308
+- LEDVANCE 4058075729322
+- LEDVANCE 4058075729346
+- LEDVANCE 4058075729360
+- LEDVANCE 4058075729384
+- LEDVANCE 4058075823976
+- LEDVANCE 4099854293276
+- LEDVANCE 4099854295232
+- LEDVANCE 4099854295256
+- LEDVANCE 4099854513718
+- LEDVANCE 74746
+- LEDVANCE AC08560
+- LEDVANCE AC23684
+- LEDVANCE AC25697
+- LEDVANCE AC25702
+- LEDVANCE AC25704
+- LEDVANCE AC26940/AC31266
+- LEDVANCE AC33901
+- LEDVANCE AC33903
+- LEDVANCE AC33905
+- LEDVANCE AC33906
+- LEDVANCE GPDRPLOP401100CE
+- LEDVANCE SMARTZBA60RGBW
+- LEDVANCE ST8EM-CON
+- Leedarson 5AA-SS-ZA-H0
+- Leedarson 6ARCZABZH
+- Leedarson 6xy-M350ST-W1Z
+- Leedarson 7A-SS-ZABC-H0
+- Leedarson 8A-SS-BA-H0
+- Leedarson A806S-Q1G
+- Leedarson A806S-Q1R
+- Leedarson LDHD2AZW
+- Leedarson M350STW1
+- Leedarson ZA806SQ1TCF
+- Leedarson ZBT-CCTLight-Candle0904
+- Leedarson ZBT-CCTLight-GLS0904
+- Leedarson ZBT-DIMLight-GLS0800
+- Leedarson ZM350STW1TCF
+- Legrand 064873
+  - BTicino LN4570CWI
+- Legrand 064882
+- Legrand 064888
+  - BTicino 3584C
+  - Legrand 199142
+- Legrand 067646
+- Legrand 067694
+  - BTicino 3577C
+- Legrand 067755
+- Legrand 067766
+- Legrand 067771
+- Legrand 067772
+- Legrand 067773
+- Legrand 067774
+- Legrand 067775/741811
+- Legrand 067776
+- Legrand 067776_inverted
+- Legrand 067776A
+  - BTicino K4027C/L4027C/N4027C/NT4027C
+- Legrand 067797
+- Legrand 199182
+- Legrand 281506
+- Legrand 412015
+  - BTicino FC80GCS
+  - Legrand 412172
+- Legrand 412170
+  - BTicino FC80RC
+- Legrand 412171
+  - BTicino FC80CC
+- Legrand 412173
+  - BTicino FC80AC
+- Legrand 412175
+  - BTicino F40T125A
+- Legrand 600087L
+- Legrand 752189
+- Legrand WNAL10/WNRL10
+- Legrand WNAL50/WNRL50
+- Legrand WNAL63
+- Legrand WNRR15/WNRR20
+- Legrand ZLGP14/ZLGP15/ZLGP16
+- Legrand ZLGP17/ZLGP18
+- LELLKI CM001
+- LELLKI JZ-ZB-001
+- LELLKI JZ-ZB-002
+- LELLKI JZ-ZB-003
+- LELLKI WK34-EU
+- LELLKI WP30-EU
+- LELLKI WP33-EU/WP34-EU
+- LELLKI XF-EU-S100-1-M
+- Letsleds HLC929-Z-RGBW-4C-IA-OTA-3.0
+- LeTV LeTV.8KEY
+- Leviton DG15A-1BW
+- Leviton DG15S-1BW
+- Leviton DG3HL-1BW
+- Leviton DG6HD-1BW
+- Leviton DL15S-1BZ
+- Leviton RC-2000WH
+- Leviton ZS057-D0Z
+- LG Electronics B1027EB0Z01
+- LG Electronics B1027EB0Z02
+- LG Electronics B1027EB4Z01
+- Lidl 14153806L
+- Lidl 368308_2010
+- Lidl FB20-002
+- Lidl FB21-001
+- Lidl HG06335/HG07310
+- Lidl HG06336
+- Lidl HG06337
+- Lidl HG06338
+- Lidl HG06467
+- Lidl HG06619
+- Lidl HG06620
+- Lidl HG06668
+- Lidl HG08164
+- Lidl HG08633
+- Lidl HG08673
+  - Lidl HG08673-BS
+- Lidl PSBZS A1
+- LifeControl MCLH-02
+- LifeControl MCLH-03
+- LifeControl MCLH-04
+- LifeControl MCLH-05
+- LifeControl MCLH-07
+- LifeControl MCLH-08
+- Light Solutions 200106V3
+- Light Solutions 200403V2-B
+- Light Solutions 3004482/3137308/3137309
+- Light Solutions 42-032
+- Light Solutions 91-943
+- Light Solutions 91-943-PRO
+- Lincukoo CZB01
+- Lincukoo CZF02
+- Lincukoo SZLM04U
+- Lincukoo SZLMR10
+- Lincukoo SZLR08
+- Lincukoo SZLR08T
+- Lincukoo SZR07
+- Lincukoo SZT04
+- Lincukoo SZT06
+- Lincukoo SZW08
+- Linkind LS21001
+- Linkind ZL00030014
+- Linkind ZL1000100-CCT-US-V1A02
+- Linkind ZL100010008
+- Linkind ZL1000400-CCT-EU-2-V1A02
+- Linkind ZL100050004
+- Linkind ZL1000700-22-EU-V1A02
+- Linkind ZL1000701-27-EU-V1A02
+- Linkind ZL13100314
+- Linkind ZS1100400-IN-V1A02
+- Linkind ZS110050078
+- Linkind ZS130000078
+- Linkind ZS130000178
+- Linkind ZS190000118
+- Linkind ZS230002
+- Linkind ZS232000178
+- Linkoze LKWSZ211
+- Linptech ES1ZZ(TY)
+- LivingWise LVS-SC7
+- LivingWise LVS-SM10ZW
+- LivingWise LVS-SN10ZW_SN11
+- LivingWise LVS-ZB15R
+- LivingWise LVS-ZB15S
+- LivingWise LVS-ZB500D
+- Livolo TI0001
+- Livolo TI0001-cover
+- Livolo TI0001-curtain-switch
+- Livolo TI0001-dimmer
+- Livolo TI0001-hygrometer
+- Livolo TI0001-illuminance
+- Livolo TI0001-pir
+- Livolo TI0001-socket
+- Livolo TI0001-switch
+- Livolo TI0001-switch-2gang
+- LiXee ZiPulses
+- LiXee ZLinky_TIC
+- Loginovo ZG-101Z
+- Lonsonho 11830304
+- Lonsonho 4000116784070
+- Lonsonho QS-Zigbee-C01
+- Lonsonho QS-Zigbee-C03
+- Lonsonho QS-Zigbee-D02-TRIAC-2C-L
+- Lonsonho QS-Zigbee-D02-TRIAC-2C-LN
+- Lonsonho QS-Zigbee-D02-TRIAC-LN
+- Lonsonho QS-Zigbee-S04-2C-LN
+- Lonsonho QS-Zigbee-S05-LN
+- Lonsonho TS130F_dual
+  - Girier TS130F_GIRIER_DUAL
+- Lonsonho VM-Zigbee-S02-0-10V
+- Lonsonho X701A
+- Lonsonho X711A
+- Lonsonho X712A
+- Lonsonho X713A
+- Lonsonho ZB-RGBCW
+- Lorenz Brun FanBee
+- Lubeez 12AB
+- Lupus 12031
+- Lupus 12050
+- Lupus 12126
+- Lupus 12127
+- Lupus LS12128
+- Lutron LZL4BWHL01
+- Lutron Z3-1BRL
+- LUX KN-Z-WH1-B04
+- Lytko L101Z-DBI
+- Lytko L101Z-DBN
+- Lytko L101Z-DLN
+- Lytko L101Z-SBI
+- Lytko L101Z-SBN
+- Lytko L101Z-SLN
+- LYTKO L101Ze-DBN
+- LYTKO L101Ze-DLM
+- LYTKO L101Ze-DLN
+- LYTKO L101Ze-SBN
+- LYTKO L101Ze-SLM
+- LYTKO L101Ze-SLN
+- M-ELEC ML-ST-BP-DIM
+- M-ELEC ML-ST-D200
+- M-ELEC ML-ST-D200-NF
+- M-ELEC ML-ST-R200
+- MakeGood MG-AUZG01
+- MakeGood MG-GPO01
+- Manhot BX82-TYZ1
+- Manhot MB60L-ZG-ZT-TY
+- Matcall ZG401224
+- Matcall ZG430700
+- MAZDA TR-M2Z
+- Meazon MEAZON_BIZY_PLUG
+- Meazon MEAZON_DINRAIL
+- Mercator Ikuü SMA02P
+- Mercator Ikuü SMA03P
+- Mercator Ikuü SMA04P
+- Mercator Ikuü SMCL01-ZB
+- Mercator Ikuü SMD4109W-RGB-ZB
+- Mercator Ikuü SPP02G
+- Mercator Ikuü SPP02GIP
+- Mercator Ikuü SPP04G
+- Mercator Ikuü SPPUSB02
+- Mercator Ikuü SSW03G
+- Mercator Ikuü SSWF01G
+- MiaoMiaoCe MHO-C122
+- MiaoMiaoCe MHO-C401
+- MiBoxer FUT038Z
+- MiBoxer FUT089Z
+  - Ledron YK-16
+- Micro Matic Norge AS ZB250
+- Mill Mill-gen-4
+- MindY Leleka
+- Modular MWM002
+- Moes BHT-002
+  - Moes BHT-002/BHT-006
+- Moes BRT-100-TRV
+  - Sibling Powerswitch-ZK(W)
+- Moes ERS-10TZBVB-AA
+  - Loginovo ZG-101ZL
+- Moes GM25TEQ-TYZ-2/25
+- Moes MS-104BZ
+  - KnockautX FMS2C017
+- Moes MS-104Z
+- Moes MS-108ZR
+- Moes SFL02-Z-1
+  - Nova Digital TPZ-1
+- Moes SFL02-Z-2
+  - Nova Digital TPZ-2
+- Moes SFL02-Z-3
+  - Nova Digital TPZ-3
+- Moes SFL02-Z-4
+  - Nova Digital TPZ-4
+- Moes SR-ZS
+- Moes UFO-R11
+  - Tuya iH-F8260
+- Moes ZC-HM
+  - Heiman HS-720ES
+- Moes ZC-LP01
+- Moes ZHT-002
+- Moes ZHT-PT01-M-MS
+- Moes ZHT-S03
+- Moes ZHT-SR
+- Moes ZK-EU-2U
+- Moes ZM4LT2
+- Moes ZP-LZ-FR2U
+- Moes ZS-D1
+- Moes ZS-D2
+- Moes ZS-D3
+- Moes ZS-EUB_1gang
+- Moes ZS-SR-EUC
+- Moes ZSS-HM-SSD01
+- Moes ZSS-ZK-THL
+- Moes ZTRV-S01
+- Moes ZTS-EU_1gang
+- Moes ZTS-EU_2gang
+- Moes ZTS-EU_3gang
+- Moes ZTS-EU_4gang
+- Moes ZTS-EUR-C
+- Moes ZWV-YC
+- Müller Licht 404000/404005/404012/404019
+- Müller Licht 404001
+- Müller Licht 404002
+- Müller Licht 404006/404008/404004
+- Müller Licht 404017
+- Müller Licht 404021
+- Müller Licht 404022/404049C
+  - Müller Licht 404049D
+- Müller Licht 404023
+- Müller Licht 404024
+- Müller Licht 404028/44435
+- Müller Licht 404031
+- Müller Licht 404036/45327/45317/45328
+- Müller Licht 404037/404038
+- Müller Licht 404051
+- Müller Licht 404062
+- Müller Licht 404065
+- Müller Licht 404122/404123
+- Müller Licht 404127
+- Müller Licht 44435
+- Müller Licht 45391
+- Müller Licht 45723
+- Müller Licht 45727
+- Müller Licht 45728
+- Müller Licht 45730
+- Müller Licht MLI-404011/MLI-404049
+- MultIR MIR-IR100
+- MultIR MIR-MC100
+- MultIR MIR-SM200
+- MultIR MIR-SO100
+- MultIR MIR-TE600
+- MultIR MIR-WA100
+- MultiTerm ZC0101
+- Mumubiz TYZGTH1CH-D1RF
+- Mumubiz TYZGTH4CH-D1RF
+- Namron 1402755
+- Namron 1402767
+- Namron 1402768
+- Namron 1402769
+- Namron 1402790
+- Namron 3308431
+- Namron 3802960
+- Namron 3802961
+- Namron 3802962
+- Namron 3802963
+- Namron 3802964
+- Namron 3802965
+- Namron 3802966
+- Namron 3802967
+- Namron 3802968
+- Namron 4512700
+- Namron 4512701
+- Namron 4512702
+- Namron 4512703
+- Namron 4512704
+- Namron 4512705
+- Namron 4512706
+- Namron 4512707
+- Namron 4512708
+- Namron 4512719
+- Namron 4512721
+- Namron 4512726
+- Namron 4512728
+- Namron 4512729
+- Namron 4512733
+- Namron 4512735
+- Namron 4512737/4512738
+- Namron 4512747
+- Namron 4512749
+- Namron 4512749-N
+- Namron 4512750
+  - Namron 4512751
+- Namron 4512752/4512753
+- Namron 4512758
+- Namron 4512760
+- Namron 4512761
+- Namron 4512762
+- Namron 4512763
+- Namron 4512764
+- Namron 4512765
+- Namron 4512766
+- Namron 4512767
+- Namron 4512768
+- Namron 4512770
+  - Namron 4512771
+- Namron 4512773
+  - Namron 4512772
+- Namron 4512782
+- Namron 4512783/4512784
+  - Namron 4566702
+- Namron 4512788
+- Namron 4512789
+- Namron 4512791
+- Namron 4512792
+- Namron 4512793
+- Namron 540139X
+- Namron 89665
+- Nanoleaf NL08-0800
+- Nedis ZBHTR20WT
+- NEO NAS-AB02B0
+- NEO NAS-AB02B2
+- NEO NAS-AB06B2
+- NEO NAS-PD07
+- NEO NAS-PS09B2
+- NEO NAS-PS10B2
+- NEO NAS-STH02B2
+- NEO NAS-TH07B2
+- NEO NAS-WV03B
+- NEO NAS-WV03B2
+- NEO NAS-WV05B2
+  - Nous L14
+- NEO NAS-WV05B2-L
+- NET2GRID N2G-SP
+- Netvox Z809A
+- Netvox ZB02A
+- Nexelec Open'R
+- Niko 170-33505/170-34605
+- Niko 552-720X1
+- Niko 552-720X2
+- Niko 552-720X4
+- Niko 552-721X1
+- Niko 552-721X2
+- Niko 552-72201
+- Niko 552-72301
+- Niko 552-80401
+- Niko 552-80698
+- Niko 552-80699
+- Ninja Blocks Z809AF
+- Niviss PS-ZIGBEE-SMART-CONTROLER-1CH-DIMMABLE
+- NodOn FPS-4-1-00
+- NodOn IRB-4-1-00
+- NodOn SDC-4-1-00
+- NodOn SDO-4-1-00
+- NodOn SEM-4-1-00
+- NodOn SIN-4-1-20
+- NodOn SIN-4-1-20_PRO
+- NodOn SIN-4-1-21
+- NodOn SIN-4-2-20
+- NodOn SIN-4-2-20_PRO
+- NodOn SIN-4-FP-20
+- NodOn SIN-4-FP-21
+- NodOn SIN-4-RS-20
+- NodOn SIN-4-RS-20_PRO
+- NodOn STPH-4-1-00
+- NodOn TRV-4-1-00
+- Nordtronic 98423051
+- Nordtronic 98424072
+- Nordtronic 98425031
+- Nordtronic 98425033
+- Nordtronic 98425034
+- Nordtronic 98425271
+- Nordtronic 98426061
+- NOUS D5Z
+- NOUS E12
+- NOUS E13
+- Nous E5
+- Nous E6
+- Nous E9
+- Nous SZ-T04
+  - Tuya TH01Z
+- Nova Digital EPJ-ZB
+- Nova Digital FZB-1
+  - iHseno _TZ3000_qq9ahj6z
+- Nova Digital NFZB-03
+  - Nova Digital SA-3
+- Novato ZPV-01
+- Novo C10-3E-1.2
+- Nue / 3A 3A12S-15
+- Nue / 3A HGZB-01
+  - Moes ZK-CH-2U
+  - Zemismart ZW-EU-01
+- Nue / 3A HGZB-01A
+- Nue / 3A HGZB-02A
+- Nue / 3A HGZB-02S
+- Nue / 3A HGZB-042
+- Nue / 3A HGZB-043
+- Nue / 3A HGZB-045
+- Nue / 3A HGZB-04D / HGZB-4D-UK
+  - Sunricher SR-ZG9001K8-DIM
+- Nue / 3A HGZB-06A
+- Nue / 3A HGZB-13A
+- Nue / 3A HGZB-14A
+- Nue / 3A HGZB-1S
+- Nue / 3A HGZB-20-UK
+- Nue / 3A HGZB-20A
+- Nue / 3A HGZB-41
+- Nue / 3A HGZB-42
+- Nue / 3A HGZB-42-UK / HGZB-41 / HGZB-41-UK
+- Nue / 3A HGZB-43
+- Nue / 3A HGZB-44
+- Nue / 3A HGZB-4S
+- Nue / 3A HGZB-DLC4-N12B
+- Nue / 3A LXN56-TS27LX1.2
+- Nue / 3A LXN59-2S7LX1.0
+  - Zemismart ZW-EU-02
+- Nue / 3A LXZB-02A
+- Nue / 3A MG-AUWS01
+- Nue / 3A NUE-AUWZO2
+- Nue / 3A NUE-ZBFLB
+- Nue / 3A WL-SD001-9W
+- Nue / 3A XY12S-15
+- Nue / 3A ZW-EC-01
+- Nue / 3A ZW-EU-4C
+- Nyce NCZ-3010
+- Nyce NCZ-3011-HA
+- Nyce NCZ-3041-HA
+- Nyce NCZ-3043-HA
+- Nyce NCZ-3045-HA
+- ONENUO 288WZ
+- Onesti Products AS easyCodeTouch_v1
+- Onesti Products AS Nimly
+- Onesti Products AS S4RX-110
+- ONOKOM AUX-1-ZB-S
+- ONOKOM DK-1-ZB-S
+- ONOKOM GR-1-ZB-S
+- ONOKOM GR-3-ZB-S
+- ONOKOM HR-1-ZB-S
+- ONOKOM HS-3-ZB-S
+- ONOKOM HT-1-ZB-S
+- ONOKOM MD-1-ZB-S
+- ONOKOM MD-3-ZB-S
+- ONOKOM ME-1-ZB-S
+- ONOKOM TCL-1-ZB-S
+- ONOKOM TCL-3-ZB-S
+- OpenLumi GWRJN5169
+- ORVIBO AM25
+- ORVIBO CM10ZW
+- ORVIBO CR11S8UZ
+- ORVIBO DD10Z
+- ORVIBO DM10ZW
+- ORVIBO DS20Z07B
+- ORVIBO DSZ12060
+- ORVIBO DTZ09039
+- ORVIBO OR-ZB-S010-3C
+- ORVIBO R11W2Z
+- ORVIBO R20W2Z
+- ORVIBO R30W3Z
+- ORVIBO RL804CZB
+- ORVIBO RL804QZB
+- ORVIBO SE20-O
+- ORVIBO SE21
+- ORVIBO SM10ZW
+- ORVIBO SM20
+- ORVIBO SN10ZW
+- ORVIBO ST20
+- ORVIBO ST21
+- ORVIBO ST30
+- ORVIBO SW21
+- ORVIBO SW30
+- ORVIBO T18W3Z
+- ORVIBO T21W1Z
+- ORVIBO T21W2Z
+- ORVIBO T30W3Z
+- ORVIBO T40S6Z
+- ORVIBO T40W1Z
+- ORVIBO T40W2Z
+- ORVIBO T40W3Z_v1
+- ORVIBO T40W3Z_v2
+- ORVIBO T40W4Z
+- ORVIBO T41W1Z
+- ORVIBO T41W2Z
+- ORVIBO W40CZ
+- ORVIBO W45CZ
+- Orztech _TZE200_7a5ob7xq
+- Orztech _TZE200_b0ihkhxh
+- Orztech _TZE200_htj3hcpl
+- Orztech _TZE200_pcg0rykt
+- Orztech _TZE200_xo3vpoah
+- OSRAM 4052899926110
+- OSRAM 4052899926127
+- OSRAM 4052899926158
+- OSRAM 4052899930377
+- OSRAM 4058075036147
+- OSRAM 4058075036185
+- OSRAM 4058075047853
+- OSRAM 4058075148338
+- OSRAM 4058075816459
+- OSRAM 4058075816718
+- OSRAM 4058075816732
+- OSRAM 4058075816794
+- OSRAM 4062172044776_1
+- OSRAM 4062172044776_2
+- OSRAM 4062172044776_3
+- OSRAM 4062172044776_4
+- OSRAM 595UGR22
+- OSRAM 71150
+- OSRAM 73699
+- OSRAM 73741_LIGHTIFY
+- OSRAM 73889
+- OSRAM AA68199
+- OSRAM AA69697
+- OSRAM AA70155
+- OSRAM AB3257001NJ
+  - LEDVANCE AB3257001NJ
+  - LEDVANCE AC03360
+- OSRAM AB32840
+- OSRAM AB35996
+- OSRAM AB390020055
+- OSRAM AB401130055
+- OSRAM AC01353010G
+- OSRAM AC0251100NJ/AC0251600NJ/AC0251700NJ
+- OSRAM AC0363900NJ
+- OSRAM AC03641
+- OSRAM AC03642
+- OSRAM AC03645
+- OSRAM AC03647
+- OSRAM AC03648
+- OSRAM AC08559
+- OSRAM AC08560-DIM
+- OSRAM AC08562
+- OSRAM AC10691
+  - LEDVANCE AC10691
+- OSRAM AC10786-DIM
+- OSRAM AC10787
+- OSRAM AC16381
+- OSRAM ST8AU-CON
+- Oujiabao CR701-YZ
+- Ourtop ATMS10013Z3
+  - Ourtop ATMS100133Z
+- OWON AC201
+- OWON CB432
+- OWON DWS312
+- OWON FDS315
+- OWON PC321
+- OWON PCT504
+- OWON PCT512
+- OWON PIR313-E
+- OWON PIR313-P
+- OWON PIR323-PTH
+- OWON SLC603
+- OWON SLC631
+- OWON SPM915
+- OWON THS317
+- OWON THS317-ET
+- OWON WSP402
+- OWON WSP403
+  - Oz Smart Things WSP403
+- OWON WSP404
+- Oz Smart Things DL41-03-10-R-ZB
+- Paul Neuhaus 100.001.96
+- Paul Neuhaus 100.075.74
+- Paul Neuhaus 100.110.51
+- Paul Neuhaus 100.425.90
+- Paul Neuhaus 100.462.31
+- Paul Neuhaus 100.491.61
+- Paul Neuhaus E0040006
+- Paul Neuhaus NLG-CCT light
+- Paul Neuhaus NLG-RGB-TW light
+- Paul Neuhaus NLG-RGBW__light
+- Paul Neuhaus NLG-RGBW_light
+- Paul Neuhaus NLG-TW light
+- Paulmann 150257
+- Paulmann 291.52
+- Paulmann 371000001
+- Paulmann 371000002
+- Paulmann 371050043
+- Paulmann 371222402
+- Paulmann 371232040
+- Paulmann 4137
+- Paulmann 500.43
+- Paulmann 500.44
+- Paulmann 500.45
+- Paulmann 500.46
+- Paulmann 500.47
+- Paulmann 500.48
+- Paulmann 500.67
+- Paulmann 50043
+- Paulmann 50044/50045
+- Paulmann 50049/500.63
+- Paulmann 50064
+- Paulmann 501.22
+- Paulmann 501.31
+- Paulmann 501.34
+- Paulmann 501.37
+- Paulmann 501.39
+- Paulmann 501.40
+- Paulmann 501.41
+- Paulmann 924.70
+- Paulmann 929.60
+- Paulmann 929.63
+- Paulmann 929.66
+- Paulmann 93999
+- Paulmann 94191
+- Paulmann 948.47/29165
+- Paulmann 968.93
+- Paulmann 984.42
+  - Paulmann 984.43
+- PEQ 3300-P
+- Perenio PECLS01
+- Perenio PECMS01
+- Perenio PECWS01
+- Perenio PEHPL0X
+- Perenio PEHWE20
+- Philio PAT04-A
+  - Evology PAT04-A
+- Philips 046677476816
+- Philips 046677551780
+- Philips 046677562229
+- Philips 046677577490
+- Philips 046677577520
+- Philips 046677577957
+- Philips 046677578138
+- Philips 046677584658
+- Philips 046677584719
+- Philips 046677585235
+- Philips 046677590161
+- Philips 046677592530
+- Philips 046677592622
+- Philips 046677803087
+- Philips 13190230
+- Philips 1740193P0
+- Philips 1740293P0
+- Philips 1740393P0
+- Philips 1741530P7
+- Philips 1741730V7
+- Philips 1741830P7
+- Philips 1741930V7
+- Philips 1742030P7
+- Philips 1742330P7
+- Philips 1742830P7
+- Philips 1742930P7
+- Philips 1743030P7
+- Philips 1743130P7
+- Philips 1743230P7
+- Philips 1743430P7
+- Philips 17435/30/P7
+- Philips 17436/30/P7
+- Philips 1743730P7
+- Philips 1743830P7
+- Philips 1743830V7
+- Philips 1743930P7
+- Philips 1744130P7
+- Philips 1744230P7
+- Philips 1745130P7
+- Philips 1745430P7
+- Philips 1745530P7
+- Philips 1745630P7
+- Philips 1745730V7
+- Philips 1745930P7
+- Philips 1745930V7
+- Philips 1746130P7
+- Philips 1746230V7
+- Philips 1746330P7
+- Philips 1746430P7
+- Philips 1746447P7
+- Philips 1746530P7
+- Philips 1746547P7
+- Philips 1746630P7
+- Philips 1746630V7
+- Philips 1746730V7
+- Philips 3115331PH
+- Philips 31154
+- Philips 3216131P5
+- Philips 3216131P6
+- Philips 3216231P5
+- Philips 3216231P6
+- Philips 3216331P5
+- Philips 3216331P6
+- Philips 3216431P5
+- Philips 3216431P6
+- Philips 324131092621
+- Philips 3261030P6
+- Philips 3261030P7
+- Philips 3261031P6
+  - Philips 929003777201
+- Philips 3261048P6
+- Philips 3261330P6
+- Philips 3261331P6
+- Philips 3261331P7
+- Philips 3261348P6
+- Philips 3306431P7
+- Philips 33850000
+- Philips 3402831P7
+- Philips 3417511P9
+- Philips 3417711P6
+- Philips 3417831P6
+- Philips 3417931P6
+- Philips 3418031P6
+- Philips 3418131P6
+- Philips 3418331P6
+- Philips 3418411P6
+- Philips 3418631P6
+- Philips 3418931P6
+- Philips 3435011P7
+- Philips 3435731P7
+- Philips 4023330P6
+- Philips 4023330P7
+- Philips 4023331P6
+- Philips 4033930P6
+- Philips 4033930P7
+- Philips 4033931P6
+- Philips 4034030P6
+- Philips 4034031P6
+- Philips 4034031P7
+- Philips 4076130P6
+- Philips 4076131P6
+- Philips 4080148P7
+- Philips 4080148P9
+- Philips 4080148U9
+- Philips 4080248P7
+- Philips 4080248P9
+- Philips 4080248U9
+- Philips 4090130P7
+- Philips 4090130P9
+- Philips 4090230P9
+- Philips 4090231P9
+- Philips 4090330P9
+- Philips 4090331P9
+- Philips 4090431P9
+- Philips 4090531P7
+- Philips 4090531P9
+- Philips 4090631P7
+- Philips 4090631P9
+- Philips 4096730P6
+- Philips 4096730U7
+- Philips 4098430P7
+- Philips 4100448U9
+- Philips 433714
+- Philips 442296118491
+- Philips 4503748C6
+- Philips 4503848C5
+- Philips 4505748C5
+- Philips 4507748C5
+- Philips 464800
+- Philips 5041131P9
+- Philips 5042131P9
+- Philips 5042148P9
+- Philips 5045131P7
+- Philips 5045148P7
+- Philips 5047130P6
+- Philips 5047130P9
+- Philips 5047131P8
+- Philips 5047131P9
+- Philips 5047230P6
+- Philips 5047231P6
+- Philips 5047330P6
+- Philips 5047331P6
+- Philips 5047430P6
+- Philips 5055131P7
+- Philips 5055148P7
+- Philips 5060730P7
+- Philips 5060731P7
+- Philips 5060830P7
+- Philips 5060831P7
+- Philips 5060930P7
+- Philips 5060931P7
+- Philips 5061030P7
+- Philips 5061031P7
+- Philips 5062131P7
+- Philips 5062148P7
+- Philips 5062231P7
+- Philips 5062248P7
+- Philips 5062331P7
+- Philips 5062348P7
+- Philips 5062431P7
+- Philips 5062448P7
+- Philips 5063130P7
+- Philips 5063131P7
+- Philips 5063230P7
+- Philips 5063231P7
+- Philips 5063330P7
+- Philips 5063331P7
+- Philips 5063430P7
+- Philips 5063431P7
+- Philips 5110131H5
+- Philips 5110731H5
+- Philips 5111531H5
+- Philips 5309030P9
+- Philips 5309031P8
+- Philips 5309230P6
+- Philips 5309331P6
+- Philips 548727
+- Philips 5633030P6
+- Philips 5633031P9
+  - Philips 5633030P9
+- Philips 578526
+- Philips 579573
+- Philips 5900131C5
+- Philips 5995111U5
+- Philips 5996311U5
+- Philips 5996411U5
+- Philips 5996511U5
+- Philips 5996611U5
+- Philips 6109231C5
+- Philips 6109331C5
+- Philips 7099860PH
+- Philips 7099930PH
+- Philips 7121131PU/7120031PH/7120131PH/7120231PU
+- Philips 7146060PH
+- Philips 7199960PH
+- Philips 7299355PH
+- Philips 7299760PH
+- Philips 7531609
+- Philips 7602031K6
+- Philips 7602031N6
+- Philips 7602031P7
+- Philips 800094
+- Philips 801480
+- Philips 8718696126523
+- Philips 8718696153055
+- Philips 8718696153062
+- Philips 8718696166079
+- Philips 8718696167991
+- Philips 8718696170557
+- Philips 8718696170625
+- Philips 8718696170656
+- Philips 8718696174548
+- Philips 8718696175798
+- Philips 8718696449691
+- Philips 8718696485880
+- Philips 8718696548738
+- Philips 8718696598283
+- Philips 8718696695203
+- Philips 8718696743133
+- Philips 8718699673147
+- Philips 8718699688820
+- Philips 8718699688882
+- Philips 8718699689308
+- Philips 8718699693985
+- Philips 8718699703424
+- Philips 8719514279131
+- Philips 8719514279155
+- Philips 8719514279193
+- Philips 8719514301443
+- Philips 8719514301481
+- Philips 8719514301528
+- Philips 8719514301542
+- Philips 8719514302235
+- Philips 8719514328242
+- Philips 8719514329843
+- Philips 8719514338142
+- Philips 8719514338487
+- Philips 8719514338524
+- Philips 871951433908
+- Philips 8719514339125
+- Philips 8719514339163
+- Philips 8719514342361
+- Philips 8719514343320
+- Philips 8719514344723
+- Philips 8719514382350
+- Philips 8719514392830
+- Philips 8719514419155
+- Philips 8719514419278
+- Philips 8719514434479
+- Philips 8719514434530
+- Philips 8719514434592
+- Philips 8719514440937/8719514440999
+- Philips 8719514491106
+- Philips 8719514491229
+- Philips 8719514491342
+- Philips 8720169264151
+  - Philips 8720169264212
+  - Philips 8720169264274
+- Philips 8720169277243
+- Philips 8720169363649
+- Philips 8720169364066
+- Philips 8720169392182
+- Philips 8720169392540
+- Philips 912401483126
+- Philips 915005106701
+- Philips 915005587401
+- Philips 915005732902
+- Philips 915005733701
+- Philips 915005821901
+- Philips 915005914501
+- Philips 915005914601
+  - Philips 915005914701
+- Philips 915005916901
+- Philips 915005986901
+- Philips 915005987001
+- Philips 915005987101
+- Philips 915005987301
+- Philips 915005987401
+- Philips 915005987501
+- Philips 915005987601
+- Philips 915005987701
+- Philips 915005987801
+- Philips 915005987901
+- Philips 915005988001
+- Philips 915005988101
+- Philips 915005988201
+- Philips 915005988401
+- Philips 915005988501
+- Philips 915005988502
+- Philips 915005988602
+- Philips 915005996401
+- Philips 915005996601
+- Philips 915005996701
+- Philips 915005996901
+- Philips 915005997001
+- Philips 915005997301
+- Philips 915005997501
+- Philips 915005997601
+- Philips 915005997701
+- Philips 915005997801
+- Philips 915005997901
+- Philips 915005998001
+- Philips 915005998101
+- Philips 915005998201
+- Philips 9290002269A
+- Philips 9290002579A
+- Philips 9290011370
+- Philips 9290011370B
+- Philips 9290011998B
+- Philips 9290012573A
+- Philips 9290012607
+- Philips 9290018187B
+- Philips 9290018189
+- Philips 9290018194
+- Philips 9290018195
+- Philips 9290018215
+- Philips 9290018216
+- Philips 929001821618
+- Philips 9290018216A
+- Philips 9290018217
+- Philips 9290018609
+- Philips 929001953101
+- Philips 9290019532
+- Philips 9290019533
+- Philips 929001953301
+- Philips 9290019534
+- Philips 9290019536
+- Philips 9290019758
+- Philips 929002039801
+- Philips 9290020399
+- Philips 9290020400
+- Philips 9290022166
+- Philips 9290022167
+- Philips 9290022169
+- Philips 9290022266A
+- Philips 9290022267
+- Philips 9290022267A
+- Philips 9290022268
+- Philips 929002240401
+- Philips 9290022407
+- Philips 9290022408
+- Philips 9290022411
+- Philips 929002241201
+- Philips 9290022415
+- Philips 929002277501
+- Philips 9290022890
+- Philips 9290022891
+- Philips 929002294101
+- Philips 929002294102
+- Philips 929002294203
+- Philips 9290022943
+- Philips 9290022944
+- Philips 9290022975
+- Philips 929002297503
+- Philips 9290023349
+- Philips 929002335001
+- Philips 9290023351
+- Philips 929002335105
+- Philips 9290023351B
+- Philips 929002375901
+- Philips 929002376001
+- Philips 929002376101
+- Philips 929002376201
+- Philips 929002376301
+- Philips 929002376401
+- Philips 929002376501
+- Philips 929002376701
+- Philips 929002376703
+- Philips 929002376801
+- Philips 929002376803
+- Philips 929002376901
+- Philips 929002398602
+- Philips 929002401001
+- Philips 929002401101
+- Philips 929002401201
+- Philips 929002422702
+- Philips 929002422801
+- Philips 929002422901
+- Philips 9290024406
+- Philips 9290024406A
+- Philips 9290024426
+- Philips 92900244777
+- Philips 929002459201
+- Philips 9290024683
+- Philips 9290024684
+- Philips 9290024687
+- Philips 9290024688
+- Philips 9290024691
+- Philips 9290024691A
+- Philips 929002469202
+- Philips 929002469216
+- Philips 9290024693
+- Philips 929002471601
+- Philips 9290024717
+- Philips 929002471901
+- Philips 929002477901
+- Philips 9290024782
+- Philips 9290024783
+- Philips 929002478401
+- Philips 9290024785
+- Philips 9290024796
+- Philips 9290024896
+- Philips 929002966401
+- Philips 929002966501
+- Philips 9290029808
+- Philips 929002980901
+- Philips 929002994901
+- Philips 929003017102
+- Philips 9290030211
+- Philips 929003021301
+- Philips 929003045201
+- Philips 929003045301
+- Philips 929003045401
+- Philips 929003045501
+- Philips 929003045901
+- Philips 929003046201
+- Philips 929003046601
+- Philips 929003047001
+- Philips 929003047101
+- Philips 929003047401
+- Philips 929003047501
+- Philips 929003047601
+- Philips 929003047801
+- Philips 929003050601
+- Philips 9290030509
+- Philips 9290030514
+- Philips 9290030516
+- Philips 9290030517
+- Philips 9290030518
+- Philips 9290030519
+- Philips 9290030520
+- Philips 9290030521
+- Philips 9290030523
+- Philips 929003052601
+- Philips 929003052901
+- Philips 929003053001
+- Philips 929003053201
+- Philips 929003053401
+- Philips 929003054001
+- Philips 929003054101
+- Philips 929003054201
+- Philips 929003054301
+- Philips 929003054401
+- Philips 929003054501
+- Philips 929003054601
+- Philips 929003054701
+- Philips 929003054801
+- Philips 929003055201
+- Philips 929003055401
+- Philips 929003055501
+- Philips 929003055701
+  - Philips 929004297402
+- Philips 929003055801
+- Philips 929003055901
+- Philips 929003056001
+- Philips 929003056701
+- Philips 929003056801
+- Philips 929003056901
+- Philips 9290030674
+- Philips 9290030675
+- Philips 929003074701
+- Philips 929003074801
+- Philips 929003089301
+- Philips 929003098601
+- Philips 929003098901
+- Philips 929003099001
+- Philips 929003099101
+- Philips 929003099301
+  - Philips 929003099302
+- Philips 929003103601
+- Philips 929003115701
+- Philips 929003115801
+- Philips 929003116101
+- Philips 929003116201
+- Philips 929003116301
+- Philips 929003116401
+- Philips 929003116501
+- Philips 929003116601
+- Philips 929003117101
+- Philips 929003117201
+- Philips 929003117301
+- Philips 929003117401
+- Philips 929003117701
+- Philips 929003117801
+- Philips 929003123801
+- Philips 929003128401
+- Philips 929003128501
+- Philips 929003128601
+- Philips 929003128701
+- Philips 929003128801
+- Philips 929003128901
+- Philips 929003129001
+- Philips 9290031345
+- Philips 9290031346
+- Philips 9290031347
+- Philips 9290031451
+- Philips 9290031452
+- Philips 9290031508
+- Philips 9290031512
+- Philips 929003151501
+- Philips 929003151601
+- Philips 929003151701
+- Philips 929003479901
+- Philips 929003498601
+- Philips 929003516101
+- Philips 929003521401
+- Philips 929003521501
+- Philips 929003521601
+- Philips 929003521701
+- Philips 929003526301
+- Philips 929003531502
+- Philips 929003531702
+- Philips 929003535301
+- Philips 929003536001
+- Philips 929003553001
+- Philips 929003555701
+- Philips 9290035639
+- Philips 9290035753
+- Philips 929003575501
+- Philips 929003575701
+- Philips 9290035842
+- Philips 929003596001
+- Philips 929003596101
+- Philips 929003597601
+- Philips 929003597701
+  - Philips 929003099102
+- Philips 929003597702
+- Philips 929003597802
+- Philips 929003597901
+- Philips 929003598001
+- Philips 929003598101
+- Philips 929003621101
+- Philips 929003621301
+- Philips 929003666501
+- Philips 929003666701
+- Philips 929003666901
+- Philips 929003667001
+- Philips 9290036744
+- Philips 9290036745
+- Philips 929003674601
+- Philips 929003711201
+  - Philips 929003711301
+  - Philips 929003711401
+- Philips 9290037121
+- Philips 929003736101
+- Philips 929003736201
+- Philips 929003736301
+- Philips 929003736401
+- Philips 929003736501
+- Philips 929003736601
+- Philips 929003777301
+- Philips 929003802101
+- Philips 929003808401
+- Philips 929003808501
+- Philips 929003808601
+- Philips 929003808701
+- Philips 929003808801
+- Philips 929003808901
+- Philips 929003809101
+- Philips 929003809401
+- Philips 929003809501
+- Philips 929003809601
+- Philips 929003809701
+- Philips 929003810901
+- Philips 929003812801
+- Philips 929003812901
+- Philips 929003816901
+- Philips 929003817002
+  - Philips 929003817101
+- Philips 929003822701
+  - Philips 929003822801
+- Philips 929003822901
+  - Philips 929003823001
+  - Philips 929003823101
+  - Philips 929003823201
+  - Philips 929003823301
+  - Philips 929003823401
+  - Philips 929003846401
+- Philips 929003823501
+  - Philips 929003823601
+  - Philips 929003823701
+  - Philips 929003823801
+  - Philips 929003823901
+  - Philips 929003824001
+  - Philips 929003846201
+  - Philips 929003846601
+- Philips 9290038536H
+- Philips 929003853701
+- Philips 9290038539
+- Philips 929003853901
+- Philips 9290038548H
+- Philips 9290038549H
+- Philips 9290038550H
+- Philips 9290038552
+- Philips 9290038561
+- Philips 929003856303
+- Philips 929004284702
+- Philips 929004297401
+- Philips 929004581801
+- Philips 929004581901
+- Philips 929004608001
+- Philips 929004608004
+- Philips 929004610602
+- Philips LP_CF_7904008_EU
+- Philips LWG004
+- Philips RDM005
+- Phoscon Hive
+- PLAID SYSTEMS PS-SPRZMS-SLP3
+- Plugwise 106-03
+- Plugwise 158-01
+- Plugwise 160-01
+- Plugwise 170-01
+- Powernity PO-BOCO-ELEC
+- Powernity PO-THCO-EAU
+- Profalux MAI-ZTM20C
+- Profalux MAI-ZTP20
+- Profalux MOT-C1ZxxC/F
+- Profalux NB102
+- Profalux NSAV061
+- Prolight 5412748727364
+- Prolight 5412748727371
+- Prolight 5412748727388
+- Prolight 5412748727395
+- Prolight 5412748727401
+- Prolight 5412748727432
+- Purmo/Radson Yali Parada Plus
+- PushOk Hardware POK001
+- PushOk Hardware POK002_POK007
+- PushOk Hardware POK003
+- PushOk Hardware POK004
+- PushOk Hardware POK005
+- PushOk Hardware POK006
+- PushOk Hardware POK008
+- PushOk Hardware POK009
+- PushOk Hardware POK010
+- PushOk Hardware POK011
+- PushOk Hardware POK012
+- PushOk Hardware POK014
+- PushOk Hardware POK015
+- PushOk Hardware POK016
+- PushOk Hardware POK017
+- QA QADZ1
+- QA QADZ2
+- QA QADZ4DIN
+- QA QARZ1DC
+- QA QARZ2LR
+- QA QARZ3LR
+- QA QARZ4LR
+- QA QARZDC1LR
+- QA QAT42Z1
+- QA QAT42Z1B
+- QA QAT42Z1H
+- QA QAT42Z2
+- QA QAT42Z2B
+- QA QAT42Z2H
+- QA QAT42Z3
+- QA QAT42Z3B
+- QA QAT42Z3H
+- QA QAT44Z4H
+- QA QAT44Z6
+- QA QAT44Z6H
+- Qingping CGDK2
+- Qingping CGG1
+- Qmotion HDM40PV620
+- Qmotion QZR-ZIG2400
+- QOTO QT-05M
+- Quirky POFLW-WH02
+- Quotra B07CVL9SZF
+- Quotra B07JHL6DRV
+- Quoya M515EGBZTN
+- Rademacher 35104001
+- Rademacher 35144001
+- Rademacher RDM-35274001
+- Radium LMZA4376
+- Raex TQL25-2211
+- RGB Genie ZB-1026
+- RGB Genie ZB-3008
+- RGB Genie ZB-3009
+- RGB Genie ZB-5001
+- RGB Genie ZB-5004
+- RGB Genie ZB-5028
+- RGB Genie ZB-5121
+- RGB Genie ZB-5122
+- ROBB ROB_200-001-0
+- ROBB ROB_200-003-0
+- ROBB ROB_200-003-1
+- ROBB ROB_200-004-0
+- ROBB ROB_200-004-1
+- ROBB ROB_200-006-0
+- ROBB ROB_200-007-0
+- ROBB ROB_200-008-0
+  - Sunricher SR-ZG9001K4-DIM2
+- ROBB ROB_200-009-0
+  - Sunricher SR-ZG9001K2-DIM
+- ROBB ROB_200-010-0
+- ROBB ROB_200-011-0
+- ROBB ROB_200-011-1
+- ROBB ROB_200-014-0
+  - Samotech SM311
+  - YPHIX 50208695
+- ROBB ROB_200-016-0
+- ROBB ROB_200-017-0
+- ROBB ROB_200-017-1
+- ROBB ROB_200-018-0
+  - Sunricher SR-ZG2835
+- ROBB ROB_200-024-0
+  - RGB Genie ZGRC-KEY-013
+- ROBB ROB_200-025-0
+- ROBB ROB_200-026-0
+- ROBB ROB_200-029-0
+- ROBB ROB_200-030-0
+- ROBB ROB_200-035-0
+- ROBB ROB_200-050-0
+  - Sunricher SR-ZG9023A(EU)
+- ROBB ROB_200-060-0
+- ROBB ROB_200-061-0
+- ROBB ROB_200-063-0
+- ROBB ROB_200-070-0
+- ROBB ROB_200-081-0
+- ROBB smarrt ROB_200-026-1
+- Ronco RM28-LE
+- ROOME HSC1-WD-0
+- RTX ZMS4
+- RTX ZVG1
+- Salus Controls FC600
+  - Salus Controls FC600NH
+- Salus Controls OS600
+- Salus Controls PS600
+- Salus Controls RE600
+- Salus Controls SP600
+- Salus Controls SPE600
+- Salus Controls SR600
+- Salus Controls SW600
+- Salus Controls SX885ZB
+- Salus Controls WLS600
+- Samotech SM308
+- Samotech SM308-2CH
+- Samotech SM308-S
+- Samotech SM309
+- Samotech SM309-S
+- Samotech SM309-S-2CH
+- Samotech SM315
+- Samotech SM323_v1
+- Samotech SM323_v2
+- Samotech SM324
+- Samotech SM325-ZG
+- Saswell SAS936RHB-7-Z03
+- Saswell SEA801-Zigbee/SEA802-Zigbee
+  - Hama 00176592
+  - HiHome WZB-TRVL
+  - Maginon WT-1
+  - RTX ZB-RT1
+  - Royal Thermo RTE 77.001B
+  - SETTI+ TRV001
+- Sber SBDV-00029
+- Sber SBDV-00030
+- Sber SBDV-00032
+- Sber SBDV-00079
+- Sber SBDV-00154
+- Sber SBDV-00196
+- Sber SBDV-00199
+- Sber SBDV-00202
+- Sber SBDV-00205
+- Scan Products 12501
+- Scan Products 12502
+- Schlage BE468
+- Schneider Electric 3025CSGZ
+- Schneider Electric 41E10PBSWMZ-VW
+- Schneider Electric 41E2PBSWMZ/356PB2MBTZ
+- Schneider Electric 41ECSFWMZ-VW
+- Schneider Electric 41EPBDWCLMZ/354PBDMBTZ
+- Schneider Electric 545D6102
+- Schneider Electric 545D6115
+- Schneider Electric 545D6514
+- Schneider Electric 550B1024
+- Schneider Electric 550D6001
+  - Elko EKO07117
+- Schneider Electric A9MEM1570
+- Schneider Electric CCT5010-0001
+  - Elko EKO07090
+  - Schneider Electric 550B1012
+- Schneider Electric CCT5010-0003
+- Schneider Electric CCT5011-0001/CCT5011-0002/MEG5011-0001
+  - Elko EKO07144
+- Schneider Electric CCT5015-0001
+- Schneider Electric CCT591011_AS
+- Schneider Electric CCT592011
+- Schneider Electric CCT595011
+- Schneider Electric CCT711119
+- Schneider Electric CCTFR6100Z3
+- Schneider Electric CCTFR6400
+- Schneider Electric CCTFR6700
+- Schneider Electric CCTFR6730
+  - Elko EKO20004
+- Schneider Electric E8331DST300ZB
+- Schneider Electric E8331SCN200ZB
+- Schneider Electric E8331SRY800ZB
+- Schneider Electric E8331SRY800ZB_NEW
+- Schneider Electric E8332DST350ZB
+- Schneider Electric E8332RWMZB
+- Schneider Electric E8332SCN300ZB
+- Schneider Electric E8332SRY800ZB
+- Schneider Electric E8332SRY800ZB_NEW
+- Schneider Electric E8333SRY800ZB
+- Schneider Electric E8333SRY800ZB_NEW
+- Schneider Electric E8334RWMZB
+- Schneider Electric EER40030
+- Schneider Electric EER42000
+- Schneider Electric EER50000
+- Schneider Electric EER51000
+- Schneider Electric EER53000
+- Schneider Electric EKO07259
+- Schneider Electric EKO09716
+- Schneider Electric EKO09738
+  - Elko EKO09738
+- Schneider Electric MEG5113-0300/MEG5165-0000
+- Schneider Electric MEG5116-0300_MEG5151-0000
+- Schneider Electric MEG5116-0300_MEG5162-0000
+- Schneider Electric MEG5116-0300/MEG5171-0000
+- Schneider Electric MEG5126-0300
+- Schneider Electric MEG5126-0300_MEG5152-0000
+- Schneider Electric MEG5126-0300/MEG5171-0000
+- Schneider Electric MEG5126-0300/MEG5172-0000
+- Schneider Electric MEG5161-0000
+- Schneider Electric MEG5779
+- Schneider Electric MUR36014
+- Schneider Electric NH3516A
+  - Elko EKO07278
+  - Elko EKO07279
+  - Elko EKO07280
+  - Elko EKO07281
+  - Elko EKO30198
+  - Schneider WDE002961
+  - Schneider WDE003961
+  - Schneider WDE004961
+- Schneider Electric NH3526
+  - Elko EKO06988
+  - Elko EKO06989
+  - Elko EKO06990
+  - Elko EKO06991
+  - LK 545D6306
+- Schneider Electric NH3527A
+  - Elko EKO07250
+  - Elko EKO07251
+  - Elko EKO07252
+  - Elko EKO07253
+  - Elko EKO30199
+  - Exxact WDE002962
+  - Exxact WDE003962
+- Schneider Electric NHMOTION/UNIDIM/1
+  - ELKO EKO06984
+  - ELKO EKO06985
+  - ELKO EKO06986
+- Schneider Electric S520530W
+- Schneider Electric S520567
+- Schneider Electric S520619
+- Schneider Electric U201DST600ZB
+- Schneider Electric U201SRY2KWZB
+- Schneider Electric U202DST600ZB
+- Schneider Electric U202SRY2KWZB
+- Schneider Electric W599001
+  - Schneider Electric 755WSA
+  - Schneider Electric W599501
+- Schneider Electric WDE002334
+- Schneider Electric WDE002386
+- Schneider Electric WDE002497
+- Schneider Electric WDE002906/MEG5001-0300
+- Schneider Electric WDE002960
+- Schneider Electric WDE011680
+- Schneider Electric WV704R0A0902
+- Schwaiger HAL300
+- Schwaiger HAL400
+- Schwaiger HAL500
+- Schwaiger HAL550
+- Schwaiger HAL600
+- Schwaiger HAL800
+- Schwaiger ZHS-15
+- Scimagic TYONOFFTS
+- Securifi B01M7Y8BP9
+- Securifi PP-WHT-US
+- Sengled E11-G13
+- Sengled E11-G23/E11-G33
+- Sengled E11-N13/E11-N13A/E11-N14/E11-N14A
+- Sengled E11-N1EA
+- Sengled E11-N1G
+- Sengled E11-U21U31
+- Sengled E11-U2E
+- Sengled E11-U3E
+- Sengled E12-N14
+- Sengled E12-N1E
+- Sengled E13-A21
+- Sengled E13-N11
+- Sengled E1ACA4ABE38A
+- Sengled E1C-NB6
+- Sengled E1C-NB7
+- Sengled E1D-G73WNA
+- Sengled E1E-G7F
+- Sengled E1F-N5E
+- Sengled E1F-N9G
+- Sengled E1G-G8E
+- Sengled E1M-G7H
+- Sengled E21-N13A
+- Sengled E21-N14A
+- Sengled E21-N1EA
+- Sengled E22-N1E
+- Sengled E2D-G73
+- Sengled Z01-A19NAE26
+- Sengled Z01-A60EAE27
+- Sengled Z01-CIA19NAE26
+- Senoro Senoro.Win
+- Sercomm AL-PIR02
+- Sercomm SZ-DWS04
+- Sercomm SZ-DWS08
+- Sercomm SZ-ESW01
+- Sercomm SZ-ESW01-AU
+- Sercomm SZ-ESW02
+- Sercomm SZ-ESW02N-CZ3
+- Sercomm SZ-PIR04N
+- Sercomm SZ-WTD03
+- Sercomm XHS2-SE
+- Shade Control MC-02
+- Shelly S4EM-001PXCEU16
+- Shelly S4PL-00416EU
+- Shelly S4SN-0071A
+- Shelly S4SW-001P16EU
+- Shelly S4SW-001P8EU
+- Shelly S4SW-001X16EU
+- Shelly S4SW-001X8EU
+- Shelly S4SW-002P16EU-COVER
+- Shelly S4SW-002P16EU-SWITCH
+- Shelly WS90
+- Shenzhen Homa HLC610-Z
+- Shenzhen Homa HLC614-ZLL
+- Shenzhen Homa HLC821-Z-SC
+- Shenzhen Homa HLC833-Z-SC
+- Shenzhen Homa HLD503-Z-CT
+- Shenzhen Homa HLD812-Z-SC
+- Shenzhen Homa HOMA1001_CT
+- Shenzhen Homa HOMA1001_RGB
+- Shenzhen Homa HOMA1001_RGBW
+- Shenzhen Homa HOMA1001_SC
+- ShinaSystem BSM-300ZB
+- ShinaSystem CSM-300ZB
+- ShinaSystem CSM-300ZB_V2
+- ShinaSystem DIO-300Z
+- ShinaSystem DLM-300Z
+- ShinaSystem DMS-300ZB
+- ShinaSystem DSM-300ZB
+- ShinaSystem FAM-300Z
+- ShinaSystem GCM-300Z
+- ShinaSystem HQM-300Z
+- ShinaSystem ISM300Z3
+- ShinaSystem MSM-300ZB
+- ShinaSystem OSM-300ZB
+- ShinaSystem PMM-300Z1
+- ShinaSystem PMM-300Z2
+- ShinaSystem PMM-300Z3
+- ShinaSystem SBM300Z1
+- ShinaSystem SBM300Z2
+- ShinaSystem SBM300Z3
+- ShinaSystem SBM300Z4
+- ShinaSystem SBM300Z5
+- ShinaSystem SBM300Z6
+- ShinaSystem SBM300ZB1
+- ShinaSystem SBM300ZB2
+- ShinaSystem SBM300ZB3
+- ShinaSystem SBM300ZB4
+- ShinaSystem SBM300ZC1
+- ShinaSystem SBM300ZC2
+- ShinaSystem SBM300ZC3
+- ShinaSystem SBM300ZC4
+- ShinaSystem SQM300Z1
+- ShinaSystem SQM300Z2
+- ShinaSystem SQM300Z3
+- ShinaSystem SQM300Z4
+- ShinaSystem SQM300Z6
+- ShinaSystem SQM300ZC4
+- ShinaSystem TCM-300Z
+- ShinaSystem TQM-300ZB
+- ShinaSystem TSM-300ZB
+- ShinaSystem USM-300ZB
+- ShinaSystem WCM-300Z
+- Shyugj S901D-ZG
+- Siglis ZFP-1A-CH
+- Siglis ZFU-1D-CH
+- Sikom 300-9715V10
+- Silabs Silabs series 2 router
+- Silicon Labs RB-ElectricityDsp-061-3
+- SIMON SM0502
+- Simpla Home Soil Pro
+- Sinopé DM2500ZB
+- Sinopé DM2550ZB
+- Sinopé LM4110ZB
+- Sinopé RM3250ZB
+- Sinopé RM3500ZB
+- Sinopé SP2600ZB
+- Sinopé SP2610ZB
+- Sinopé SW2500ZB
+- Sinopé TH1123ZB
+- Sinopé TH1123ZB-G2
+- Sinopé TH1124ZB
+- Sinopé TH1124ZB-G2
+- Sinopé TH1300ZB
+  - Sinopé TH1320ZB-04
+- Sinopé TH1400ZB
+- Sinopé TH1500ZB
+- Sinopé VA4200WZ
+- Sinopé VA4201WZ
+- Sinopé VA4220ZB
+- Sinopé WL4200
+- Sinopé WL4200S
+- Sinopé WL4210
+- Siterwell GS361A-H04
+  - Appartme APRM-04-001
+  - Brennenstuhl HT CZ 01
+  - Essentials 120112
+  - Nedis ZBHTR10WT
+  - Revolt NX-4911
+  - TCP Smart TBUWTRV
+  - Tesla Smart TSL-TRV-GS361A
+  - Tuya GTZ02
+  - Unitec 30946
+- Skydance WZ5_cct
+  - Ltech SE-20-250-1000-W2Z2
+  - Ltech TY-75-24-G2Z2_CCT
+- Skydance WZ5_dim_1
+- Skydance WZ5_rgb
+- Skydance WZ5_rgbcct
+- Skydance WZ5_rgbw
+- Slacky-DIY AirQ_Monitor_S01
+- Slacky-DIY Electricity Meter TLSR8258
+- Slacky-DIY ElectricityMeter-ABC-DIY
+- Slacky-DIY SLACKY_DIY_CO2_SENSOR_R01
+- Slacky-DIY SLACKY_DIY_CO2_SENSOR_R02
+- Slacky-DIY Smoke Sensor TLSR8258
+- Slacky-DIY THERM_SLACKY_DIY_R01
+- Slacky-DIY THERM_SLACKY_DIY_R02
+- Slacky-DIY THERM_SLACKY_DIY_R03
+- Slacky-DIY THERM_SLACKY_DIY_R04
+- Slacky-DIY THERM_SLACKY_DIY_R05
+- Slacky-DIY THERM_SLACKY_DIY_R06
+- Slacky-DIY THERM_SLACKY_DIY_R07
+- Slacky-DIY THERM_SLACKY_DIY_R08
+- Slacky-DIY THERM_SLACKY_DIY_R09
+- Slacky-DIY THERM_SLACKY_DIY_R0A
+- Slacky-DIY THERM_SLACKY_DIY_R0B
+- Slacky-DIY TS0001_power-SlD
+- Slacky-DIY TS011F_plug-SlD
+- Slacky-DIY TS0201-z-SlD
+- Slacky-DIY Watermeter_TLSR8258
+- Slacky-DIY ZG-222ZA-z-SlD
+- SLC S32052
+- SLV 1001248
+- SLV 1001923
+- SLV 1002994
+- SLV 1005318
+- SMaBiT (Bitron Video) AV2010/14
+- SMaBiT (Bitron Video) AV2010/16
+- SMaBiT (Bitron Video) AV2010/18
+- SMaBiT (Bitron Video) AV2010/21A
+- SMaBiT (Bitron Video) AV2010/21B
+- SMaBiT (Bitron Video) AV2010/21C
+- SMaBiT (Bitron Video) AV2010/22
+  - ClimaxTechnology IR-9ZBS-SL
+- SMaBiT (Bitron Video) AV2010/22A
+- SMaBiT (Bitron Video) AV2010/22B
+- SMaBiT (Bitron Video) AV2010/23
+- SMaBiT (Bitron Video) AV2010/24
+- SMaBiT (Bitron Video) AV2010/24A
+- SMaBiT (Bitron Video) AV2010/25
+- SMaBiT (Bitron Video) AV2010/26
+- SMaBiT (Bitron Video) AV2010/28
+- SMaBiT (Bitron Video) AV2010/29
+- SMaBiT (Bitron Video) AV2010/29A
+- SMaBiT (Bitron Video) AV2010/32
+- SMaBiT (Bitron Video) AV2010/33
+- SMaBiT (Bitron Video) AV2010/34
+- SMaBiT (Bitron Video) AV2010/37
+- smarli. S-ZB-1RE1-R251
+- smarli. S-ZB-COV1-R251
+- smarli. S-ZB-PDM1-R251
+- Smart Home Pty HGZB-07A
+- Smart Home Pty HGZB-20-DE
+- Smart9 S9ZGBRC01
+- Smartenit 4040B
+- Smartenit ZBHT-1
+- smarthjemmet.dk MULTI-ZIG-SW
+- smarthjemmet.dk QUAD-ZIG-SW
+- SmartThings 3300-S
+- SmartThings 3305-S
+- SmartThings 3310-S
+- SmartThings 3315-G
+- SmartThings 3315-S
+- SmartThings 3321-S
+- SmartThings 3325-S
+- SmartThings 7ZA-A806ST-Q1R
+- SmartThings F-ADT-WTR-1
+- SmartThings F-APP-UK-V2
+- SmartThings F-MLT-US-2
+- SmartThings GP-LBU019BBAWU
+- SmartThings GP-WOU019BBDWG
+- SmartThings IM6001-BTP01
+- SmartThings IM6001-MPP01
+- SmartThings IM6001-MTP01
+- SmartThings IM6001-OTP05
+- SmartThings IM6001-WLP01
+- SmartThings STS-IRM-250
+- SmartThings STS-IRM-251
+- SmartThings STS-OUT-US-2
+- SmartThings STS-PRS-251
+- SmartThings STS-WTR-250
+- SmartThings STSS-IRM-001
+- SmartThings STSS-MULT-001
+- SmartThings STSS-PRES-001
+- SmartThings SZ-SRN12N
+- SmartThings WTR-UK-V2
+- Smartwings WM25L-Z
+- SMLIGHT SLZB-06M
+  - SMLIGHT SLZB-06
+  - SMLIGHT SLZB-06Mg24
+  - SMLIGHT SLZB-06Mg26
+  - SMLIGHT SLZB-06P7
+  - SMLIGHT SLZB-06p10
+  - SMLIGHT SLZB-07
+  - SMLIGHT SLZB-07Mg24
+  - SMLIGHT SLZB-07P10
+  - SMLIGHT SLZB-07P7
+  - SMLIGHT SLZB-0xp7
+  - SMLIGHT SLZB-MR3
+- Soanalarm SNT858Z
+- SODA S8
+- SOHAN Electric RDCBC/Z
+- SolarEdge SEHAZB-DR-SWITCH-2
+- SOMA SmartShades3
+- SOMFY 1003296
+- SOMFY 1241755
+- SOMFY 1241970
+- SOMFY 1245602
+- SOMFY 1245920
+- SOMFY 1245943
+- SOMFY 1811680
+- SOMFY 1811681
+- SOMFY 1822647A
+- SOMFY 1871154
+- SOMFY 1871157
+- Somfy 1871215B
+- SOMFY 9028412A
+- SOMFY SOMFY-1241752
+- Somgoms SM-1CTW-EU
+- Somgoms ZSTY-SM-11ZG-US-W
+- Somgoms ZSTY-SM-1CTZG-US-W
+- Somgoms ZSTY-SM-1DMZG-US-W
+- SONOFF BASICZBR3
+- SONOFF Dongle-LMG21
+- SONOFF Dongle-M
+- SONOFF Dongle-PMG24
+- SONOFF MINI-ZB2GS
+- SONOFF MINI-ZB2GS-L
+- SONOFF MINI-ZBDIM
+- SONOFF MINI-ZBRBS
+- SONOFF NSPanelP-Router
+- SONOFF S26R2ZB
+- SONOFF S31ZB
+- SONOFF S40ZBTPB
+- SONOFF S60ZBTPF
+  - SONOFF S60ZBTPG
+- SONOFF SA-028/SA-029
+  - Woolley SA-029-1
+- SONOFF SNZB-01
+  - eWeLink CK-TLSR8656-SS5-01(7000)
+  - eWeLink RHK07
+  - eWeLink SNZB-01_eWeLink
+- SONOFF SNZB-01-KF
+- SONOFF SNZB-01M
+- SONOFF SNZB-01P
+- SONOFF SNZB-02
+  - Zbeacon TH01
+  - eWeLink CK-TLSR8656-SS5-01(7014)
+  - eWeLink RHK08
+  - eWeLink SNZB-02_eWeLink
+- SONOFF SNZB-02D
+- SONOFF SNZB-02DR2
+- SONOFF SNZB-02LD
+- SONOFF SNZB-02P
+- SONOFF SNZB-02WD
+- SONOFF SNZB-03
+  - eWeLink CK-TLSR8656-SS5-01(7002)
+  - eWeLink RHK09
+  - eWeLink SNZB-03_eWeLink
+  - eWeLink SQ510A
+- SONOFF SNZB-03P
+- SONOFF SNZB-04
+  - Tuya WL-19DWZ
+  - eWeLink CK-TLSR8656-SS5-01(7003)
+  - eWeLink RHK06
+  - eWeLink SNZB-04_eWeLink
+- SONOFF SNZB-04P
+- SONOFF SNZB-05P
+- SONOFF SNZB-06P
+- SONOFF SWV
+- SONOFF TRVZB
+- SONOFF Z111PL0H-1JX
+  - Woolley SA-028-1
+- SONOFF ZBCurtain
+- SONOFF ZBDongle-E
+- SONOFF ZBM5-1C-120
+- SONOFF ZBM5-1C-80/86
+- SONOFF ZBM5-2C-120
+- SONOFF ZBM5-2C-80/86
+- SONOFF ZBM5-3C-120
+- SONOFF ZBM5-3C-80/86
+- SONOFF ZBMicro
+- SONOFF ZBMINI
+- SONOFF ZBMINI-L
+- SONOFF ZBMINIL2
+- SONOFF ZBMINIR2
+- Sowilo DS L258
+- Spacetronik ZB-DG03
+- Spotmau SP-PS1-02
+- Spotmau SP-PS2-02
+- Spotmau SP-PS3-02
+- Spotmau SP-WS-02
+- Sprut.device Bed.box
+- Sprut.device Drivent
+- Stello STLO-23
+- Stello STLO-34
+- Stelpro HT402
+- Stelpro SMT402
+- Stelpro SMT402AD
+- Stelpro SORB
+- Stelpro ST218
+- Stelpro STZB402
+- Sunricher 50208693
+- Sunricher 50208702
+  - Yphix 50208702
+- Sunricher HK-SENSOR-4IN1-A
+- Sunricher HK-SL-DIM-AU-R-A
+- Sunricher HK-SL-DIM-US-A
+- Sunricher HK-ZD-CCT-A
+- Sunricher SR-ZG2819S-DIM
+- Sunricher SR-ZG2835PAC-AU
+- Sunricher SR-ZG2835RAC-NK4
+- Sunricher SR-ZG2835RAC-UK
+- Sunricher SR-ZG2836D5
+- Sunricher SR-ZG2836D5-G4
+- Sunricher SR-ZG2836D5-Pro
+- Sunricher SR-ZG2856-Pro
+- Sunricher SR-ZG2868EK7-DIM
+- Sunricher SR-ZG9001K12-DIM-Z4
+  - RGB Genie ZGRC-KEY-013
+- Sunricher SR-ZG9001K12-DIM-Z5
+- Sunricher SR-ZG9001K2-DIM
+- Sunricher SR-ZG9001K2-DIM2
+- Sunricher SR-ZG9001K8-DIM
+  - Sunricher SR-ZG9001NK8-DIM
+- Sunricher SR-ZG9001T4-DIM-EU
+- Sunricher SR-ZG9002K16-Pro
+- Sunricher SR-ZG9002KR12-Pro
+- Sunricher SR-ZG9010A
+- Sunricher SR-ZG9011A-DS
+- Sunricher SR-ZG9023A-EU
+- Sunricher SR-ZG9030A-MW
+- Sunricher SR-ZG9030F-PS
+- Sunricher SR-ZG9032A-MW
+- Sunricher SR-ZG9033TH
+- Sunricher SR-ZG9040A-S
+- Sunricher SR-ZG9040A/ZG9041A-D
+- Sunricher SR-ZG9041A-2R
+- Sunricher SR-ZG9041A-R
+- Sunricher SR-ZG9042MP
+- Sunricher SR-ZG9050B-WS
+- Sunricher SR-ZG9050C-WS
+- Sunricher SR-ZG9060A-GS
+- Sunricher SR-ZG9060B-CS
+- Sunricher SR-ZG9070A-SS
+- Sunricher SR-ZG9080A
+- Sunricher SR-ZG9081A
+- Sunricher SR-ZG9092A
+- Sunricher SR-ZG9093TRV
+- Sunricher SR-ZG9095B
+- Sunricher SR-ZG9098A-Light
+- Sunricher SR-ZG9098A-Win
+- Sunricher SR-ZG9100A-S
+- Sunricher SR-ZG9101CS
+- Sunricher SR-ZG9101SAC-HP-CLN
+- Sunricher SR-ZG9101SAC-HP-SWITCH-2CH
+  - LED-Trading UP-SA-9127D
+- Sunricher SR-ZGP2801K-5C
+- Sunricher SR-ZGP2801K2-DIM
+- Sunricher SR-ZGP2801K4-DIM
+- Sunricher SRP-ZG9105-CC
+- Sunricher ZG192910-4
+- Sunricher ZG2819S-CCT
+- Sunricher ZG2819S-RGBW
+  - Iluminize 511.344
+- Sunricher ZG2835
+- Sunricher ZG2835RAC
+  - Samotech SM311
+  - YPHIX 50208695
+- Sunricher ZG2858A
+- Sunricher ZG9101SAC-HP
+- Sunricher ZG9101SAC-HP-Switch
+- Sunricher ZGRC-KEY-017
+- SuperLED 70012
+- SUTON STB3L-125-ZJ
+  - SUTON STB3L-125/ZJ
+- Svetomaniya QS-Zigbee-SEC01-Mod
+- Svetomaniya QS-Zigbee-SEC02-Mod
+- Swann SWO-KEF1PA
+- Swann SWO-MOS1PA
+- Swann SWO-WDS1PA
+- Sylvania 484719
+- Sylvania 70552
+- Sylvania 71831
+- Sylvania 72567
+- Sylvania 72569
+- Sylvania 72922-A
+- Sylvania 73693
+- Sylvania 73739
+- Sylvania 73740
+- Sylvania 73741
+- Sylvania 73742
+- Sylvania 73743
+- Sylvania 73773
+- Sylvania 73807
+- Sylvania 74282
+- Sylvania 74283
+- Sylvania 74388
+- Sylvania 74453
+- Sylvania 74580
+- Sylvania 74696
+- Sylvania 75541
+- Sylvania 75564
+- Sylvania LTFY004
+- Tapestry THPZ1
+- TCI 122576
+- TCI 151570
+- TCI 676-00301024955Z
+- TCI TCI - Mini ZLL I
+- TECH VNTH-T2_v1
+- TECH VNTH-T2_v2
+- Technicolor XHK1-TC
+- Telink TLSR82xx_2btn_remote
+- TERNCY CL001
+- TERNCY DL001
+- TERNCY TERNCY-DC01
+- TERNCY TERNCY-LS01
+- TERNCY TERNCY-PP01
+- TERNCY TERNCY-SD01
+- TERNCY TERNCY-WS01
+- Tervix _TZE284_6kijc7nd
+- Tervix ZM79E-DT
+- THALEOS TWC-R01
+- The Light Group S24013
+- The Light Group S24019
+- The Light Group S32053
+- The Light Group S32055
+- The Light Group S57003
+- The Light Group S57007
+- Third Reality 3RCB01057Z
+  - Third Reality 3RCB02070Z
+- Third Reality 3RDP01072Z
+  - Third Reality 3RWP01073Z
+- Third Reality 3RDS17BZ
+- Third Reality 3RDTS01056Z
+- Third Reality 3RMS16BZ
+- Third Reality 3RSB01085Z
+- Third Reality 3RSB015BZ
+- Third Reality 3RSB02015Z
+- Third Reality 3RSB22BZ
+- Third Reality 3RSL011Z
+- Third Reality 3RSL012Z
+- Third Reality 3RSM0147Z
+- Third Reality 3RSMR01067Z
+- Third Reality 3RSNL02043Z
+- Third Reality 3RSP019BZ
+- Third Reality 3RSP02028BZ
+- Third Reality 3RSP02064Z
+  - Third Reality 3RSPE02065Z
+  - Third Reality 3RSPU01080Z
+- Third Reality 3RSPE01044BZ
+- Third Reality 3RSS007Z
+- Third Reality 3RSS008Z
+- Third Reality 3RSS009Z
+- Third Reality 3RTHS0224Z
+- Third Reality 3RTHS24BZ
+- Third Reality 3RVS01031Z
+- Third Reality 3RWK0148Z
+- Third Reality 3RWS0218Z
+- Third Reality 3RWS18BZ
+- Third Reality TRZB3
+- Titan Products TPZRCO2HT-Z3
+- TLW Global K10-1220Z
+- TLW Global K10-1230Z
+- TLW Global K10-1250Z
+- TNCE RMDZB-1PNL63
+  - TNCE RMDZB-1PNL63
+- TNCE TNCE_CLIMATE
+- Tongou TO-Q-SA1
+  - Tongou TOSA1-01WXJAT2A
+- Tongou TO-Q-SYS-JZT
+- Tongou TOQCB2-80
+- Tongou TOWSMR1
+  - Tongou TOWSMR1-20A-AC
+  - Tongou TOWSMR1-40A-A
+  - Tongou TOWSMR1-40A-AC
+- TP-Link CS100
+- TP-Link MS100
+- Trust ZCM-300
+- Trust ZCTS-808
+- Trust ZLED-2709
+- Trust ZLED-RGB9
+- Trust ZLED-TUNE9
+- Trust ZPIR-8000
+- Trust ZSDR-850
+- Trust ZWLD-100
+- Trust ZYCT-202
+- TubesZB tubeszb.router
+- Tuya _TZ3000_h1ipgkwn
+  - Hej BDS03G2
+- Tuya _TZ3000_mw1pqqqt
+- Tuya _TZE204_3regm3h6
+  - THALEOS TH-P1Z
+- Tuya _TZE204_q9xty0ad
+- Tuya _TZE284_z5jz7wpo
+- Tuya 228WZH
+- Tuya 2CT
+- Tuya AETZ01_AC
+- Tuya ATMS1601Z
+  - Tongou TO-Q-SY1-ZT
+- Tuya BAB-1413_Pro
+- Tuya BAC-003
+  - Tuya BAC-002-ALZB
+- Tuya BLE-YL01
+  - Tuya YK-S03
+- Tuya BOT-R15W
+- Tuya C3007
+- Tuya CK-BL702-AL-01
+- Tuya CTL-R1-TY-Zigbee
+- Tuya D3-DPWK-TY
+- Tuya DCR-CO
+- Tuya DCR-RQJ
+- Tuya DS-1450WN
+- Tuya E220-KR4N0Z0-HA
+  - LELLKI WP33-EU
+- Tuya EA4161C-BI
+- Tuya ERS-10TZBVK-AA
+  - Immax 07768L
+  - Moes ZG-101ZD
+  - Tuya ZG-101Z_D_1
+- Tuya F3-Pro
+- Tuya GDC311ZBQ1
+  - LoraTap GDC311ZBQ1
+- Tuya gq8b1uv
+- Tuya HY08WE
+- Tuya HY607W-3A
+- Tuya IH-K009
+  - Tuya RSH-HS06_1
+- Tuya IH-K663
+- Tuya IH012-RT01
+  - HOBEIAN ZG-204Z
+  - Tuya ZMS-102
+- Tuya IH012-RT02
+- Tuya JM-TRH-ZGB-V1
+- Tuya KCTW1Z
+- Tuya LCZ030
+- Tuya LKTMZL02-z
+- Tuya LYAI-14
+- Tuya M3TYW-2.0-13
+- Tuya M8Pro
+- Tuya M9-zigbee-SL
+- Tuya M9Pro
+- Tuya ME201WZ
+- Tuya MG-GPO04ZSLP
+- Tuya MG-ZG01W
+- Tuya MG-ZG02W
+- Tuya MG-ZG03W
+- Tuya MIR-HE200-TY
+- Tuya MTG075-ZB-RL
+  - QA QASZ24R
+  - Tuya MTG035-ZB-RL
+  - Tuya MTG235-ZB-RL
+  - Tuya MTG275-ZB-RL
+- Tuya PA-44Z
+- Tuya PC311-Z-TY
+- Tuya PJ-1203A
+- Tuya PJ-MGW1203
+  - Tuya PJ-1203-W
+- Tuya QS-Zigbee-SEC01-DC
+- Tuya QS-Zigbee-SEC01-U
+- Tuya QS-Zigbee-SEC02-U
+- Tuya R3 Smart Switch
+- Tuya RB-SRAIN01
+- Tuya RD24G01
+- Tuya RH3040
+  - Nedis ZBSM10WT
+  - Samotech SM301Z
+- Tuya RSH-HS06
+- Tuya RT_ZCZ03Z
+- Tuya rtsc11r
+- Tuya S-LUX-ZB
+- Tuya SA12IZL
+- Tuya SDM01
+  - Nous D4Z
+- Tuya SDM01V1.5
+- Tuya SDM02V1
+- Tuya SGS02Z
+- Tuya SM0001
+  - Zemismart ZM-H7
+- Tuya SM0201
+- Tuya SM0202
+  - Cleverio SS200
+  - Marmitek SM0202_1
+- Tuya SM0212
+- Tuya SNTZ007
+  - BlitzWolf BW-IS2
+- Tuya SNTZ009
+- Tuya SPM01
+- Tuya SPM01V2
+- Tuya SPM01V2.5
+- Tuya SPM02
+- Tuya SPM02V2
+- Tuya SPM02V2.5
+- Tuya SPM02V3
+- Tuya SS9600ZB
+- Tuya SWS6TZ-WHITE
+- Tuya SZR07U
+- Tuya SZT06 V2.0
+- Tuya TE-1Z
+- Tuya TGM50-ZB
+- Tuya THE01860A
+- Tuya THS317-ET-TY
+  - OWON THS317-ET-EY
+- Tuya TLC2206
+- Tuya TM001-ZA/TM081
+- Tuya TR-M3Z
+- Tuya TRV601
+  - Moes TRV801_1
+  - Sber SBDV-00185
+- Tuya TRV602
+  - Moes TRV801
+- Tuya TRV602Z
+  - Moes TRV801Z
+- Tuya TRV603-WZ
+- Tuya TS0001
+  - Bandi BDS03G1
+  - CR Smart Home TS0001
+  - Lonsonho X701
+  - Nous B1Z
+  - Nova Digital SA-1
+  - Tuya XMSJ
+  - Tuya ZG-001
+- Tuya TS0001_1_gang_switch
+- Tuya TS0001_fingerbot
+  - Adaprox TS0001_fingerbot_1
+- Tuya TS0001_power
+  - Colorock CR-MNZ1
+  - Nous B2Z
+  - Nous L6Z
+  - Tuya XSH01A
+- Tuya TS0001_switch_1_gang
+  - Homeetec Homeetec_37022454
+  - RoomsAI RoomsAI_37022454
+- Tuya TS0001_switch_module
+  - AVATTO ZWSM16-1-Zigbee
+  - Moes ZM-104-M
+  - OXT SWTZ21
+- Tuya TS0001_switch_module_1
+  - Mercator Ikuü SSWM10-ZB
+  - PSMART T441
+  - PSMART T461
+- Tuya TS0001_switch_module_2
+- Tuya TS0002
+  - AVATTO ZTS02
+  - Lonsonho X702
+  - Nova Digital FZB-2
+  - PSMART T462
+  - Zemismart TB26-2
+  - Zemismart ZM-CSW002-D_switch
+  - iHseno _TZ3000_zxrfobzw
+- Tuya TS0002_basic
+  - Aubess TMZ02
+  - Mercator Ikuü SSW02
+  - Moes ZM-104B-M
+  - Nous L13Z
+  - OXT SWTZ22
+  - RSH TS0002_basic_2
+  - Tuya ZG-2002-RF
+  - pcblab.io RR620ZB
+- Tuya TS0002_limited
+  - AVATTO ZWSM16-2-Zigbee
+  - Homeetec 37022463-1
+  - Lonsonho X702A
+  - PSMART T442
+  - RoomsAI 37022463-2
+- Tuya TS0002_power
+  - Nous B3Z
+  - Tuya XSH01B
+- Tuya TS0003
+  - BSEED TS0003
+  - Tuya TS0003_1
+  - Zemismart TB26-3
+- Tuya TS0003_3_gang_switch
+- Tuya TS0003_switch_3_gang
+  - Homeetec 37022474_1
+  - Nova Digital FZB-3
+  - Nova Digital WS-US-ZB
+  - RoomsAI 37022474_2
+- Tuya TS0003_switch_3_gang_with_backlight
+  - AVATTO ZWOT16-W2
+  - Lonsonho X703A
+  - Tuya M10Z
+  - Zemismart KES-606US-L3
+  - Zemismart ZM-L03E-Z
+  - Zemismart ZMO-606-S2
+- Tuya TS0003_switch_module_1
+  - OXT SWTZ23
+- Tuya TS0003_switch_module_2
+  - AVATTO ZWSM16-3-Zigbee
+  - iHseno _TZ3000_mhhxxjrs
+- Tuya TS0003_switch_module_3
+  - RSH SB03-Zigbee
+- Tuya TS0004
+  - AVATTO TS0004_1
+  - MHCOZY TYWB 4ch-RF
+  - Nova Digital SA-4
+  - Tuya DS-111
+- Tuya TS0004_fan_light_switch
+- Tuya TS0004_switch_module
+  - OXT SWTZ27
+  - RSH SB04-Zigbee
+- Tuya TS0004_switch_module_2
+  - AVATTO ZWSM16-4-Zigbee
+  - iHseno _TZ3000_knoj8lpk
+- Tuya TS0006
+  - AVATTO TS0006_1
+- Tuya TS000F_power
+  - Aubess WHD02
+- Tuya TS0011
+  - Lonsonho QS-Zigbee-S05-L
+  - Mercator Ikuü SSW01
+  - Nous LZ3
+  - TUYATEC GDKES-01TZXD
+  - Vrey VR-X712U-0013
+- Tuya TS0011_switch_module
+  - AVATTO 1gang N-ZLWSM01
+  - Aubess TMZ02L-16A-B
+  - SMATRUL TMZ02L-16A-W
+- Tuya TS0012
+  - Earda ESW-2ZAA-EU
+  - Moes ZS-EUB_2gang
+  - Moes ZS-US2-BK-MS
+  - TUYATEC GDKES-02TZXD
+  - Vrey VR-X712U-0013
+- Tuya TS0012_switch_module
+  - AVATTO 2gang N-ZLWSM01
+  - AVATTO LZWSM16-2
+- Tuya TS0013
+  - TUYATEC GDKES-03TZXD
+- Tuya TS0013_switch_module
+  - AVATTO 3gang N-ZLWSM01
+  - AVATTO LZWSM16-3
+  - Girier ZB08
+- Tuya TS0014
+  - MakeGood MG-ZG04W/B/G
+  - Mercator Ikuü SSW04
+  - TUYATEC GDKES-04TZXD
+  - Vizo VZ-222S
+- Tuya TS0026
+- Tuya TS0041
+  - Benexmart ZM-sui1
+  - Lonsonho TS0041
+  - Marmitek Push_LE
+  - Nous LZ4
+  - Smart9 S9TSZGB
+  - Tuya MINI-ZSB
+  - Tuya SH-SC07
+- Tuya TS0041A
+  - Cleverio SB100
+  - Marmitek Push_ME
+- Tuya TS0042
+  - ClickSmart+ CSPGM2075PW
+  - Lonsonho TS0042
+  - Marmitek Push_LO
+  - Smart9 S9TSZGB
+- Tuya TS0043
+  - Lonsonho TS0043
+  - LoraTap SS600ZB
+  - Smart9 S9TSZGB
+- Tuya TS0044
+  - HOBEIAN ZG-101ZS
+  - Haozee ESW-OZAA-EU
+  - Lonsonho TS0044
+  - LoraTap SS6400ZB
+  - Moes XH-SY-04Z
+  - Moes ZT-SR-EU4
+  - Moes ZT-SY-EU-G-4S-WH-MS
+  - Nedis ZBWS40WT
+  - Tuya TM-YKQ004
+  - Tuya TS0044_1
+  - iHseno TS0044_5tqxpine
+  - iHseno _TZ3000_mh9px7cq
+- Tuya TS0046
+  - LoraTap SS9600ZB
+- Tuya TS0049
+- Tuya TS004F
+  - Zemismart ZMR4
+- Tuya TS004F_6_button
+- Tuya TS0052
+  - Tuya FS-05R
+- Tuya TS0052_2
+- Tuya TS0101
+  - Larkkey PS080
+  - Mercator Ikuü SISW01
+  - Mercator Ikuü SPBS01G
+- Tuya TS0105
+- Tuya TS0108
+  - Larkkey PS580
+- Tuya TS0111
+- Tuya TS0111_valve
+  - Tuya SM-AW713Z
+- Tuya TS0115
+  - UseeLink SM-SO306E/K/M
+- Tuya TS011F_1
+  - KTNNKG ZB1248-10A
+  - Mumubiz ZJSB9-80Z
+  - UseeLink SM-AZ713
+- Tuya TS011F_2_gang_2_usb_wall
+  - AVATTO ZWOT12
+  - Coibeu ZB414
+  - Nova Digital NTS2-W-B
+- Tuya TS011F_2_gang_power
+- Tuya TS011F_2_gang_wall
+  - ClickSmart+ CMA30036
+  - Nova Digital NT-S2
+  - Rylike RY-WS02Z
+- Tuya TS011F_3_gang
+- Tuya TS011F_4
+  - Nous A4Z
+- Tuya TS011F_5
+  - UseeLink SM-0306E-2W
+  - UseeLink SM-O301-AZ
+- Tuya TS011F_din_smart_relay
+  - MatSee Plus ATMS1602Z
+- Tuya TS011F_din_smart_relay_polling
+  - Nous DZ
+  - TOMZN TOB9Z-63M
+  - Tongou TO-Q-SY1-JZT
+- Tuya TS011F_plug_1
+  - Aubess TS011F_plug_1
+  - BSEED TS011F_plug_1_2
+  - BSEED _TZ3210_5ct6e7ye
+  - BlitzWolf BW-SHP13
+  - BlitzWolf BW-SHP15
+  - Coswall CS-AJ-DE2U-ZG-11
+  - Elivco LSPA9
+  - Girier JR-ZPM01
+  - GreenSun HSC-ZW-EU
+  - LELLKI TS011F_plug
+  - MODEMIX MOD037
+  - MODEMIX MOD048
+  - MatSee Plus PJ-ZSW01
+  - Moes Moes_plug
+  - Moes ZK-EU
+  - NEO NAS-WR01B
+  - Nedis ZBPO130FWT
+  - Nous A10Z
+  - Nous A1Z
+  - Nous A6Z
+  - Nous A7Z
+  - Nous A9Z
+  - PSMART T440
+  - Zbeacon TS011F_plug_1_1
+- Tuya TS011F_plug_2
+  - BSEED _TZ3000_o1jzcxou
+- Tuya TS011F_plug_3
+  - AVATTO MIUCOT10Z
+  - BSEED TS011F_plug_3_1
+  - BlitzWolf BW-SHP15
+  - NEO PLUG-001SPB2
+  - VIKEFON TS011F
+- Tuya TS011F_quad_power1
+- Tuya TS011F_socket_module
+  - LoraTap RR400ZB
+  - LoraTap SP400ZB
+- Tuya TS011F_switch_5_gang
+  - Milfra M11Z
+- Tuya TS011F_wall_outlet
+  - BSEED Zigbee Socket
+  - ClickSmart+ CMA30035
+  - Teekar SWP86-01OG
+- Tuya TS011F_with_threshold
+  - EARU EAKCB-T-M-Z
+  - EARU EAYCB-Z-2P
+  - Immax 07573L
+  - Moes A5
+  - Tomzn TOB9Z-VAP
+  - Tongou TO-Q-SY2-163JZT
+  - UNSH SMKG-1KNL-EU-Z
+- Tuya TS0121_plug
+  - BlitzWolf BW-SHP13
+  - Connecte 4500990
+  - Connecte 4500991
+  - Connecte 4500992
+  - Connecte 4500993
+- Tuya TS0201
+  - BlitzWolf BW-IS4
+  - Danfoss 014G2480
+  - Moes ZSS-S01-TH
+  - Nedis ZBSC10WT
+  - SEDEA eTH730
+  - Tuya HS09
+  - Tuya TH09Z
+  - Tuya TS0201_1
+  - Tuya ZTH01/ZTH02
+  - Tuya ZY-ZTH02
+- Tuya TS0201-z
+- Tuya TS0202
+  - Luminea ZX-5311
+  - Mercator Ikuü SMA02P
+  - MiBoxer PIR1-ZB
+  - Nedis ZBSM10WT
+  - Niceboy ORBIS Motion Sensor
+  - Nous E2
+  - Tesla Smart TS0202
+  - Tuya 809WZT
+  - Tuya HW500A
+  - Tuya TY-ZPR06
+  - Tuya ZMS01
+  - Tuya ZP01
+- Tuya TS0202_1
+- Tuya TS0202_2
+  - Linkoze LKMSZ001
+- Tuya TS0202_3
+- Tuya TS0203
+  - CR Smart Home TS0203
+  - Cleverio SS100
+  - HOBEIAN ZG-102ZA
+  - Luminea ZX-5232
+  - Moes ZSS-JM-GWM-C-MS
+  - Moes ZSS-S01-GWM-C-MS
+  - Moes ZSS-X-GWM-C
+  - Niceboy ORBIS Windows & Door Sensor
+  - Nous E3
+  - QA QASD1
+  - Tesla Smart TSL-SEN-DOOR
+  - Tuya 19DZT
+  - Tuya DS04
+  - Tuya MC500A
+  - Tuya ZD06
+  - Tuya ZD08
+  - Tuya iH-F001
+  - Wing WZDA1
+  - Woox R7047
+- Tuya TS0203_1
+  - Linkoze LKDSZ001
+- Tuya TS0204
+  - Tesla Smart TSL-SEN-GAS
+- Tuya TS0205
+  - Dongguan Daying Electornics Technology YG400A
+  - Nedis ZBDS10WT
+  - Tesla Smart TSL-SEN-SMOKE
+  - Tuya TS0205_smoke_2
+- Tuya TS0207_repeater
+  - Tuya TS0001_repeater
+- Tuya TS0207_water_leak_detector
+  - Aubess IH-K665
+  - CR Smart Home TS0207
+  - HOBEIAN ZG-222Z
+  - HOBEIAN ZG-222ZA
+  - Meian SW02
+  - Moes ZSS-QY-WL-C-MS
+  - Niceboy ORBIS Water Sensor
+  - Nous E4
+  - Tuya 899WZ
+  - Tuya TS0207_water_leak_detector_1
+  - Tuya TS0207_water_leak_detector_3
+  - Tuya _TZ3000_mqiev3jk
+- Tuya TS020C
+- Tuya TS0210
+  - Niceboy ORBIS Vibration Sensor
+  - iHseno _TZ3000_lzdjjfss
+- Tuya TS0215A_remote
+  - Nedis ZBRC10WT
+  - Woox R7054
+- Tuya TS0215A_sos
+  - Tuya BT400B
+  - Woox R7052
+- Tuya TS0216
+  - Hejhome GKZ-SA141
+- Tuya TS0218
+- Tuya TS0222
+- Tuya TS0222_light
+  - Moes ZSS-QT-LS-C
+- Tuya TS0222_solar_light
+- Tuya TS0222_temperature_humidity
+  - Tuya QT-07S
+- Tuya TS0224
+- Tuya TS0301
+  - Yookee D10110_1
+- Tuya TS030F
+  - Lidl HG09648
+- Tuya TS0501A
+  - Lidl HG06462A
+  - Lidl HG06463A
+  - Lidl HG06463B
+- Tuya TS0501B
+  - Mercator Ikuü SMFL20W-ZB
+  - MiBoxer FUT036Z
+- Tuya TS0501B_dimmer
+  - Tuya L1(ZW)
+- Tuya TS0501B_dimmer_2
+- Tuya TS0502A
+  - Lidl 14147206L
+  - Lidl 14153905L
+  - Lidl HG06492A/HG08130A
+  - Lidl HG06492B/HG08130B
+  - Lidl HG06492C/HG08130C/HG09154C
+- Tuya TS0502B
+  - Aldi F122SB62H22A4.5W
+  - EcoDim ED-10032
+  - Lidl 14156408L
+  - Mercator Ikuü SMD9300
+  - Mercator Ikuü SMI7040
+  - MiBoxer E2-ZR
+  - MiBoxer FUT035Z+
+  - MiBoxer PZ2
+- Tuya TS0503A
+- Tuya TS0503B
+  - BTF-Lighting C03Z
+  - MiBoxer FUT037Z
+- Tuya TS0504A
+- Tuya TS0504B
+- Tuya TS0505
+- Tuya TS0505A
+  - Lidl 14148906L
+  - Lidl 14149505L/14149506L_1
+  - Lidl HG06104A
+  - Lidl HG06106A
+  - Lidl HG06106B
+  - Lidl HG06106C
+  - Mycket MS-SP-LE27WRGB
+- Tuya TS0505A_led
+- Tuya TS0505B_1
+  - Aldi C422AC11D41H140.0W
+  - Aldi C422AC14D41H140.0W
+  - Aldi L122AA63H11A6.5W
+  - Aldi L122CB63H11A9.0W
+  - Aldi L122FF63H11A5.0W
+  - Feconn FE-GU10-5W
+  - Garza Smart Garza-Standard-A60
+  - Lidl 14153706L
+  - Lidl 14156506L
+  - Lidl 14158704L
+  - Lidl 14158804L
+  - Lidl 399629_2110
+  - Lidl HG07834A/HG09155A/HG08131A
+  - Lidl HG07834B
+  - Lidl HG07834B/HG09155B/HG08131B
+  - Lidl HG07834C/HG09155C/HG08131C
+  - Lidl HG08007
+  - Lidl HG08008
+  - Lidl HG08010
+  - Lidl HG08131C
+  - Lidl HG08383A
+  - Lidl HG08383B
+  - Mercator Ikuü S9E27LED9W-RGB-Z
+  - Mercator Ikuü SMD4106W-RGB-ZB
+  - MiBoxer E3-ZR
+  - MiBoxer FUT037Z+
+  - MiBoxer FUT039Z
+  - MiBoxer FUT066Z
+  - MiBoxer FUT068ZR
+  - MiBoxer FUT103ZR
+  - MiBoxer FUT106ZR
+  - MiBoxer FUTC11ZR
+  - MiBoxer SZ5
+  - Moes ZB-LZD10-RCW
+  - Moes ZB-TD5-RCW-GU10
+  - Moes ZB-TDA9-RCW-E27-MS
+  - Moes ZB-TDC6-RCW-E14
+  - Moes ZLD-RCW_1
+  - Nedis ZBLC1E14
+  - Nous P3Z
+  - TechToy _TZ3210_iw0zkcu8
+  - Tuya A5C-21F7-01
+  - Tuya TS0505B_1_1
+  - UR Lighting TH008L10RGBCCT
+  - Zemismart LXZB-ZB-09A
+- Tuya TS0505B_2
+  - Lidl 14149505L/14149506L_2
+  - Tuya TS0505B_2_2
+- Tuya TS0505B_3
+  - QA QADZC5
+  - Skydance WZ5_dim_2
+- Tuya TS0601_3_phase_clamp_meter
+  - MatSee Plus PC321-Z-TY
+  - OWON PC321-Z-TY
+- Tuya TS0601_3_phase_clamp_meter_relay
+  - Wenzhou Taiye Electric TAC7361C BI
+- Tuya TS0601_3gang_rkbxtclc
+- Tuya TS0601_4gang_7ytnacie
+- Tuya TS0601_air_quality_sensor
+- Tuya TS0601_bidirectional_energy meter
+- Tuya TS0601_co2_sensor
+- Tuya TS0601_contact_temperature_humidity_sensor
+  - Aubess 1005005194831629
+- Tuya TS0601_cover_1
+  - A-OK AM25
+  - Alutech AM/R-Sm
+  - Binthen BCM100D
+  - Binthen CV01A
+  - HUARUI CMD900LE
+  - Larkkey ZSTY-SM-1SRZG-EU
+  - Novato WPK
+  - Oz Smart Things ZM85EL-1Z
+  - Quoya AT8510-TY
+  - Roximo CRTZ01
+  - Shenzhen Golden Security Technology GM46
+  - Somgoms ZSTY-SM-1DMZG-US-W_1
+  - Tuya DT82LEMA-1.2N
+  - Tuya M515EGZT
+  - Tuya ZD82TN
+  - Yushun YS-MT750
+  - Yushun YS-MT750L
+  - Zemismart AM43
+  - Zemismart BCM500DS-TYZ
+  - Zemismart M2805EGBZTN
+  - Zemismart M515EGB
+  - Zemismart ZM79E-DT
+  - Zemismart ZMS1-TYZ
+- Tuya TS0601_cover_10
+  - Moes ZC-LS02
+  - Nova Digital ZC-GM42
+- Tuya TS0601_cover_11
+- Tuya TS0601_cover_2
+  - Nova Digital ZBCMR-01
+  - Zemismart BCM100DB
+- Tuya TS0601_cover_3
+  - Hiladuo B09M3R35GC
+  - Zemismart ZM16EL-03/33
+  - Zemismart ZM25EL
+  - Zemismart ZM85EL-2Z
+- Tuya TS0601_cover_4
+  - Moes AM43-0.45/40-ES-EB
+- Tuya TS0601_cover_5
+  - BSEED _TZE284_uqfph8ah
+  - Homeetec 37022483
+- Tuya TS0601_cover_6
+  - Tuya LY-108
+- Tuya TS0601_cover_7
+- Tuya TS0601_cover_8
+  - Lilistore TS0601_lilistore
+  - Nova Digital CMR-1
+  - Zemismart ZM90E-DT250N/A400
+- Tuya TS0601_cover_9
+- Tuya TS0601_cover_with_1_switch
+  - Homeetec 37022493
+- Tuya TS0601_cover_with_2_switch
+  - Homeetec 37022173
+- Tuya TS0601_dimmer_1_gang_1
+  - Earda EDM-1ZAA-EU
+  - Earda EDM-1ZAB-EU
+  - Earda EDM-1ZBA-EU
+  - ION Industries 90.500.040
+  - ION Industries 90.500.090
+  - ION Industries ID200W-ZIGB
+  - Larkkey ZSTY-SM-1DMZG-EU
+  - Lerlink X706U
+  - Lonsonho EDM-1ZBB-EU
+  - Mercator Ikuü SSWD01
+  - Mercator Ikuü SSWM-DIMZ
+  - Mercator Ikuü SSWRM-ZB
+  - Moes EDM-1ZBB-EU
+  - Moes MS-105Z
+  - Moes ZS-EUD_1gang
+  - Moes ZS-SR-EUD-1
+  - Moes ZS-USD
+  - Zemismart ZN2S-US1-SD
+- Tuya TS0601_dimmer_1_gang_2
+- Tuya TS0601_dimmer_1_gang_3
+- Tuya TS0601_dimmer_2
+  - Moes MS-105B
+  - Moes ZS-EUD_2gang
+  - Moes ZS-SR-EUD-2
+- Tuya TS0601_dimmer_3
+  - Moes ZS-EUD_3gang
+  - Moes ZS-SR-EUD-3
+  - Zemismart ZN2S-RS3E-DH
+- Tuya TS0601_dimmer_4
+  - KnockautX FMD2C018
+  - Moes ZM-105B-M
+- Tuya TS0601_dimmer_5
+  - Moes MS-105-M
+- Tuya TS0601_dimmer_knob
+  - Moes WS-SY-EURD
+  - Moes WS-SY-EURD-WH-MS
+- Tuya TS0601_din
+- Tuya TS0601_din_1
+  - Hiking DDS238-2
+  - Tuya RC-MCB
+- Tuya TS0601_din_2
+  - MatSee Plus DAC2161C
+- Tuya TS0601_din_3
+  - XOCA DAC2161C
+- Tuya TS0601_din_4
+  - RTX TS0601_RTX_DIN
+- Tuya TS0601_fan_5_levels_and_light_switch
+  - Liwokit Fan+Light-01
+- Tuya TS0601_fan_and_light_switch
+  - Liwokit Fan+Light-01
+- Tuya TS0601_fan_switch
+  - Lerlink T2-Z67/T2-W67
+- Tuya TS0601_floor_thermostat
+  - ELECTSMART EST-120Z
+- Tuya TS0601_garage_door_opener
+  - MatSee Plus PJ-ZGD01
+  - Moes ZM-102-M
+- Tuya TS0601_gas_sensor_1
+- Tuya TS0601_gas_sensor_2
+  - DYGSM DY-RQ500A
+- Tuya TS0601_gas_sensor_3
+- Tuya TS0601_gas_sensor_4
+- Tuya TS0601_GTZ10
+- Tuya TS0601_human_presence_sensor
+- Tuya TS0601_illuminance_temperature_humidity_sensor_1
+- Tuya TS0601_illuminance_temperature_humidity_sensor_2
+- Tuya TS0601_knob_dimmer_switch
+- Tuya TS0601_light
+  - Lifud LF-AAZ012-0400-42
+  - Lifud LF-GAZ150A6250-24
+  - Lifud LF-GAZ150B6250-24
+  - Ltech TY-12-100-400-W1Z
+  - Ltech TY-75-24-G2Z2
+- Tuya TS0601_motion_sensor
+- Tuya TS0601_pir
+  - Conecto COZIGPMS
+  - Immax 07527L
+- Tuya TS0601_rcbo
+  - HOCH ZJSBL7-100Z
+  - WDYK ZJSBL7-100Z
+- Tuya TS0601_smart_air_house_keeper
+- Tuya TS0601_smart_human_presence_sensor_1
+  - Moes ZSS-QY-HP
+  - Tuya ZY-M100-L
+- Tuya TS0601_smoke_1
+  - Nous E8
+- Tuya TS0601_smoke_3
+  - KnockautX SMOAL024
+- Tuya TS0601_smoke_4
+- Tuya TS0601_smoke_5
+- Tuya TS0601_smoke_6
+- Tuya TS0601_smoke_co
+- Tuya TS0601_soil
+- Tuya TS0601_soil_2
+- Tuya TS0601_soil_3
+  - GIEX GX04
+  - GIEX GX06
+- Tuya TS0601_switch
+  - AVATTO ZGB-WS-EU
+  - Moes WS-EUB1-ZG
+  - Norklmes MKS-CM-W5
+  - Somgoms ZSQB-SMB-ZB
+- Tuya TS0601_switch_1_gang
+  - Shawader SMKG-1KNL-US/TZB-W
+- Tuya TS0601_switch_10
+- Tuya TS0601_switch_2_gang
+- Tuya TS0601_switch_3_gang
+  - Nova Digital WS-US-ZB
+- Tuya TS0601_switch_4_gang_1
+  - AVATTO WSMD-4
+  - AVATTO ZGB-WS-EU
+  - AVATTO ZWSMD-4
+  - Moes WS-EUB1-ZG
+  - Norklmes MKS-CM-W5
+  - Somgoms ZSQB-SMB-ZB
+  - Tuya MG-ZG04W
+  - ZYXH TY-04Z
+- Tuya TS0601_switch_4_gang_2
+  - Homeetec 37022714
+- Tuya TS0601_switch_5_gang
+- Tuya TS0601_switch_6_gang
+  - Mercator Ikuü SSW06G
+  - Nova Digital FZB-6
+  - Nova Digital NTZB-04-W-B
+  - Nova Digital SA-6
+  - Nova Digital SYZB-6W
+- Tuya TS0601_switch_8_2
+- Tuya TS0601_temperature_humidity_co2_sensor
+- Tuya TS0601_temperature_humidity_sensor_1
+- Tuya TS0601_temperature_humidity_sensor_2
+  - Tuya SZTH02
+  - Tuya ZTH01
+  - Tuya ZTH02
+  - Tuya ZTH05
+  - Tuya ZTH08
+  - Tuya ZTH08-E
+- Tuya TS0601_temperature_humidity_sensor_3
+  - Tuya TZE200_t3xd7l44
+- Tuya TS0601_temperature_humidity_sensor_4
+- Tuya TS0601_thermostat
+  - Emos P5630S
+  - Evolveo Heat M30
+  - Immax 07732B
+  - Immax 07732L
+  - Moes HY368
+  - Moes HY369RT
+  - SHOJZJ 378RT
+  - Silvercrest TVR01
+  - THALEOS HY368
+- Tuya TS0601_thermostat_1
+  - AVATTO TRV07
+  - id3 GTZ06
+- Tuya TS0601_thermostat_2
+  - S366 Cloud Even
+- Tuya TS0601_thermostat_3
+  - AVATTO AVATTO_TRV06
+  - AVATTO ME167
+  - AVATTO ME168_1
+  - AVATTO TRV06_1
+  - EARU TRV06
+  - Echos Eco-4160
+  - THALEOS TRV06-AT
+- Tuya TS0601_thermostat_4
+- Tuya TS0601_thermostat_5
+  - AVATTO ME167_1
+- Tuya TS0601_thermostat_thermosphere
+- Tuya TS0601_vibration_sensor
+- Tuya TS0601_water_meter
+- Tuya TS0601_water_sensor
+  - NEO NAS-WS02B0
+- Tuya TS0601_water_switch
+- Tuya TS0601_water_valve
+- Tuya TS0603
+- Tuya TS0726_1_gang_scene_switch
+  - BSEED EC-GL86ZPCS11
+- Tuya TS0726_2_gang
+- Tuya TS0726_2_gang_scene_switch
+  - BSEED EC-GL86ZPCS21
+- Tuya TS0726_3_gang
+- Tuya TS0726_3_gang_scene_switch
+- Tuya TS0726_4_gang
+- Tuya TS0726_4_gang_scene_switch
+- Tuya TS0726_4_gang_switch_and_2_scene
+- Tuya TS0726_multi_1_gang
+- Tuya TS0726_multi_3_gang
+- Tuya TS0726_multi_4_gang
+- Tuya TS0726_switch_4g_2s
+- Tuya TS0901
+- Tuya TS1101_dimmer_module_1ch
+- Tuya TS1101_dimmer_module_2ch
+  - OXT SWTZ25
+- Tuya TS110E_1gang_1
+- Tuya TS110E_1gang_2
+  - Lonsonho QS-Zigbee-D02-TRIAC-LN_1
+  - Lonsonho QS-Zigbee-D02-TRIAC-L_1
+- Tuya TS110E_2gang_1
+- Tuya TS110E_2gang_2
+  - Nedis ZBWD20RD
+- Tuya TS130F
+  - BSEED EC-GL86ZPCRS31
+  - Danor SK-Z802C-US
+  - Girier TS130F_GIRIER
+  - LoraTap SC400
+  - LoraTap SC500ZB
+  - LoraTap SC500ZB-v4
+  - Nous B4Z
+  - Nous L12Z
+  - QA QACZ1
+  - Zemismart TS130F_ZEMISMART
+  - Zemismart ZN-LC1E
+- Tuya TT001ZAV20
+- Tuya TV02-Zigbee
+  - AVATTO TRV06-1
+  - AlecoAir HA-08_THERMO
+  - EKF ETT-8
+  - GIEX TV06
+  - Moes TV01-ZB
+  - Moes TV01-ZB
+  - Moes ZTRV-ZX-TV01-MS
+  - Moes ZTRV-ZX-TV02
+  - Tesla Smart TSL-TRV-TV01ZG
+  - Tesla Smart TSL-TRV-TV05ZG
+  - Unknown/id3.pl GTZ08
+- Tuya TW-03
+- Tuya TYBAC-006
+- Tuya TYZS1L
+- Tuya TZE284_6teua268
+  - Senoro Senoro.Win v2
+- Tuya U86KCJ-ZP
+- Tuya U86KWF-ZPSJ
+- Tuya WHD02
+  - HOBEIAN ZG-301Z
+  - Tuya QS-zigbee-S08-16A-RF
+  - Tuya iHSW02
+- Tuya WLS-100z
+- Tuya WSD500A
+  - Tuya TH02Z
+- Tuya WZ5_rgb_1
+- Tuya X5H-GB-B
+  - AVATTO ZWT-100-16A
+  - Beok TGR85-ZB
+- Tuya XFY-CGQ-ZIGB
+- Tuya XZ-AKT101
+- Tuya Y1_IN
+- Tuya YSR-MINI-Z
+- Tuya YXZBRB58
+- Tuya YXZBSL
+- Tuya YY-LT500
+- Tuya ZA03
+- Tuya ZB-Sm
+- Tuya ZBN-JT-63
+- Tuya ZG-101Z/D
+- Tuya ZG-102Z
+- Tuya ZG-102ZL
+- Tuya ZG-103Z
+- Tuya ZG-204ZL
+  - Nedis ZBSM20WT
+- Tuya ZG-204ZM
+- Tuya ZG-205Z
+- Tuya ZG-205Z/A
+- Tuya ZG-205ZL
+- Tuya ZG-225Z
+- Tuya ZG-227Z-z
+- Tuya ZG-227ZL
+  - HOBEIAN ZG-227Z
+  - KOJIMA KOJIMA-THS-ZG-LCD
+- Tuya ZG-WK-DA-Wh-Zigbee
+- Tuya ZM-35H-Q
+  - Aubess 40ZH-O
+- Tuya ZN231392
+- Tuya ZN2S-RS02E
+- Tuya ZPIR-10
+- Tuya ZS-TYG3-SM-21Z
+- Tuya ZS-TYG3-SM-31Z
+- Tuya ZS-TYG3-SM-41Z
+  - Nova Digital FZB-4
+- Tuya ZS-TYG3-SM-61Z
+- Tuya ZS06
+  - QA QAIRZPRO
+  - Tuya UFO-R4Z
+  - Zemismart ZM-18-USB
+  - Zemismart ZXMIR-02
+- Tuya ZSS-QY-SSD-A-EN
+- Tuya ZTH05Z
+  - ONENUO TH05Z
+  - Tuya TZE284_cwyqwqbf
+- Tuya ZWT07
+- Tuya ZWT198/ZWT100-BH
+  - AVATTO WT-100-BH
+- Tuya ZY_HPS01
+  - Nova Digital ZTS-MM
+- Tuya ZY-M100-24G
+- Tuya ZY-M100-24GV2
+- Tuya ZY-M100-24GV3
+- Tuya ZY-M100-S_1
+  - Wenzhi WZ-M100-W
+- Tuya ZY-M100-S_2
+  - iHseno TY_24G_Sensor_V2
+- Tuya ZY-M100-S_3
+- Ubisys C4
+- Ubisys D1
+- Ubisys H1
+- Ubisys H10
+- Ubisys J1
+- Ubisys R0
+- Ubisys S1
+- Ubisys S1-R
+- Ubisys S2
+- UHome TWV
+- Universal Electronics Inc UEHK2AZ0
+- Universal Electronics Inc XHK1-UE
+- Universal Electronics Inc XHS1-UE
+- Universal Electronics Inc XHS2-UE
+- VAV VAV-256215-MOD1
+- VAV VAV-256215-MOD2
+- VBLED 43023
+- Vesternet VES-ZB-DIM-004
+  - Sunricher SR-ZG9040A
+- Vesternet VES-ZB-HLD-017
+  - Sunricher SR-ZG9101SAC-HP-SWITCH-B
+- Vesternet VES-ZB-MOT-019
+  - Sunricher SR-ZG9080A
+- Vesternet VES-ZB-REM-013
+  - Sunricher SR-ZG9001K12-DIM-Z4
+- Vesternet VES-ZB-SWI-005
+  - Sunricher SR-ZG9100A-S
+- Vesternet VES-ZB-SWI-015
+  - Sunricher SR-ZG9101SAC-HP-SWITCH-2CH
+- Vesternet VES-ZB-WAL-006
+  - Sunricher SR-ZG9001K2-DIM2
+- Vesternet VES-ZB-WAL-011
+  - Sunricher SR-ZG9001K4-DIM2
+- Vesternet VES-ZB-WAL-012
+  - Sunricher SR-ZG9001K8-DIM
+- Videosec KRC-103
+- Viessmann 7377019
+- Viessmann 7963223
+- Viessmann ZK03839
+- Viessmann ZK03840
+- Villeroy & Boch C0040000
+- Villeroy & Boch C5850000
+- Vimar 02973.B
+- Vimar 03981
+- Vimar 03982
+- Vimar 14592.0
+- Vimar 14593
+- Vimar 14594
+- Vimar 14595.0
+- Vimar RemoteControl_v1.0
+- Visonic GB-540
+- Visonic MCT-302 SMA
+- Visonic MCT-340 E
+- Visonic MCT-340 SMA
+- Visonic MCT-350 SMA
+- Visonic MCT-370 SMA
+- Visonic MP-840
+- Visonic MP-841
+- Vrey VR-X701U
+- VSmart HS-SEDR00ZB-VNM
+- VSmart HS-SEOC00ZB-VNM
+- VSmart HS-SW100ZB-VNM
+- VSmart HS-SW200ZB-VNM
+- VSmart HS-SW300ZB-VNM
+- VSmart HS-SW400ZB-VNM
+- Wally U02I007C.01
+- Waxman 8850100
+- Weiser 9GED18000-009
+- Weiser 9GED21500-005
+- Wenzhi MTD285-ZB
+- Wenzhi WZ-M100
+- WETEN 1GNNTS
+- WETEN PCI E
+  - Weten Tuya PRO
+- Wirenboard WB-MSW-ZIGBEE v.3
+- Wirenboard WB-MSW-ZIGBEE v.4
+- Wisdom DMZ250
+- WMUN ZS05
+- Woolley BSD29/BSD59
+- Woox R7048
+- Woox R7049
+- Woox R7051
+- Woox R7060
+- Woox R7067
+- Woox R9077
+- Wyze WLCKG1
+- XAL 050-0131558M
+- XAL 050-0511558F
+- XAL 050-1212558H
+- Xiaomi A6121
+- Xiaomi GZCGQ01LM
+  - Xiaomi YTC4043GL
+- Xiaomi JTQJ-BF-01LM/BW
+  - Xiaomi YTC4019RT
+- Xiaomi JTYJ-GD-01LM/BW
+  - Xiaomi YTC4020RT
+- Xiaomi LYWSD03MMC-z
+- Xiaomi MCCGQ01LM
+  - Xiaomi YTC4005CN
+  - Xiaomi YTC4015CN
+  - Xiaomi YTC4039GL
+  - Xiaomi ZHTZ02LM
+- Xiaomi MJWSD06MMC
+- Xiaomi RTCGQ01LM
+  - Xiaomi YTC4004CN
+  - Xiaomi YTC4016CN
+  - Xiaomi YTC4041GL
+  - Xiaomi ZHTZ02LM
+- Xiaomi WSDCGQ01LM
+  - Xiaomi YTC4007CN
+  - Xiaomi YTC4018CN
+  - Xiaomi YTC4042GL
+- Xiaomi WXKG01LM
+  - Xiaomi YTC4006CN
+  - Xiaomi YTC4017CN
+  - Xiaomi YTC4040GL
+  - Xiaomi ZHTZ02LM
+- Xiaomi ZNCZ02LM
+- Xiaomi ZNCZ03LM
+- Xiaomi ZNCZ04LM
+- XingHuoYuan X2SK11
+- xyzroe ZigDC
+- xyzroe ZigUSB
+- xyzroe ZigUSB_C6
+- Yale YAYRD256HA2619
+- Yale YDD-D4F0-TSDB
+- Yale YDF40
+- Yale YMC420-W
+- Yale YMF30
+- Yale YMF40/YDM4109+/YDF40
+- Yale YMF40A RL
+- Yale YMI70A
+- Yale YRD210-HA-605
+- Yale YRD216-HA2-619
+- Yale YRD220/YRD221
+- Yale YRD226/246 TSDB
+- Yale YRD226HA2619
+- Yale YRD246HA20BP
+- Yale YRD256HA20BP
+- Yale YRD410-BLE
+- Yale YRD420-BLE
+- Yale YRD426NRSC
+- Yale YRD430-BLE
+- Yale YRD450-BLE
+- Yale YRD652HA20BP
+- Yale YRL-220L
+- Yale YRL226 TS
+- Yale YRL226L TS
+- Yale YRM476
+- Yale ZYA-C4-MOD-S
+- Yandex YNDX_00530
+- Yandex YNDX_00531
+- Yandex YNDX_00532
+- Yandex YNDX_00534
+- Yandex YNDX_00535
+- Yandex YNDX_00537
+- Yandex YNDX_00538
+- Ynoa 8718801528204
+- Ynoa 8718801528273
+- Ynoa 8718801528334
+- Ynoa LA-5KEY-RGBW
+- Ynoa LA-GU10-RGBW
+- Ynoa LA-PLUG-10Amp
+- YOKIS E2BP-UP
+- YOKIS E2BPA-UP
+- YOKIS E4BP-UP
+- YOKIS E4BPX-UP
+- YOKIS GALET4-UP
+- YOKIS MFP-UP
+- YOKIS MTR1300E-UP
+  - YOKIS MTR1300EB-UP
+- YOKIS MTR2000E-UP
+- YOKIS MTR500E-UP
+- YOKIS MTV300E-UP
+- YOKIS MVR500E-UP
+- YOKIS TLC1-UP
+- YOKIS TLC2-UP
+- YOKIS TLC4-UP
+- YOKIS TLC8-UP
+- YOKIS TLM1-UP
+  - YOKIS TLM1T503-UP
+  - YOKIS TLM1TDK-UP
+  - YOKIS TLM1TNO-UP
+- YOKIS TLM2-UP
+  - YOKIS TLM2T503-UP
+  - YOKIS TLM2TNO-UP
+- YOKIS TLM4-UP
+  - YOKIS TLM4T503-UP
+  - YOKIS TLM4TDK-UP
+  - YOKIS TLM4TNO-UP
+- Yookee D10110
+- YSRSAI YSR-MINI-01_dimmer
+- YSRSAI YSR-MINI-01_rgbcct
+- YSRSAI YSR-MINI-01_wwcw
+- ZBeacon MC-z
+- Zemismart HGZB-DLC4-N15B
+- Zemismart KES-606US-L4
+- Zemismart LXN56-SS27LX1.1
+- Zemismart LXZB-12A
+- Zemismart TB25
+- Zemismart TB26-4
+- Zemismart TB26-6
+- Zemismart ZIGBEE-B09-UK
+- Zemismart ZM-AM02_cover
+- Zemismart ZM-CSW032-D
+- Zemismart ZM-RM02
+- Zemismart ZM16B
+- Zemismart ZM25R1
+  - Zemismart ZM25R3
+- Zemismart ZM25RX-08/30
+- Zemismart ZM25TQ
+- Zemismart ZMO-606-20A
+- Zemismart ZMO-606-P2
+- Zemismart ZMS-206EU-2
+- Zemismart ZMS-206EU-3
+- Zemismart ZMS-206US-1
+- Zemismart ZMS-206US-4
+- Zemismart ZN-USC1U-HT
+- Zen Zen-01-W
+- Zipato rgbw2.zbee27
+- Zorro Alert ZR360CDB
+  - Nous E10
+- ZSVIOT PN16
+- ZSVIOT PN6
+- ZYXH TS0601_switch_12
+- ZYXH TS0601_switch_8
+  - Nova Digital ZTS-8W-B
+- ZYXH ZYXH_switch_24

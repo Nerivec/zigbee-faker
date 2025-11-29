@@ -1,0 +1,4708 @@
+[
+    {
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msSulfurDioxide"
+                    ],
+                    "output": [
+                        "msRelativeHumidity",
+                        "closuresDoorLock",
+                        "genOnOff"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "scenes": [
+                ]
+            },
+            "242": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "greenPower",
+                        "haApplianceEventsAlerts",
+                        "closuresWindowCovering",
+                        "tunneling"
+                    ],
+                    "output": [
+                        "greenPower",
+                        "haElectricalMeasurement"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "delta_6",
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "Coordinator",
+        "ieee_address": "0xa08ff49b6f772632",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "network_address": 0,
+        "supported": true,
+        "type": "Coordinator"
+    },
+    {
+        "date_code": "20200927",
+        "definition": {
+            "description": "TRETAKT smart plug",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of the switch",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        }
+                    ],
+                    "type": "switch"
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                },
+                {
+                    "access": 2,
+                    "category": "config",
+                    "description": "Initiate device identification",
+                    "label": "Identify",
+                    "name": "identify",
+                    "property": "identify",
+                    "type": "enum",
+                    "values": [
+                        "identify"
+                    ]
+                }
+            ],
+            "model": "E22x4",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Sets the duration of the identification procedure in seconds (i.e., how long the device would flash).The value ranges from 1 to 30 seconds (default: 3).",
+                    "label": "Identify timeout",
+                    "name": "identify_timeout",
+                    "property": "identify_timeout",
+                    "type": "numeric",
+                    "value_max": 30,
+                    "value_min": 1
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "IKEA"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "msChloroform",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0x81cd424e42a85121",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msOzone"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piBinaryValueExt",
+                        "maximum_report_interval": 1912,
+                        "minimum_report_interval": 16,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": 62521,
+                        "cluster": "msIlluminanceMeasurement",
+                        "maximum_report_interval": 73,
+                        "minimum_report_interval": 27,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": 21608,
+                        "cluster": "genGroups",
+                        "maximum_report_interval": 3124,
+                        "minimum_report_interval": 22,
+                        "reportable_change": 1
+                    },
+                    {
+                        "attribute": 52115,
+                        "cluster": "msIlluminanceMeasurement",
+                        "maximum_report_interval": 841,
+                        "minimum_report_interval": 24,
+                        "reportable_change": 1
+                    }
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "quark 2033 alpha",
+        "ieee_address": "0xb92409d3fb64afeb",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "IKEA",
+        "model_id": "E22x4",
+        "network_address": 60212,
+        "power_source": "Emergency mains and transfer switch",
+        "software_build_id": "v2.9.70",
+        "supported": true,
+        "type": "EndDevice"
+    },
+    {
+        "date_code": "20210316",
+        "definition": {
+            "description": "Hue white ambiance bathroom mirror light Adore",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature of this light",
+                            "label": "Color temp",
+                            "name": "color_temp",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 150
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                }
+                            ],
+                            "property": "color_temp",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 150
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature after cold power on of this light",
+                            "label": "Color temp startup",
+                            "name": "color_temp_startup",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 150
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                },
+                                {
+                                    "description": "Restore previous color_temp on cold power on",
+                                    "name": "previous",
+                                    "value": 65535
+                                }
+                            ],
+                            "property": "color_temp_startup",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 150
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                },
+                {
+                    "access": 2,
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "candle",
+                        "finish_effect",
+                        "stop_effect",
+                        "stop_hue_effect"
+                    ]
+                }
+            ],
+            "model": "3402831P7",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "When enabled colors will be synced, e.g. if the light supports both color x/y and color temperature a conversion from color x/y to color temperature will be done when setting the x/y color (default true).",
+                    "label": "Color sync",
+                    "name": "color_sync",
+                    "property": "color_sync",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "Philips"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "piBinaryValueExt",
+                        "target": {
+                            "id": 12,
+                            "type": "group"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "hvacPumpCfgCtrl"
+                    ],
+                    "output": [
+                        "piBinaryValueReg",
+                        "genGroups"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piAnalogOutputExt",
+                        "maximum_report_interval": 1972,
+                        "minimum_report_interval": 28,
+                        "reportable_change": 6
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piBinaryValueReg",
+                        "maximum_report_interval": 2943,
+                        "minimum_report_interval": 3,
+                        "reportable_change": 1
+                    }
+                ],
+                "scenes": [
+                ]
+            },
+            "71": {
+                "bindings": [
+                    {
+                        "cluster": "msFormaldehyde",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x6c41ff0d16986b24",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "pm10Measurement",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x02932a90106aacaa",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "ssIasZone",
+                        "genRssiLocation"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "nova 3193 gamma",
+        "ieee_address": "0xe4edaa36434ef251",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Philips",
+        "model_id": "3402831P7",
+        "network_address": 2398,
+        "power_source": "Emergency mains and transfer switch",
+        "software_build_id": "v2.4.68",
+        "supported": true,
+        "type": "EndDevice"
+    },
+    {
+        "date_code": "20200227",
+        "definition": {
+            "description": "Pushbutton transmitter module",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Triggered action (e.g. a button click)",
+                    "label": "Action",
+                    "name": "action",
+                    "property": "action",
+                    "type": "enum",
+                    "values": [
+                        "press_on",
+                        "press_off",
+                        "press_high",
+                        "press_low",
+                        "hold_high",
+                        "hold_low",
+                        "high_low_release",
+                        "cw_ww_release",
+                        "cw_dec_ww_inc",
+                        "ww_inc_cw_dec",
+                        "r_g_b",
+                        "b_g_r",
+                        "rgb_release"
+                    ]
+                }
+            ],
+            "model": "SR-ZGP2801K-5C",
+            "options": [
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Sunricher"
+        },
+        "description": "Alpha neo quark nova flux neo aqua.",
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "msManganese",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x0a0cf2ae99699cd6",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "lightingColorCtrl",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0x2e6f8a61cac10cc3",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "genScenes",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x304e56a2aca716e7",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genPollCtrl"
+                    ],
+                    "output": [
+                        "msPressureMeasurement",
+                        "genPowerCfg",
+                        "msBromoform"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piAnalogValueReg",
+                        "maximum_report_interval": 2255,
+                        "minimum_report_interval": 20,
+                        "reportable_change": 6
+                    },
+                    {
+                        "attribute": 3150,
+                        "cluster": "msNitricOxide",
+                        "maximum_report_interval": 920,
+                        "minimum_report_interval": 14,
+                        "reportable_change": 0
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msChlorodibromomethane",
+                        "maximum_report_interval": 1149,
+                        "minimum_report_interval": 24,
+                        "reportable_change": 8
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msFecalColiformAndEColi",
+                        "maximum_report_interval": 1968,
+                        "minimum_report_interval": 17,
+                        "reportable_change": 4
+                    },
+                    {
+                        "attribute": 31746,
+                        "cluster": "piBinaryValueExt",
+                        "maximum_report_interval": 1482,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 2
+                    }
+                ],
+                "name": "sol_6",
+                "scenes": [
+                ]
+            },
+            "10": {
+                "bindings": [
+                    {
+                        "cluster": "piBinaryOutputReg",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0x9162c8370259f698",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "ssIasWd",
+                        "hvacDehumidificationCtrl"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 42627,
+                        "cluster": "genTime",
+                        "maximum_report_interval": 174,
+                        "minimum_report_interval": 16,
+                        "reportable_change": 3
+                    },
+                    {
+                        "attribute": 64743,
+                        "cluster": "genAnalogOutput",
+                        "maximum_report_interval": 1776,
+                        "minimum_report_interval": 28,
+                        "reportable_change": 8
+                    }
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "delta 8874 ion",
+        "ieee_address": "0xd89511a6088ad7c1",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Sunricher",
+        "model_id": "SR-ZGP2801K-5C",
+        "network_address": 26152,
+        "power_source": "Unknown",
+        "software_build_id": "v2.5.43",
+        "supported": true,
+        "type": "GreenPower"
+    },
+    {
+        "date_code": "20211016",
+        "definition": {
+            "description": "LED OP A60 ZB 9W/827 E27",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 2,
+                    "description": "Triggers an effect on the light (e.g. make light blink for a few seconds)",
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "finish_effect",
+                        "stop_effect"
+                    ]
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                }
+            ],
+            "model": "4713407",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Airam"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "piIso7818ProtocolTunnel",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0xf1f416a685beb154",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genMultistateValue",
+                        "msLeafWetness",
+                        "msWindSpeed",
+                        "pi11073ProtocolTunnel"
+                    ],
+                    "output": [
+                        "msChlorodibromomethane"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "genLevelCtrl",
+                        "maximum_report_interval": 1524,
+                        "minimum_report_interval": 10,
+                        "reportable_change": 3
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piMultistateOutputReg",
+                        "maximum_report_interval": 2380,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 6
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msOzone",
+                        "maximum_report_interval": 2336,
+                        "minimum_report_interval": 18,
+                        "reportable_change": 0
+                    }
+                ],
+                "name": "flux_4",
+                "scenes": [
+                ]
+            },
+            "92": {
+                "bindings": [
+                    {
+                        "cluster": "haApplianceStatistics",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0x0a9030b1e360aade",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "piBinaryValueExt",
+                        "target": {
+                            "id": 20,
+                            "type": "group"
+                        }
+                    },
+                    {
+                        "cluster": "genLevelCtrl",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0xc3ae46fd2c185213",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "haApplianceEventsAlerts",
+                        "manuSpecificDoorman"
+                    ],
+                    "output": [
+                        "msHaloaceticAcids",
+                        "msChloramines",
+                        "hvacThermostat"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 21560,
+                        "cluster": "genCommissioning",
+                        "maximum_report_interval": 1623,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msEthylene",
+                        "maximum_report_interval": 3459,
+                        "minimum_report_interval": 20,
+                        "reportable_change": 10
+                    },
+                    {
+                        "attribute": 36345,
+                        "cluster": "hvacDehumidificationCtrl",
+                        "maximum_report_interval": 3211,
+                        "minimum_report_interval": 8,
+                        "reportable_change": 0
+                    }
+                ],
+                "name": "ion_8",
+                "scenes": [
+                    {
+                        "id": 13,
+                        "name": "scene_1"
+                    },
+                    {
+                        "id": 64,
+                        "name": "scene_2"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "ion 8363 beta",
+        "ieee_address": "0xe05dd6cd9202a787",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Airam",
+        "model_id": "4713407",
+        "network_address": 21644,
+        "power_source": "Mains (3 phase)",
+        "software_build_id": "v3.5.35",
+        "supported": true,
+        "type": "EndDevice"
+    },
+    {
+        "date_code": "20190804",
+        "definition": {
+            "description": "Zigbee 2 gang dimmer module",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "endpoint": "l1",
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "endpoint": "l1",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state_l1",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "endpoint": "l1",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness_l1",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Configure genLevelCtrl",
+                            "endpoint": "l1",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "description": "Specifies the level that shall be applied, when an on/toggle command causes the light to turn on.",
+                                    "endpoint": "l1",
+                                    "label": "On level",
+                                    "name": "on_level",
+                                    "presets": [
+                                        {
+                                            "description": "Use previous value",
+                                            "name": "previous",
+                                            "value": "previous"
+                                        }
+                                    ],
+                                    "property": "on_level_l1",
+                                    "type": "numeric",
+                                    "value_max": 254,
+                                    "value_min": 1
+                                },
+                                {
+                                    "access": 7,
+                                    "description": "Defines the desired startup level for a device when it is supplied with power",
+                                    "endpoint": "l1",
+                                    "label": "Current level startup",
+                                    "name": "current_level_startup",
+                                    "presets": [
+                                        {
+                                            "description": "Use minimum permitted value",
+                                            "name": "minimum",
+                                            "value": "minimum"
+                                        },
+                                        {
+                                            "description": "Use previous value",
+                                            "name": "previous",
+                                            "value": "previous"
+                                        }
+                                    ],
+                                    "property": "current_level_startup_l1",
+                                    "type": "numeric",
+                                    "value_max": 254,
+                                    "value_min": 1
+                                }
+                            ],
+                            "label": "Level config",
+                            "name": "level_config",
+                            "property": "level_config_l1",
+                            "type": "composite"
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "endpoint": "l2",
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "endpoint": "l2",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state_l2",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "endpoint": "l2",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness_l2",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Configure genLevelCtrl",
+                            "endpoint": "l2",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "description": "Specifies the level that shall be applied, when an on/toggle command causes the light to turn on.",
+                                    "endpoint": "l2",
+                                    "label": "On level",
+                                    "name": "on_level",
+                                    "presets": [
+                                        {
+                                            "description": "Use previous value",
+                                            "name": "previous",
+                                            "value": "previous"
+                                        }
+                                    ],
+                                    "property": "on_level_l2",
+                                    "type": "numeric",
+                                    "value_max": 254,
+                                    "value_min": 1
+                                },
+                                {
+                                    "access": 7,
+                                    "description": "Defines the desired startup level for a device when it is supplied with power",
+                                    "endpoint": "l2",
+                                    "label": "Current level startup",
+                                    "name": "current_level_startup",
+                                    "presets": [
+                                        {
+                                            "description": "Use minimum permitted value",
+                                            "name": "minimum",
+                                            "value": "minimum"
+                                        },
+                                        {
+                                            "description": "Use previous value",
+                                            "name": "previous",
+                                            "value": "previous"
+                                        }
+                                    ],
+                                    "property": "current_level_startup_l2",
+                                    "type": "numeric",
+                                    "value_max": 254,
+                                    "value_min": 1
+                                }
+                            ],
+                            "label": "Level config",
+                            "name": "level_config",
+                            "property": "level_config_l2",
+                            "type": "composite"
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "endpoint": "l1",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior_l1",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "endpoint": "l2",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior_l2",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                }
+            ],
+            "model": "C-ZB-DM201-2G",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Candeo"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msEthylene"
+                    ],
+                    "output": [
+                        "msPressureMeasurement"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "l1",
+                "scenes": [
+                ]
+            },
+            "2": {
+                "bindings": [
+                    {
+                        "cluster": "barrierControl",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x89915ab58bfaecb5",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msBromoform",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x5cfe1d7626738f80",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "piMultistateValueReg",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0x0ccceea0a7f892b2",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "piMultistateValueExt",
+                        "msManganese"
+                    ],
+                    "output": [
+                        "haApplianceEventsAlerts"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "barrierControl",
+                        "maximum_report_interval": 186,
+                        "minimum_report_interval": 4,
+                        "reportable_change": 4
+                    }
+                ],
+                "name": "l2",
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "quark_7460_flux",
+        "ieee_address": "0xda457697bbb0766d",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Candeo",
+        "model_id": "C-ZB-DM201-2G",
+        "network_address": 46109,
+        "power_source": "Unknown",
+        "software_build_id": "v2.1.62",
+        "supported": true,
+        "type": "Router"
+    },
+    {
+        "date_code": "20230527",
+        "definition": {
+            "description": "Zigbee LED Controller RGBW (1 ID)",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature of this light",
+                            "label": "Color temp",
+                            "name": "color_temp",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 150
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                }
+                            ],
+                            "property": "color_temp",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 150
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature after cold power on of this light",
+                            "label": "Color temp startup",
+                            "name": "color_temp_startup",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 150
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                },
+                                {
+                                    "description": "Restore previous color_temp on cold power on",
+                                    "name": "previous",
+                                    "value": 65535
+                                }
+                            ],
+                            "property": "color_temp_startup",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 150
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color of this light in the CIE 1931 color space (x/y)",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "label": "X",
+                                    "name": "x",
+                                    "property": "x",
+                                    "type": "numeric"
+                                },
+                                {
+                                    "access": 7,
+                                    "label": "Y",
+                                    "name": "y",
+                                    "property": "y",
+                                    "type": "numeric"
+                                }
+                            ],
+                            "label": "Color (X/Y)",
+                            "name": "color_xy",
+                            "property": "color",
+                            "type": "composite"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color of this light expressed as hue/saturation",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "label": "Hue",
+                                    "name": "hue",
+                                    "property": "hue",
+                                    "type": "numeric"
+                                },
+                                {
+                                    "access": 7,
+                                    "label": "Saturation",
+                                    "name": "saturation",
+                                    "property": "saturation",
+                                    "type": "numeric"
+                                }
+                            ],
+                            "label": "Color (HS)",
+                            "name": "color_hs",
+                            "property": "color",
+                            "type": "composite"
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 2,
+                    "description": "Triggers an effect on the light (e.g. make light blink for a few seconds)",
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "finish_effect",
+                        "stop_effect",
+                        "colorloop",
+                        "stop_colorloop"
+                    ]
+                }
+            ],
+            "model": "GL-C-007-1ID",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "When enabled colors will be synced, e.g. if the light supports both color x/y and color temperature a conversion from color x/y to color temperature will be done when setting the x/y color (default true).",
+                    "label": "Color sync",
+                    "name": "color_sync",
+                    "property": "color_sync",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Gledopto"
+        },
+        "description": "Neo gamma gamma.",
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "msSoilMoisture",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0xbfb1a476f86f16cf",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msTemperatureMeasurement",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0xf2191a4055bc8bf4",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "piMultistateInputExt"
+                    ],
+                    "output": [
+                        "msFluoride"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piMultistateInputReg",
+                        "maximum_report_interval": 1702,
+                        "minimum_report_interval": 25,
+                        "reportable_change": 8
+                    },
+                    {
+                        "attribute": 52732,
+                        "cluster": "piAnalogValueExt",
+                        "maximum_report_interval": 1264,
+                        "minimum_report_interval": 9,
+                        "reportable_change": 3
+                    }
+                ],
+                "name": "delta_3",
+                "scenes": [
+                ]
+            },
+            "163": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "piMultistateOutputExt"
+                    ],
+                    "output": [
+                        "seMetering",
+                        "msSulfurDioxide",
+                        "mobileDeviceCfg"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 1329,
+                        "cluster": "closuresShadeCfg",
+                        "maximum_report_interval": 1081,
+                        "minimum_report_interval": 11,
+                        "reportable_change": 4
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piIso7818ProtocolTunnel",
+                        "maximum_report_interval": 1710,
+                        "minimum_report_interval": 14,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piRetailTunnel",
+                        "maximum_report_interval": 668,
+                        "minimum_report_interval": 30,
+                        "reportable_change": 9
+                    },
+                    {
+                        "attribute": 20581,
+                        "cluster": "piBinaryValueReg",
+                        "maximum_report_interval": 540,
+                        "minimum_report_interval": 10,
+                        "reportable_change": 4
+                    }
+                ],
+                "name": "neo_7",
+                "scenes": [
+                    {
+                        "id": 212,
+                        "name": "scene_1"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "aqua_4227_alpha",
+        "ieee_address": "0x7d8f558469771490",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Gledopto",
+        "model_id": "GL-C-007-1ID",
+        "network_address": 9620,
+        "power_source": "Emergency mains constantly powered",
+        "software_build_id": "v2.7.22",
+        "supported": true,
+        "type": "Unknown"
+    },
+    {
+        "date_code": "20230725",
+        "definition": {
+            "description": "Hue tap",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Triggered action (e.g. a button click)",
+                    "label": "Action",
+                    "name": "action",
+                    "property": "action",
+                    "type": "enum",
+                    "values": [
+                        "press_1",
+                        "press_2",
+                        "press_3",
+                        "press_4",
+                        "press_1_and_2",
+                        "release_1_and_2",
+                        "press_3_and_4",
+                        "release_3_and_4"
+                    ]
+                }
+            ],
+            "model": "8718696743133",
+            "options": [
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Philips"
+        },
+        "description": "Ion neo sol omega flux gamma aqua beta.",
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "mobileDeviceCfg",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0x946ae5e77f6e8605",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "piMultistateOutputReg",
+                        "genIdentify",
+                        "lightingColorCtrl",
+                        "piAnalogOutputExt"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 63624,
+                        "cluster": "pm25Measurement",
+                        "maximum_report_interval": 65,
+                        "minimum_report_interval": 10,
+                        "reportable_change": 7
+                    }
+                ],
+                "name": "nova_7",
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "neo_2245_delta",
+        "ieee_address": "0xa95f7ce9badeeda7",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Philips",
+        "model_id": "8718696743133",
+        "network_address": 13763,
+        "power_source": "Unknown",
+        "software_build_id": "v3.6.26",
+        "supported": true,
+        "type": "GreenPower"
+    },
+    {
+        "date_code": "20220216",
+        "definition": {
+            "description": "Cover motor",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "label": "Work state",
+                    "name": "work_state",
+                    "property": "work_state",
+                    "type": "text"
+                },
+                {
+                    "features": [
+                        {
+                            "access": 3,
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "enum",
+                            "values": [
+                                "OPEN",
+                                "CLOSE",
+                                "STOP"
+                            ]
+                        },
+                        {
+                            "access": 3,
+                            "description": "Position of this cover",
+                            "label": "Position",
+                            "name": "position",
+                            "property": "position",
+                            "type": "numeric",
+                            "unit": "%",
+                            "value_max": 100,
+                            "value_min": 0
+                        }
+                    ],
+                    "type": "cover"
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Remaining battery in %, can take up to 24 hours before reported",
+                    "label": "Battery",
+                    "name": "battery",
+                    "property": "battery",
+                    "type": "numeric",
+                    "unit": "%",
+                    "value_max": 100,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "description": "Measured illuminance",
+                    "label": "Illuminance",
+                    "name": "illuminance",
+                    "property": "illuminance",
+                    "type": "numeric",
+                    "unit": "%"
+                },
+                {
+                    "access": 3,
+                    "description": "Opening mode",
+                    "label": "Opening mode",
+                    "name": "opening_mode",
+                    "property": "opening_mode",
+                    "type": "enum",
+                    "values": [
+                        "tilt",
+                        "lift"
+                    ]
+                },
+                {
+                    "access": 3,
+                    "description": "Motor side",
+                    "label": "Motor direction",
+                    "name": "motor_direction",
+                    "property": "motor_direction",
+                    "type": "enum",
+                    "values": [
+                        "left",
+                        "right"
+                    ]
+                },
+                {
+                    "access": 3,
+                    "description": "Learning",
+                    "label": "Set upper limit",
+                    "name": "set_upper_limit",
+                    "property": "set_upper_limit",
+                    "type": "enum",
+                    "values": [
+                        "start",
+                        "stop"
+                    ]
+                },
+                {
+                    "access": 3,
+                    "description": "Remove limits",
+                    "label": "Factory reset",
+                    "name": "factory_reset",
+                    "property": "factory_reset",
+                    "type": "enum",
+                    "values": [
+                        "SET"
+                    ]
+                }
+            ],
+            "model": "TS0601_cover_6",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Calibrates the illuminance value (percentual offset), takes into effect on next report of device.",
+                    "label": "Illuminance calibration",
+                    "name": "illuminance_calibration",
+                    "property": "illuminance_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Tuya"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "haApplianceIdentification",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0xd4dd910d9db79e57",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msEthylene"
+                    ],
+                    "output": [
+                        "msDissolvedOxygen",
+                        "msOzone"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 13544,
+                        "cluster": "pm10Measurement",
+                        "maximum_report_interval": 1676,
+                        "minimum_report_interval": 12,
+                        "reportable_change": 10
+                    },
+                    {
+                        "attribute": 43887,
+                        "cluster": "msWindSpeed",
+                        "maximum_report_interval": 2961,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 9
+                    }
+                ],
+                "scenes": [
+                    {
+                        "id": 111,
+                        "name": "scene_1"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "nova 1197 sol",
+        "ieee_address": "0xcaf0b02839d5f108",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Tuya",
+        "model_id": "TS0601_cover_6",
+        "network_address": 42472,
+        "power_source": "Battery",
+        "software_build_id": "v1.1.7",
+        "supported": true,
+        "type": "Router"
+    },
+    {
+        "date_code": "20240417",
+        "definition": {
+            "description": "Pushbutton transmitter module",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Triggered action (e.g. a button click)",
+                    "label": "Action",
+                    "name": "action",
+                    "property": "action",
+                    "type": "enum",
+                    "values": [
+                        "press_1",
+                        "release_1",
+                        "press_2",
+                        "release_2",
+                        "press_3",
+                        "release_3",
+                        "press_4",
+                        "release_4",
+                        "press_1_and_3",
+                        "release_1_and_3",
+                        "press_2_and_4",
+                        "release_2_and_4",
+                        "press_energy_bar"
+                    ]
+                }
+            ],
+            "model": "PTM 215Z",
+            "options": [
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "EnOcean"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genOta",
+                        "hvacThermostat",
+                        "piGenericTunnel"
+                    ],
+                    "output": [
+                        "msHydrogen",
+                        "piMultistateInputReg",
+                        "genOta"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "sol_5",
+                "scenes": [
+                ]
+            },
+            "104": {
+                "bindings": [
+                    {
+                        "cluster": "piIso7818ProtocolTunnel",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0xccb64dfb3300f553",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msTemperatureMeasurement",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0xcf6c289e592e71f8",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msElectricalConductivity",
+                        "hvacUserInterfaceCfg",
+                        "piBinaryValueExt",
+                        "msChlorine"
+                    ],
+                    "output": [
+                        "touchlink",
+                        "pi11073ProtocolTunnel",
+                        "genIdentify"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 40760,
+                        "cluster": "manuSpecificTuya2",
+                        "maximum_report_interval": 3335,
+                        "minimum_report_interval": 29,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "genMultistateOutput",
+                        "maximum_report_interval": 2954,
+                        "minimum_report_interval": 30,
+                        "reportable_change": 6
+                    },
+                    {
+                        "attribute": 28727,
+                        "cluster": "piIso7818ProtocolTunnel",
+                        "maximum_report_interval": 2745,
+                        "minimum_report_interval": 13,
+                        "reportable_change": 4
+                    }
+                ],
+                "scenes": [
+                    {
+                        "id": 126,
+                        "name": "scene_1"
+                    },
+                    {
+                        "id": 100,
+                        "name": "scene_2"
+                    },
+                    {
+                        "id": 5,
+                        "name": "scene_3"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "ion_7965_gamma",
+        "ieee_address": "0xfd3c791a48438132",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "EnOcean",
+        "model_id": "PTM 215Z",
+        "network_address": 53896,
+        "power_source": "Unknown",
+        "software_build_id": "v1.7.32",
+        "supported": true,
+        "type": "GreenPower"
+    },
+    {
+        "date_code": "20200916",
+        "definition": {
+            "description": "LED 5,3W DIM E14",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 2,
+                    "description": "Triggers an effect on the light (e.g. make light blink for a few seconds)",
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "finish_effect",
+                        "stop_effect"
+                    ]
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                }
+            ],
+            "model": "3802963",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Namron"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "genPollCtrl",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0x7532ee5e77e7d9a3",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msHaloaceticAcids",
+                        "neighborCleaning",
+                        "msEthyleneOxide",
+                        "piBinaryOutputExt"
+                    ],
+                    "output": [
+                        "genAnalogOutput",
+                        "msOccupancySensing"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 15410,
+                        "cluster": "genMultistateInput",
+                        "maximum_report_interval": 2572,
+                        "minimum_report_interval": 4,
+                        "reportable_change": 4
+                    },
+                    {
+                        "attribute": 24219,
+                        "cluster": "genAnalogInput",
+                        "maximum_report_interval": 2293,
+                        "minimum_report_interval": 10,
+                        "reportable_change": 9
+                    },
+                    {
+                        "attribute": 49182,
+                        "cluster": "genMultistateInput",
+                        "maximum_report_interval": 1816,
+                        "minimum_report_interval": 9,
+                        "reportable_change": 4
+                    },
+                    {
+                        "attribute": 32090,
+                        "cluster": "nearestGateway",
+                        "maximum_report_interval": 1140,
+                        "minimum_report_interval": 29,
+                        "reportable_change": 7
+                    },
+                    {
+                        "attribute": 5029,
+                        "cluster": "msEthyleneOxide",
+                        "maximum_report_interval": 2338,
+                        "minimum_report_interval": 28,
+                        "reportable_change": 4
+                    }
+                ],
+                "name": "beta_7",
+                "scenes": [
+                ]
+            },
+            "113": {
+                "bindings": [
+                    {
+                        "cluster": "msDissolvedOxygen",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0xef9ac60fcc66d7e4",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "genOta",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0x33e76806f4b4b7a8",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genOta",
+                        "genDeviceTempCfg",
+                        "genOnOff",
+                        "genAnalogInput"
+                    ],
+                    "output": [
+                        "genMultistateInput",
+                        "piBacnetProtocolTunnel"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "aqua_1",
+                "scenes": [
+                    {
+                        "id": 103,
+                        "name": "scene_1"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "ion_6511_omega",
+        "ieee_address": "0x9afadca1e5c0c228",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Namron",
+        "model_id": "3802963",
+        "network_address": 39766,
+        "power_source": "Battery",
+        "software_build_id": "v1.5.3",
+        "supported": true,
+        "type": "Unknown"
+    },
+    {
+        "date_code": "20220112",
+        "definition": {
+            "description": "PowerTag power sensor",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured power",
+                    "label": "Power",
+                    "name": "power",
+                    "property": "power",
+                    "type": "numeric",
+                    "unit": "W"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured apparent power",
+                    "label": "Power apparent",
+                    "name": "power_apparent",
+                    "property": "power_apparent",
+                    "type": "numeric",
+                    "unit": "VA"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured power on phase A",
+                    "label": "Power phase a",
+                    "name": "power_phase_a",
+                    "property": "power_phase_a",
+                    "type": "numeric",
+                    "unit": "W"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured power on phase B",
+                    "label": "Power phase b",
+                    "name": "power_phase_b",
+                    "property": "power_phase_b",
+                    "type": "numeric",
+                    "unit": "W"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured power on phase C",
+                    "label": "Power phase c",
+                    "name": "power_phase_c",
+                    "property": "power_phase_c",
+                    "type": "numeric",
+                    "unit": "W"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured power factor",
+                    "label": "Power factor",
+                    "name": "power_factor",
+                    "property": "power_factor",
+                    "type": "numeric"
+                },
+                {
+                    "access": 1,
+                    "description": "Sum of consumed energy",
+                    "label": "Energy",
+                    "name": "energy",
+                    "property": "energy",
+                    "type": "numeric",
+                    "unit": "kWh"
+                },
+                {
+                    "access": 1,
+                    "description": "Sum of consumed energy on phase A",
+                    "label": "Energy phase a",
+                    "name": "energy_phase_a",
+                    "property": "energy_phase_a",
+                    "type": "numeric",
+                    "unit": "kWh"
+                },
+                {
+                    "access": 1,
+                    "description": "Sum of consumed energy on phase B",
+                    "label": "Energy phase b",
+                    "name": "energy_phase_b",
+                    "property": "energy_phase_b",
+                    "type": "numeric",
+                    "unit": "kWh"
+                },
+                {
+                    "access": 1,
+                    "description": "Sum of consumed energy on phase C",
+                    "label": "Energy phase c",
+                    "name": "energy_phase_c",
+                    "property": "energy_phase_c",
+                    "type": "numeric",
+                    "unit": "kWh"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical AC frequency",
+                    "label": "AC frequency",
+                    "name": "ac_frequency",
+                    "property": "ac_frequency",
+                    "type": "numeric",
+                    "unit": "Hz"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical potential value on phase A",
+                    "label": "Voltage phase a",
+                    "name": "voltage_phase_a",
+                    "property": "voltage_phase_a",
+                    "type": "numeric",
+                    "unit": "V"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical potential value on phase B",
+                    "label": "Voltage phase b",
+                    "name": "voltage_phase_b",
+                    "property": "voltage_phase_b",
+                    "type": "numeric",
+                    "unit": "V"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical potential value on phase C",
+                    "label": "Voltage phase c",
+                    "name": "voltage_phase_c",
+                    "property": "voltage_phase_c",
+                    "type": "numeric",
+                    "unit": "V"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical potential value between phase A and B",
+                    "label": "Voltage phase ab",
+                    "name": "voltage_phase_ab",
+                    "property": "voltage_phase_ab",
+                    "type": "numeric",
+                    "unit": "V"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical potential value between phase B and C",
+                    "label": "Voltage phase bc",
+                    "name": "voltage_phase_bc",
+                    "property": "voltage_phase_bc",
+                    "type": "numeric",
+                    "unit": "V"
+                },
+                {
+                    "access": 1,
+                    "description": "Measured electrical potential value between phase C and A",
+                    "label": "Voltage phase ca",
+                    "name": "voltage_phase_ca",
+                    "property": "voltage_phase_ca",
+                    "type": "numeric",
+                    "unit": "V"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured electrical current on phase A",
+                    "label": "Current phase a",
+                    "name": "current_phase_a",
+                    "property": "current_phase_a",
+                    "type": "numeric",
+                    "unit": "A"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured electrical current on phase B",
+                    "label": "Current phase b",
+                    "name": "current_phase_b",
+                    "property": "current_phase_b",
+                    "type": "numeric",
+                    "unit": "A"
+                },
+                {
+                    "access": 1,
+                    "description": "Instantaneous measured electrical current on phase C",
+                    "label": "Current phase c",
+                    "name": "current_phase_c",
+                    "property": "current_phase_c",
+                    "type": "numeric",
+                    "unit": "A"
+                }
+            ],
+            "model": "A9MEM1570",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Calibrates the power value (percentual offset), takes into effect on next report of device.",
+                    "label": "Power calibration",
+                    "name": "power_calibration",
+                    "property": "power_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for power, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Power precision",
+                    "name": "power_precision",
+                    "property": "power_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the power_phase_b value (percentual offset), takes into effect on next report of device.",
+                    "label": "Power phase b calibration",
+                    "name": "power_phase_b_calibration",
+                    "property": "power_phase_b_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for power_phase_b, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Power phase b precision",
+                    "name": "power_phase_b_precision",
+                    "property": "power_phase_b_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the power_phase_c value (percentual offset), takes into effect on next report of device.",
+                    "label": "Power phase c calibration",
+                    "name": "power_phase_c_calibration",
+                    "property": "power_phase_c_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for power_phase_c, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Power phase c precision",
+                    "name": "power_phase_c_precision",
+                    "property": "power_phase_c_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the energy value (percentual offset), takes into effect on next report of device.",
+                    "label": "Energy calibration",
+                    "name": "energy_calibration",
+                    "property": "energy_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for energy, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Energy precision",
+                    "name": "energy_precision",
+                    "property": "energy_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the ac_frequency value (absolute offset), takes into effect on next report of device.",
+                    "label": "Ac frequency calibration",
+                    "name": "ac_frequency_calibration",
+                    "property": "ac_frequency_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for ac_frequency, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Ac frequency precision",
+                    "name": "ac_frequency_precision",
+                    "property": "ac_frequency_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the voltage_phase_b value (percentual offset), takes into effect on next report of device.",
+                    "label": "Voltage phase b calibration",
+                    "name": "voltage_phase_b_calibration",
+                    "property": "voltage_phase_b_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for voltage_phase_b, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Voltage phase b precision",
+                    "name": "voltage_phase_b_precision",
+                    "property": "voltage_phase_b_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the voltage_phase_c value (percentual offset), takes into effect on next report of device.",
+                    "label": "Voltage phase c calibration",
+                    "name": "voltage_phase_c_calibration",
+                    "property": "voltage_phase_c_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for voltage_phase_c, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Voltage phase c precision",
+                    "name": "voltage_phase_c_precision",
+                    "property": "voltage_phase_c_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the current_phase_b value (percentual offset), takes into effect on next report of device.",
+                    "label": "Current phase b calibration",
+                    "name": "current_phase_b_calibration",
+                    "property": "current_phase_b_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for current_phase_b, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Current phase b precision",
+                    "name": "current_phase_b_precision",
+                    "property": "current_phase_b_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the current_phase_c value (percentual offset), takes into effect on next report of device.",
+                    "label": "Current phase c calibration",
+                    "name": "current_phase_c_calibration",
+                    "property": "current_phase_c_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for current_phase_c, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Current phase c precision",
+                    "name": "current_phase_c_precision",
+                    "property": "current_phase_c_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Schneider Electric"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "piMultistateInputExt",
+                        "target": {
+                            "id": 15,
+                            "type": "group"
+                        }
+                    },
+                    {
+                        "cluster": "msEthyleneOxide",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0xfc876ca5ca4a9446",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "piMultistateOutputExt"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "gamma_4",
+                "scenes": [
+                ]
+            },
+            "217": {
+                "bindings": [
+                    {
+                        "cluster": "msTemperatureMeasurement",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0xb54fc34956182114",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "telecommunicationsInformation",
+                        "target": {
+                            "id": 31,
+                            "type": "group"
+                        }
+                    },
+                    {
+                        "cluster": "genAnalogInput",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0x7b644e09159a9501",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msSulfate",
+                        "hvacDehumidificationCtrl",
+                        "msBromodichloromethane",
+                        "pi11073ProtocolTunnel"
+                    ],
+                    "output": [
+                        "piRetailTunnel"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "haElectricalMeasurement",
+                        "maximum_report_interval": 417,
+                        "minimum_report_interval": 30,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msSulfurDioxide",
+                        "maximum_report_interval": 1453,
+                        "minimum_report_interval": 18,
+                        "reportable_change": 3
+                    },
+                    {
+                        "attribute": 29548,
+                        "cluster": "msHydrogen",
+                        "maximum_report_interval": 2668,
+                        "minimum_report_interval": 20,
+                        "reportable_change": 7
+                    }
+                ],
+                "name": "terra_5",
+                "scenes": [
+                    {
+                        "id": 207,
+                        "name": "scene_1"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "zen_6780_beta",
+        "ieee_address": "0xcf170e71ff5b8678",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Schneider Electric",
+        "model_id": "A9MEM1570",
+        "network_address": 34228,
+        "power_source": "Unknown",
+        "software_build_id": "v2.1.96",
+        "supported": true,
+        "type": "GreenPower"
+    },
+    {
+        "date_code": "20230928",
+        "definition": {
+            "description": "Temperature and Humidity sensor",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 5,
+                    "description": "Measured relative humidity",
+                    "label": "Humidity",
+                    "name": "humidity",
+                    "property": "humidity",
+                    "type": "numeric",
+                    "unit": "%"
+                },
+                {
+                    "access": 5,
+                    "description": "Measured temperature value",
+                    "label": "Temperature",
+                    "name": "temperature",
+                    "property": "temperature",
+                    "type": "numeric",
+                    "unit": "°C"
+                },
+                {
+                    "access": 5,
+                    "category": "diagnostic",
+                    "description": "Remaining battery in %",
+                    "label": "Battery",
+                    "name": "battery",
+                    "property": "battery",
+                    "type": "numeric",
+                    "unit": "%",
+                    "value_max": 100,
+                    "value_min": 0
+                },
+                {
+                    "access": 5,
+                    "category": "diagnostic",
+                    "description": "Reported battery voltage in millivolts",
+                    "label": "Voltage",
+                    "name": "voltage",
+                    "property": "voltage",
+                    "type": "numeric",
+                    "unit": "mV"
+                }
+            ],
+            "model": "POK005",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Calibrates the humidity value (absolute offset), takes into effect on next report of device.",
+                    "label": "Humidity calibration",
+                    "name": "humidity_calibration",
+                    "property": "humidity_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for humidity, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Humidity precision",
+                    "name": "humidity_precision",
+                    "property": "humidity_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                },
+                {
+                    "access": 2,
+                    "description": "Calibrates the temperature value (absolute offset), takes into effect on next report of device.",
+                    "label": "Temperature calibration",
+                    "name": "temperature_calibration",
+                    "property": "temperature_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for temperature, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Temperature precision",
+                    "name": "temperature_precision",
+                    "property": "temperature_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                }
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "PushOk Hardware"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "msWindSpeed",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0x191e384c28752076",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msOxygen",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0xfbc8eab5f8cd2493",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "telecommunicationsVoiceOverZigbee"
+                    ],
+                    "output": [
+                        "seMetering",
+                        "msBromoform"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 44648,
+                        "cluster": "msChlorodibromomethane",
+                        "maximum_report_interval": 1005,
+                        "minimum_report_interval": 21,
+                        "reportable_change": 5
+                    },
+                    {
+                        "attribute": 3833,
+                        "cluster": "piAnalogInputExt",
+                        "maximum_report_interval": 1314,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 8
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "hvacPumpCfgCtrl",
+                        "maximum_report_interval": 1658,
+                        "minimum_report_interval": 28,
+                        "reportable_change": 1
+                    },
+                    {
+                        "attribute": 56833,
+                        "cluster": "msSoilMoisture",
+                        "maximum_report_interval": 2719,
+                        "minimum_report_interval": 10,
+                        "reportable_change": 1
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "pm10Measurement",
+                        "maximum_report_interval": 1245,
+                        "minimum_report_interval": 15,
+                        "reportable_change": 1
+                    }
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "delta 6370 aqua",
+        "ieee_address": "0xceca9c01dae00dff",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "PushOk Hardware",
+        "model_id": "POK005",
+        "network_address": 52459,
+        "power_source": "Battery",
+        "software_build_id": "v3.6.8",
+        "supported": true,
+        "type": "EndDevice"
+    },
+    {
+        "date_code": "20240314",
+        "definition": {
+            "description": "Wireless and batteryless (double) lighting control",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Triggered action (e.g. a button click)",
+                    "label": "Action",
+                    "name": "action",
+                    "property": "action",
+                    "type": "enum",
+                    "values": [
+                        "press_once",
+                        "press_twice"
+                    ]
+                }
+            ],
+            "model": "ZLGP17/ZLGP18",
+            "options": [
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "Legrand"
+        },
+        "description": "Zen omega ion beta ion quark zen terra.",
+        "disabled": true,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msIlluminanceLevelSensing",
+                        "msFecalColiformAndEColi"
+                    ],
+                    "output": [
+                        "msTotalColiformBacteria"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "scenes": [
+                    {
+                        "id": 21,
+                        "name": "scene_1"
+                    },
+                    {
+                        "id": 140,
+                        "name": "scene_2"
+                    },
+                    {
+                        "id": 214,
+                        "name": "scene_3"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "sol_1163_aqua",
+        "ieee_address": "0x4a5a143d9bb1adea",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Legrand",
+        "model_id": "ZLGP17/ZLGP18",
+        "network_address": 31560,
+        "power_source": "Unknown",
+        "software_build_id": "v3.8.66",
+        "supported": true,
+        "type": "GreenPower"
+    },
+    {
+        "date_code": "20210109",
+        "definition": {
+            "description": "Wireless shutter switch",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Remaining battery in %, can take up to 24 hours before reported",
+                    "label": "Battery",
+                    "name": "battery",
+                    "property": "battery",
+                    "type": "numeric",
+                    "unit": "%",
+                    "value_max": 100,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Triggered action (e.g. a button click)",
+                    "label": "Action",
+                    "name": "action",
+                    "property": "action",
+                    "type": "enum",
+                    "values": [
+                        "identify",
+                        "open",
+                        "close",
+                        "stop",
+                        "moving",
+                        "stopped"
+                    ]
+                }
+            ],
+            "model": "067646",
+            "options": [
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "Legrand"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "manuSpecificDoorman",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0xd1d29b8a9f151536",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "genMultistateInput",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0x67689d0a1cf57082",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "hvacUserInterfaceCfg",
+                        "target": {
+                            "id": 21,
+                            "type": "group"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "closuresDoorLock",
+                        "ssIasZone",
+                        "msSodium",
+                        "sprutVoc",
+                        "sprutNoise"
+                    ],
+                    "output": [
+                        "piAnalogValueExt",
+                        "genDeviceTempCfg"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 22228,
+                        "cluster": "genDeviceTempCfg",
+                        "maximum_report_interval": 1152,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 1
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "haMeterIdentification",
+                        "maximum_report_interval": 1914,
+                        "minimum_report_interval": 21,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msChlorine",
+                        "maximum_report_interval": 3045,
+                        "minimum_report_interval": 17,
+                        "reportable_change": 4
+                    },
+                    {
+                        "attribute": 2261,
+                        "cluster": "pm25Measurement",
+                        "maximum_report_interval": 760,
+                        "minimum_report_interval": 23,
+                        "reportable_change": 5
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msOzone",
+                        "maximum_report_interval": 2955,
+                        "minimum_report_interval": 11,
+                        "reportable_change": 6
+                    }
+                ],
+                "name": "gamma_5",
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "nova_9961_terra",
+        "ieee_address": "0xe29da3cce18615c3",
+        "interview_completed": false,
+        "interview_state": "PENDING",
+        "interviewing": false,
+        "manufacturer": "Legrand",
+        "model_id": "067646",
+        "network_address": 14659,
+        "power_source": "DC Source",
+        "software_build_id": "v2.2.59",
+        "supported": true,
+        "type": "EndDevice"
+    },
+    {
+        "date_code": "20200421",
+        "definition": {
+            "description": "Zigbee 5W PAR16 Bulb RGB+CCT",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature of this light",
+                            "label": "Color temp",
+                            "name": "color_temp",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 150
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                }
+                            ],
+                            "property": "color_temp",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 150
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature after cold power on of this light",
+                            "label": "Color temp startup",
+                            "name": "color_temp_startup",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 150
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                },
+                                {
+                                    "description": "Restore previous color_temp on cold power on",
+                                    "name": "previous",
+                                    "value": 65535
+                                }
+                            ],
+                            "property": "color_temp_startup",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 150
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color of this light in the CIE 1931 color space (x/y)",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "label": "X",
+                                    "name": "x",
+                                    "property": "x",
+                                    "type": "numeric"
+                                },
+                                {
+                                    "access": 7,
+                                    "label": "Y",
+                                    "name": "y",
+                                    "property": "y",
+                                    "type": "numeric"
+                                }
+                            ],
+                            "label": "Color (X/Y)",
+                            "name": "color_xy",
+                            "property": "color",
+                            "type": "composite"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color of this light expressed as hue/saturation",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "label": "Hue",
+                                    "name": "hue",
+                                    "property": "hue",
+                                    "type": "numeric"
+                                },
+                                {
+                                    "access": 7,
+                                    "label": "Saturation",
+                                    "name": "saturation",
+                                    "property": "saturation",
+                                    "type": "numeric"
+                                }
+                            ],
+                            "label": "Color (HS)",
+                            "name": "color_hs",
+                            "property": "color",
+                            "type": "composite"
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 2,
+                    "description": "Triggers an effect on the light (e.g. make light blink for a few seconds)",
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "finish_effect",
+                        "stop_effect",
+                        "colorloop",
+                        "stop_colorloop"
+                    ]
+                }
+            ],
+            "model": "GL-S-008Z",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "When enabled colors will be synced, e.g. if the light supports both color x/y and color temperature a conversion from color x/y to color temperature will be done when setting the x/y color (default true).",
+                    "label": "Color sync",
+                    "name": "color_sync",
+                    "property": "color_sync",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Gledopto"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msManganese",
+                        "msChlorodibromomethane",
+                        "lightingColorCtrl"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 50202,
+                        "cluster": "genMultistateOutput",
+                        "maximum_report_interval": 2369,
+                        "minimum_report_interval": 4,
+                        "reportable_change": 8
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piAnalogValueExt",
+                        "maximum_report_interval": 1129,
+                        "minimum_report_interval": 20,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": 21434,
+                        "cluster": "msHaloaceticAcids",
+                        "maximum_report_interval": 1502,
+                        "minimum_report_interval": 22,
+                        "reportable_change": 3
+                    }
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "aqua 2615 gamma",
+        "ieee_address": "0xd4f0da20f0abaea1",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Gledopto",
+        "model_id": "GL-S-008Z",
+        "network_address": 21140,
+        "power_source": "Mains (3 phase)",
+        "software_build_id": "v2.3.49",
+        "supported": true,
+        "type": "EndDevice"
+    },
+    {
+        "date_code": "20250305",
+        "definition": {
+            "description": "Philips filament E26 bulb",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                },
+                {
+                    "access": 2,
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "candle",
+                        "finish_effect",
+                        "stop_effect",
+                        "stop_hue_effect"
+                    ]
+                }
+            ],
+            "model": "9290030518",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "Philips"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "hvacPumpCfgCtrl",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0x0ee83894a9824605",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "piAnalogInputExt",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0xb32ddb850ed4a65d",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msBromoform",
+                        "target": {
+                            "id": 14,
+                            "type": "group"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genTime",
+                        "msSoilMoisture",
+                        "manuSpecificTuya",
+                        "msLead"
+                    ],
+                    "output": [
+                        "piMultistateOutputReg",
+                        "touchlink",
+                        "hvacFanCtrl"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "haElectricalMeasurement",
+                        "maximum_report_interval": 277,
+                        "minimum_report_interval": 6,
+                        "reportable_change": 10
+                    },
+                    {
+                        "attribute": 33501,
+                        "cluster": "msNitrogenDioxide",
+                        "maximum_report_interval": 2569,
+                        "minimum_report_interval": 10,
+                        "reportable_change": 1
+                    },
+                    {
+                        "attribute": 56632,
+                        "cluster": "msIlluminanceLevelSensing",
+                        "maximum_report_interval": 2568,
+                        "minimum_report_interval": 29,
+                        "reportable_change": 0
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "genPollCtrl",
+                        "maximum_report_interval": 3589,
+                        "minimum_report_interval": 7,
+                        "reportable_change": 0
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piAnalogOutputReg",
+                        "maximum_report_interval": 1819,
+                        "minimum_report_interval": 15,
+                        "reportable_change": 3
+                    }
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "aqua_6101_luna",
+        "ieee_address": "0x1fae58bb07bd2c0b",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Philips",
+        "model_id": "9290030518",
+        "network_address": 8175,
+        "power_source": "Mains (3 phase)",
+        "software_build_id": "v3.0.43",
+        "supported": true,
+        "type": "Router"
+    },
+    {
+        "date_code": "20240420",
+        "definition": {
+            "description": "Smart wall switch T1 (no neutral, double rocker)",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "endpoint": "left",
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of the switch",
+                            "endpoint": "left",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state_left",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        }
+                    ],
+                    "type": "switch"
+                },
+                {
+                    "endpoint": "right",
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of the switch",
+                            "endpoint": "right",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state_right",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        }
+                    ],
+                    "type": "switch"
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Temperature of the device",
+                    "label": "Device temperature",
+                    "name": "device_temperature",
+                    "property": "device_temperature",
+                    "type": "numeric",
+                    "unit": "°C"
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Number of power outages (since last pairing)",
+                    "label": "Power outage count",
+                    "name": "power_outage_count",
+                    "property": "power_outage_count",
+                    "type": "numeric"
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power outage memory",
+                    "name": "power_outage_memory",
+                    "property": "power_outage_memory",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Decoupled mode for left button",
+                    "endpoint": "left",
+                    "label": "Operation mode",
+                    "name": "operation_mode",
+                    "property": "operation_mode_left",
+                    "type": "enum",
+                    "values": [
+                        "decoupled",
+                        "control_relay"
+                    ]
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Decoupled mode for right button",
+                    "endpoint": "right",
+                    "label": "Operation mode",
+                    "name": "operation_mode",
+                    "property": "operation_mode_right",
+                    "type": "enum",
+                    "values": [
+                        "decoupled",
+                        "control_relay"
+                    ]
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Enables/disables LED indicator at night",
+                    "label": "Led disabled night",
+                    "name": "led_disabled_night",
+                    "property": "led_disabled_night",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "After turn on, the indicator light turns on while switch is off, and vice versa",
+                    "label": "Flip indicator light",
+                    "name": "flip_indicator_light",
+                    "property": "flip_indicator_light",
+                    "type": "binary",
+                    "value_off": "OFF",
+                    "value_on": "ON"
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Triggered action (e.g. a button click)",
+                    "label": "Action",
+                    "name": "action",
+                    "property": "action",
+                    "type": "enum",
+                    "values": [
+                        "single",
+                        "double"
+                    ]
+                }
+            ],
+            "model": "QBKG18LM",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Calibrates the device_temperature value (absolute offset), takes into effect on next report of device.",
+                    "label": "Device temperature calibration",
+                    "name": "device_temperature_calibration",
+                    "property": "device_temperature_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "Aqara"
+        },
+        "description": "Flux zen omega sol neo gamma.",
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msChlorodibromomethane",
+                        "hvacDehumidificationCtrl",
+                        "piAnalogValueReg",
+                        "haApplianceEventsAlerts"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 62679,
+                        "cluster": "pi11073ProtocolTunnel",
+                        "maximum_report_interval": 3084,
+                        "minimum_report_interval": 23,
+                        "reportable_change": 5
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "msManganese",
+                        "maximum_report_interval": 893,
+                        "minimum_report_interval": 21,
+                        "reportable_change": 10
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "genDeviceTempCfg",
+                        "maximum_report_interval": 2565,
+                        "minimum_report_interval": 7,
+                        "reportable_change": 2
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "hvacFanCtrl",
+                        "maximum_report_interval": 2126,
+                        "minimum_report_interval": 13,
+                        "reportable_change": 9
+                    },
+                    {
+                        "attribute": 44307,
+                        "cluster": "piGenericTunnel",
+                        "maximum_report_interval": 133,
+                        "minimum_report_interval": 2,
+                        "reportable_change": 5
+                    }
+                ],
+                "name": "left",
+                "scenes": [
+                ]
+            },
+            "2": {
+                "bindings": [
+                    {
+                        "cluster": "genBasic",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0xf4ad17bed7712d76",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msFluoride",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0xcc1601539df36d14",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "msRelativeHumidity",
+                        "msHydrogenSulfide",
+                        "piAnalogValueReg"
+                    ],
+                    "output": [
+                        "hvacFanCtrl",
+                        "genMultistateOutput"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "right",
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "sol 3231 sol",
+        "ieee_address": "0x2b9206633b63703c",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Aqara",
+        "model_id": "QBKG18LM",
+        "network_address": 18157,
+        "power_source": "Battery",
+        "software_build_id": "v1.8.77",
+        "supported": true,
+        "type": "Router"
+    },
+    {
+        "date_code": "20230609",
+        "definition": {
+            "description": "Spot 7W",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature of this light",
+                            "label": "Color temp",
+                            "name": "color_temp",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 153
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 370
+                                }
+                            ],
+                            "property": "color_temp",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 370,
+                            "value_min": 153
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature after cold power on of this light",
+                            "label": "Color temp startup",
+                            "name": "color_temp_startup",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 153
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Restore previous color_temp on cold power on",
+                                    "name": "previous",
+                                    "value": 65535
+                                }
+                            ],
+                            "property": "color_temp_startup",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 370,
+                            "value_min": 153
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 2,
+                    "description": "Triggers an effect on the light (e.g. make light blink for a few seconds)",
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "finish_effect",
+                        "stop_effect"
+                    ]
+                }
+            ],
+            "model": "DZ8",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "When enabled colors will be synced, e.g. if the light supports both color x/y and color temperature a conversion from color x/y to color temperature will be done when setting the x/y color (default true).",
+                    "label": "Color sync",
+                    "name": "color_sync",
+                    "property": "color_sync",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "Hilux"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "genMultistateInput",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0xbcfea010dcf85d53",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "msOccupancySensing",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0xac15fd0314643ece",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "pm25Measurement",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0xd5bfaf771cea11e7",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genTime"
+                    ],
+                    "output": [
+                        "genRssiLocation",
+                        "haApplianceIdentification"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 59297,
+                        "cluster": "ssIasWd",
+                        "maximum_report_interval": 2590,
+                        "minimum_report_interval": 30,
+                        "reportable_change": 7
+                    }
+                ],
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "gamma 9529 ion",
+        "ieee_address": "0x8ea77062e73a8b35",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Hilux",
+        "model_id": "DZ8",
+        "network_address": 43986,
+        "power_source": "Unknown",
+        "software_build_id": "v3.5.49",
+        "supported": true,
+        "type": "Unknown"
+    },
+    {
+        "date_code": "20190522",
+        "definition": {
+            "description": "Hue Iris rose limited edition (generation 4) ",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "features": [
+                        {
+                            "access": 7,
+                            "description": "On/off state of this light",
+                            "label": "State",
+                            "name": "state",
+                            "property": "state",
+                            "type": "binary",
+                            "value_off": "OFF",
+                            "value_on": "ON",
+                            "value_toggle": "TOGGLE"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Brightness of this light",
+                            "label": "Brightness",
+                            "name": "brightness",
+                            "property": "brightness",
+                            "type": "numeric",
+                            "value_max": 254,
+                            "value_min": 0
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature of this light",
+                            "label": "Color temp",
+                            "name": "color_temp",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 153
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                }
+                            ],
+                            "property": "color_temp",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 153
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color temperature after cold power on of this light",
+                            "label": "Color temp startup",
+                            "name": "color_temp_startup",
+                            "presets": [
+                                {
+                                    "description": "Coolest temperature supported",
+                                    "name": "coolest",
+                                    "value": 153
+                                },
+                                {
+                                    "description": "Cool temperature (250 mireds / 4000 Kelvin)",
+                                    "name": "cool",
+                                    "value": 250
+                                },
+                                {
+                                    "description": "Neutral temperature (370 mireds / 2700 Kelvin)",
+                                    "name": "neutral",
+                                    "value": 370
+                                },
+                                {
+                                    "description": "Warm temperature (454 mireds / 2200 Kelvin)",
+                                    "name": "warm",
+                                    "value": 454
+                                },
+                                {
+                                    "description": "Warmest temperature supported",
+                                    "name": "warmest",
+                                    "value": 500
+                                },
+                                {
+                                    "description": "Restore previous color_temp on cold power on",
+                                    "name": "previous",
+                                    "value": 65535
+                                }
+                            ],
+                            "property": "color_temp_startup",
+                            "type": "numeric",
+                            "unit": "mired",
+                            "value_max": 500,
+                            "value_min": 153
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color of this light in the CIE 1931 color space (x/y)",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "label": "X",
+                                    "name": "x",
+                                    "property": "x",
+                                    "type": "numeric"
+                                },
+                                {
+                                    "access": 7,
+                                    "label": "Y",
+                                    "name": "y",
+                                    "property": "y",
+                                    "type": "numeric"
+                                }
+                            ],
+                            "label": "Color (X/Y)",
+                            "name": "color_xy",
+                            "property": "color",
+                            "type": "composite"
+                        },
+                        {
+                            "access": 7,
+                            "description": "Color of this light expressed as hue/saturation",
+                            "features": [
+                                {
+                                    "access": 7,
+                                    "label": "Hue",
+                                    "name": "hue",
+                                    "property": "hue",
+                                    "type": "numeric"
+                                },
+                                {
+                                    "access": 7,
+                                    "label": "Saturation",
+                                    "name": "saturation",
+                                    "property": "saturation",
+                                    "type": "numeric"
+                                }
+                            ],
+                            "label": "Color (HS)",
+                            "name": "color_hs",
+                            "property": "color",
+                            "type": "composite"
+                        }
+                    ],
+                    "type": "light"
+                },
+                {
+                    "access": 7,
+                    "category": "config",
+                    "description": "Controls the behavior when the device is powered on after power loss",
+                    "label": "Power-on behavior",
+                    "name": "power_on_behavior",
+                    "property": "power_on_behavior",
+                    "type": "enum",
+                    "values": [
+                        "off",
+                        "on",
+                        "toggle",
+                        "previous"
+                    ]
+                },
+                {
+                    "access": 2,
+                    "label": "Effect",
+                    "name": "effect",
+                    "property": "effect",
+                    "type": "enum",
+                    "values": [
+                        "blink",
+                        "breathe",
+                        "okay",
+                        "channel_change",
+                        "candle",
+                        "fireplace",
+                        "colorloop",
+                        "finish_effect",
+                        "stop_effect",
+                        "stop_hue_effect"
+                    ]
+                }
+            ],
+            "model": "929002376301",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Controls the transition time (in seconds) of on/off, brightness, color temperature (if applicable) and color (if applicable) changes. Defaults to `0` (no transition).",
+                    "label": "Transition",
+                    "name": "transition",
+                    "property": "transition",
+                    "type": "numeric",
+                    "value_min": 0,
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "When enabled colors will be synced, e.g. if the light supports both color x/y and color temperature a conversion from color x/y to color temperature will be done when setting the x/y color (default true).",
+                    "label": "Color sync",
+                    "name": "color_sync",
+                    "property": "color_sync",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 2,
+                    "description": "State actions will also be published as 'action' when true (default false).",
+                    "label": "State action",
+                    "name": "state_action",
+                    "property": "state_action",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                }
+            ],
+            "source": "native",
+            "supports_ota": true,
+            "vendor": "Philips"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "piRetailTunnel"
+                    ],
+                    "output": [
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": 36093,
+                        "cluster": "msOccupancySensing",
+                        "maximum_report_interval": 1670,
+                        "minimum_report_interval": 4,
+                        "reportable_change": 7
+                    }
+                ],
+                "scenes": [
+                    {
+                        "id": 84,
+                        "name": "scene_1"
+                    }
+                ]
+            },
+            "67": {
+                "bindings": [
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "pm25Measurement",
+                        "piMultistateInputReg",
+                        "nearestGateway",
+                        "msIlluminanceMeasurement",
+                        "msTotalColiformBacteria"
+                    ],
+                    "output": [
+                        "genAnalogInput"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "sol_6",
+                "scenes": [
+                ]
+            }
+        },
+        "friendly_name": "gamma_5808_ion",
+        "ieee_address": "0x257123593362d30e",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "Philips",
+        "model_id": "929002376301",
+        "network_address": 37134,
+        "power_source": "Unknown",
+        "software_build_id": "v3.8.55",
+        "supported": true,
+        "type": "Unknown"
+    },
+    {
+        "date_code": "20210921",
+        "definition": {
+            "description": "Water sensor",
+            "exposes": [
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Link quality (signal strength)",
+                    "label": "Linkquality",
+                    "name": "linkquality",
+                    "property": "linkquality",
+                    "type": "numeric",
+                    "unit": "lqi",
+                    "value_max": 255,
+                    "value_min": 0
+                },
+                {
+                    "access": 1,
+                    "description": "Measured temperature value",
+                    "label": "Temperature",
+                    "name": "temperature",
+                    "property": "temperature",
+                    "type": "numeric",
+                    "unit": "°C"
+                },
+                {
+                    "access": 1,
+                    "description": "Indicates whether the device detected a water leak",
+                    "label": "Water leak",
+                    "name": "water_leak",
+                    "property": "water_leak",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Indicates if the battery of this device is almost empty",
+                    "label": "Battery low",
+                    "name": "battery_low",
+                    "property": "battery_low",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 1,
+                    "description": "Indicates whether the device is tampered",
+                    "label": "Tamper",
+                    "name": "tamper",
+                    "property": "tamper",
+                    "type": "binary",
+                    "value_off": false,
+                    "value_on": true
+                },
+                {
+                    "access": 1,
+                    "category": "diagnostic",
+                    "description": "Remaining battery in %, can take up to 24 hours before reported",
+                    "label": "Battery",
+                    "name": "battery",
+                    "property": "battery",
+                    "type": "numeric",
+                    "unit": "%",
+                    "value_max": 100,
+                    "value_min": 0
+                }
+            ],
+            "model": "3315-G",
+            "options": [
+                {
+                    "access": 2,
+                    "description": "Calibrates the temperature value (absolute offset), takes into effect on next report of device.",
+                    "label": "Temperature calibration",
+                    "name": "temperature_calibration",
+                    "property": "temperature_calibration",
+                    "type": "numeric",
+                    "value_step": 0.1
+                },
+                {
+                    "access": 2,
+                    "description": "Number of digits after decimal point for temperature, takes into effect on next report of device. This option can only decrease the precision, not increase it.",
+                    "label": "Temperature precision",
+                    "name": "temperature_precision",
+                    "property": "temperature_precision",
+                    "type": "numeric",
+                    "value_max": 3,
+                    "value_min": 0
+                }
+            ],
+            "source": "native",
+            "supports_ota": false,
+            "vendor": "SmartThings"
+        },
+        "disabled": false,
+        "endpoints": {
+            "1": {
+                "bindings": [
+                    {
+                        "cluster": "piAnalogInputExt",
+                        "target": {
+                            "endpoint": 3,
+                            "ieee_address": "0xb48b726ad589da65",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "piAnalogValueReg",
+                        "target": {
+                            "endpoint": 4,
+                            "ieee_address": "0x100ec5d4ed983b44",
+                            "type": "endpoint"
+                        }
+                    },
+                    {
+                        "cluster": "piAnalogInputReg",
+                        "target": {
+                            "endpoint": 1,
+                            "ieee_address": "0xd60ab7205156aff8",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "genMultistateOutput"
+                    ],
+                    "output": [
+                        "msFormaldehyde",
+                        "closuresShadeCfg",
+                        "msLead"
+                    ]
+                },
+                "configured_reportings": [
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piBinaryOutputReg",
+                        "maximum_report_interval": 2407,
+                        "minimum_report_interval": 16,
+                        "reportable_change": 6
+                    },
+                    {
+                        "attribute": 10615,
+                        "cluster": "piBinaryValueExt",
+                        "maximum_report_interval": 2379,
+                        "minimum_report_interval": 12,
+                        "reportable_change": 6
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "piAnalogInputExt",
+                        "maximum_report_interval": 2138,
+                        "minimum_report_interval": 28,
+                        "reportable_change": 5
+                    },
+                    {
+                        "attribute": 8635,
+                        "cluster": "msBromate",
+                        "maximum_report_interval": 773,
+                        "minimum_report_interval": 18,
+                        "reportable_change": 1
+                    },
+                    {
+                        "attribute": "onOff",
+                        "cluster": "zosungIRControl",
+                        "maximum_report_interval": 3045,
+                        "minimum_report_interval": 13,
+                        "reportable_change": 2
+                    }
+                ],
+                "scenes": [
+                ]
+            },
+            "235": {
+                "bindings": [
+                    {
+                        "cluster": "msBromoform",
+                        "target": {
+                            "endpoint": 2,
+                            "ieee_address": "0x5261b47d7df55f39",
+                            "type": "endpoint"
+                        }
+                    }
+                ],
+                "clusters": {
+                    "input": [
+                        "genBasic",
+                        "sprutVoc",
+                        "genOta",
+                        "piRetailTunnel"
+                    ],
+                    "output": [
+                        "hvacDehumidificationCtrl",
+                        "msFluoride",
+                        "msOzone"
+                    ]
+                },
+                "configured_reportings": [
+                ],
+                "name": "nova_9",
+                "scenes": [
+                    {
+                        "id": 59,
+                        "name": "scene_1"
+                    }
+                ]
+            }
+        },
+        "friendly_name": "quark 1291 sol",
+        "ieee_address": "0x9f08dfef5c27a235",
+        "interview_completed": true,
+        "interview_state": "SUCCESSFUL",
+        "interviewing": false,
+        "manufacturer": "SmartThings",
+        "model_id": "3315-G",
+        "network_address": 34893,
+        "power_source": "DC Source",
+        "software_build_id": "v1.2.35",
+        "supported": true,
+        "type": "Router"
+    }
+]
