@@ -45,7 +45,7 @@
     "typescript": "^5.9.3",
     "vitest": "^4.0.14",
     "zigbee-herdsman": "^7.0.1",
-    "zigbee-herdsman-converters": "^25.65.0",
+    "zigbee-herdsman-converters": "^25.79.0",
     "zigbee2mqtt": "github:Koenkk/zigbee2mqtt#dev-types"
   },
   "keywords": [
