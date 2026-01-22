@@ -33,7 +33,7 @@ describe("Zigbee2MQTT", () => {
             power_source: "Mains (3 phase)",
             software_build_id: "v1.6.54",
             date_code: "20240321",
-            model_id: "IP-CDZOTAAP005JA-MAN",
+            model_id: "IM-CDZDGAAA0005KA_MAN",
             interviewing: false,
             interview_completed: true,
             interview_state: "SUCCESSFUL",
@@ -183,9 +183,9 @@ describe("Zigbee2MQTT", () => {
         expect(snapshot.info).toBeDefined();
         expect(snapshot.health).toBeDefined();
         expect(snapshot.converters).toBeDefined();
-        expect(snapshot.converters.length).toStrictEqual(5);
+        expect(snapshot.converters.length).toStrictEqual(4);
         expect(snapshot.extensions).toBeDefined();
-        expect(snapshot.extensions.length).toStrictEqual(1);
+        expect(snapshot.extensions.length).toStrictEqual(2);
         expect(snapshot.devices.length).toStrictEqual(21);
         expect(snapshot.devices[0].friendly_name).toStrictEqual("Coordinator");
         expect(snapshot.devices[1].friendly_name).toStrictEqual("quark 2033 alpha");
@@ -194,14 +194,14 @@ describe("Zigbee2MQTT", () => {
         expect(snapshot.devices[4].friendly_name).toStrictEqual("ion 8363 beta");
         expect(snapshot.devices[5].friendly_name).toStrictEqual("quark_7460_flux");
         expect(snapshot.devices[6].friendly_name).toStrictEqual("aqua_4227_alpha");
-        expect(snapshot.devices[7].friendly_name).toStrictEqual("neo_2245_delta");
-        expect(snapshot.devices[8].friendly_name).toStrictEqual("nova 1197 sol");
-        expect(snapshot.devices[9].friendly_name).toStrictEqual("ion_7965_gamma");
+        expect(snapshot.devices[7].friendly_name).toStrictEqual("luna 8119 gamma");
+        expect(snapshot.devices[8].friendly_name).toStrictEqual("omega_2348_neo");
+        expect(snapshot.devices[9].friendly_name).toStrictEqual("gamma_5468_nova");
         expect(snapshot.groups.length).toStrictEqual(4);
-        expect(snapshot.groups[0].friendly_name).toStrictEqual("nova_group_78");
-        expect(snapshot.groups[1].friendly_name).toStrictEqual("quark_group_73");
-        expect(snapshot.groups[2].friendly_name).toStrictEqual("ion_group_25");
-        expect(snapshot.groups[3].friendly_name).toStrictEqual("quark_group_83");
+        expect(snapshot.groups[0].friendly_name).toStrictEqual("sol_group_21");
+        expect(snapshot.groups[1].friendly_name).toStrictEqual("omega_group_27");
+        expect(snapshot.groups[2].friendly_name).toStrictEqual("quark_group_32");
+        expect(snapshot.groups[3].friendly_name).toStrictEqual("quark_group_1");
         expect(snapshot.networkMap).toBeDefined();
         expect(snapshot.networkMap.type).toStrictEqual("raw");
     });
@@ -214,7 +214,7 @@ describe("Zigbee2MQTT", () => {
         expect(snapshot.info).toBeDefined();
         expect(snapshot.health).toBeDefined();
         expect(snapshot.converters).toBeDefined();
-        expect(snapshot.converters.length).toStrictEqual(2);
+        expect(snapshot.converters.length).toStrictEqual(4);
         expect(snapshot.extensions).toBeDefined();
         expect(snapshot.extensions.length).toStrictEqual(1);
         expect(snapshot.devices.length).toStrictEqual(201);
@@ -225,15 +225,15 @@ describe("Zigbee2MQTT", () => {
         expect(snapshot.devices[4].friendly_name).toStrictEqual("ion 8363 beta");
         expect(snapshot.devices[5].friendly_name).toStrictEqual("quark_7460_flux");
         expect(snapshot.devices[6].friendly_name).toStrictEqual("aqua_4227_alpha");
-        expect(snapshot.devices[7].friendly_name).toStrictEqual("neo_2245_delta");
-        expect(snapshot.devices[8].friendly_name).toStrictEqual("nova 1197 sol");
-        expect(snapshot.devices[9].friendly_name).toStrictEqual("ion_7965_gamma");
-        expect(snapshot.devices[200].friendly_name).toStrictEqual("aqua_9808_zen");
+        expect(snapshot.devices[7].friendly_name).toStrictEqual("luna 8119 gamma");
+        expect(snapshot.devices[8].friendly_name).toStrictEqual("omega_2348_neo");
+        expect(snapshot.devices[9].friendly_name).toStrictEqual("gamma_5468_nova");
+        expect(snapshot.devices[200].friendly_name).toStrictEqual("aqua_6937_zen");
         expect(snapshot.groups.length).toStrictEqual(25);
-        expect(snapshot.groups[0].friendly_name).toStrictEqual("gamma_group_89");
-        expect(snapshot.groups[1].friendly_name).toStrictEqual("luna_group_44");
-        expect(snapshot.groups[2].friendly_name).toStrictEqual("terra_group_57");
-        expect(snapshot.groups[3].friendly_name).toStrictEqual("zen_group_65");
+        expect(snapshot.groups[0].friendly_name).toStrictEqual("ion_group_87");
+        expect(snapshot.groups[1].friendly_name).toStrictEqual("aqua_group_90");
+        expect(snapshot.groups[2].friendly_name).toStrictEqual("zen_group_48");
+        expect(snapshot.groups[3].friendly_name).toStrictEqual("beta_group_33");
         expect(snapshot.networkMap).toBeDefined();
         expect(snapshot.networkMap.type).toStrictEqual("raw");
     });
