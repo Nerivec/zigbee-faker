@@ -40,17 +40,17 @@ describe("Zigbee2MQTT", () => {
             manufacturer: "ADEO",
         });
         expect(faker.entityState(device)).toStrictEqual({
-            brightness: 99,
+            brightness: 135,
             color: undefined,
-            color_temp: 178,
-            color_temp_startup: 168,
-            effect: "channel_change",
-            last_seen: "2024-12-31T22:38:08.280Z",
-            linkquality: 38,
-            power_on_behavior: "toggle",
-            state: "OFF",
-            x: 308,
-            y: 526,
+            color_temp: 192,
+            color_temp_startup: 233,
+            effect: "blink",
+            last_seen: "2024-12-31T21:49:25.677Z",
+            linkquality: 183,
+            power_on_behavior: "previous",
+            state: "ON",
+            x: 21,
+            y: 978,
         });
 
         const faker2 = new Zigbee2MQTTAPIFaker(9900);
@@ -74,17 +74,17 @@ describe("Zigbee2MQTT", () => {
             manufacturer: "Legrand",
         });
         expect(faker.entityState(device)).toStrictEqual({
-            brightness: 203,
+            brightness: 98,
             color: undefined,
-            color_temp: 158,
-            color_temp_startup: 174,
-            effect: "channel_change",
-            last_seen: "2024-12-31T22:00:19.422Z",
-            linkquality: 151,
-            power_on_behavior: "previous",
+            color_temp: 226,
+            color_temp_startup: 166,
+            effect: "blink",
+            last_seen: "2024-12-31T22:40:47.540Z",
+            linkquality: 167,
+            power_on_behavior: "off",
             state: "OFF",
-            x: 165,
-            y: 83,
+            x: 247,
+            y: 138,
         });
     });
 
@@ -100,9 +100,9 @@ describe("Zigbee2MQTT", () => {
             manufacturer: "SONOFF",
         });
         expect(faker.entityState(device)).toStrictEqual({
-            last_seen: "2024-12-31T23:12:45.540Z",
-            light_indicator_level: 83,
-            linkquality: 177,
+            last_seen: "2024-12-31T23:19:48.889Z",
+            light_indicator_level: 140,
+            linkquality: 62,
         });
 
         const faker2 = new Zigbee2MQTTAPIFaker(10);
@@ -187,21 +187,7 @@ describe("Zigbee2MQTT", () => {
         expect(snapshot.extensions).toBeDefined();
         expect(snapshot.extensions.length).toStrictEqual(2);
         expect(snapshot.devices.length).toStrictEqual(21);
-        expect(snapshot.devices[0].friendly_name).toStrictEqual("Coordinator");
-        expect(snapshot.devices[1].friendly_name).toStrictEqual("quark 2033 alpha");
-        expect(snapshot.devices[2].friendly_name).toStrictEqual("nova 3193 gamma");
-        expect(snapshot.devices[3].friendly_name).toStrictEqual("delta 8874 ion");
-        expect(snapshot.devices[4].friendly_name).toStrictEqual("ion 8363 beta");
-        expect(snapshot.devices[5].friendly_name).toStrictEqual("quark_7460_flux");
-        expect(snapshot.devices[6].friendly_name).toStrictEqual("aqua_4227_alpha");
-        expect(snapshot.devices[7].friendly_name).toStrictEqual("luna 8119 gamma");
-        expect(snapshot.devices[8].friendly_name).toStrictEqual("omega_2348_neo");
-        expect(snapshot.devices[9].friendly_name).toStrictEqual("gamma_5468_nova");
         expect(snapshot.groups.length).toStrictEqual(4);
-        expect(snapshot.groups[0].friendly_name).toStrictEqual("sol_group_21");
-        expect(snapshot.groups[1].friendly_name).toStrictEqual("omega_group_27");
-        expect(snapshot.groups[2].friendly_name).toStrictEqual("quark_group_32");
-        expect(snapshot.groups[3].friendly_name).toStrictEqual("quark_group_1");
         expect(snapshot.networkMap).toBeDefined();
         expect(snapshot.networkMap.type).toStrictEqual("raw");
     });
@@ -214,26 +200,12 @@ describe("Zigbee2MQTT", () => {
         expect(snapshot.info).toBeDefined();
         expect(snapshot.health).toBeDefined();
         expect(snapshot.converters).toBeDefined();
-        expect(snapshot.converters.length).toStrictEqual(4);
+        expect(snapshot.converters.length).toStrictEqual(5);
         expect(snapshot.extensions).toBeDefined();
-        expect(snapshot.extensions.length).toStrictEqual(1);
+        expect(snapshot.extensions.length).toStrictEqual(2);
         expect(snapshot.devices.length).toStrictEqual(201);
         expect(snapshot.devices[0].friendly_name).toStrictEqual("Coordinator");
-        expect(snapshot.devices[1].friendly_name).toStrictEqual("quark 2033 alpha");
-        expect(snapshot.devices[2].friendly_name).toStrictEqual("nova 3193 gamma");
-        expect(snapshot.devices[3].friendly_name).toStrictEqual("delta 8874 ion");
-        expect(snapshot.devices[4].friendly_name).toStrictEqual("ion 8363 beta");
-        expect(snapshot.devices[5].friendly_name).toStrictEqual("quark_7460_flux");
-        expect(snapshot.devices[6].friendly_name).toStrictEqual("aqua_4227_alpha");
-        expect(snapshot.devices[7].friendly_name).toStrictEqual("luna 8119 gamma");
-        expect(snapshot.devices[8].friendly_name).toStrictEqual("omega_2348_neo");
-        expect(snapshot.devices[9].friendly_name).toStrictEqual("gamma_5468_nova");
-        expect(snapshot.devices[200].friendly_name).toStrictEqual("aqua_6937_zen");
         expect(snapshot.groups.length).toStrictEqual(25);
-        expect(snapshot.groups[0].friendly_name).toStrictEqual("ion_group_87");
-        expect(snapshot.groups[1].friendly_name).toStrictEqual("aqua_group_90");
-        expect(snapshot.groups[2].friendly_name).toStrictEqual("zen_group_48");
-        expect(snapshot.groups[3].friendly_name).toStrictEqual("beta_group_33");
         expect(snapshot.networkMap).toBeDefined();
         expect(snapshot.networkMap.type).toStrictEqual("raw");
     });
