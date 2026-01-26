@@ -44,7 +44,7 @@
     "json-stable-stringify-without-jsonify": "^1.0.1",
     "typescript": "^5.9.3",
     "vitest": "^4.0.14",
-    "zigbee-herdsman": "^8.1.0",
+    "zigbee-herdsman": "^9.0.1",
     "zigbee-herdsman-converters": "^25.111.0",
     "zigbee2mqtt": "github:Koenkk/zigbee2mqtt#dev-types"
   },
