@@ -39,7 +39,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.3.11",
     "@types/json-stable-stringify-without-jsonify": "^1.0.2",
-    "@types/node": "^24.10.9",
+    "@types/node": "^25.0.10",
     "@vitest/coverage-v8": "^4.0.18",
     "json-stable-stringify-without-jsonify": "^1.0.1",
     "typescript": "^5.9.3",
